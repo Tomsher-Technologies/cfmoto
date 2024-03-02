@@ -1,0 +1,95 @@
+@extends('layouts.app.main')
+@section('content')
+<div class="product-banner-component">
+
+<div class="product_banner_component" data-component="product-banner-component">
+    <productbannercomponent banner="[{&#34;image&#34;:&#34;assets/images/banner_300nk.png&#34;,&#34;mobileImage&#34;:&#34;assets/images/h5-selling-point-chart&amp;studio-pictures/banner_300NK.png&#34;}]" characteristic="[{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;292&#34;,&#34;unit&#34;:&#34;cc&#34;,&#34;name&#34;:&#34;Engine&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;21.4&#34;,&#34;unit&#34;:&#34;kw&#34;,&#34;name&#34;:&#34;Power&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;25.3&#34;,&#34;unit&#34;:&#34;N.m&#34;,&#34;name&#34;:&#34;Torque&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;206 &#34;,&#34;unit&#34;:&#34;kg&#34;,&#34;name&#34;:&#34;Curb weight&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;ABS&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;SF-SC sliding chuth&#34;}]"/>
+</div>
+</div>
+
+
+    
+    
+    <div class="product-category-component">
+    <div class="product_category_component" data-component="product-category-component">
+        <productcategorycomponent product="{&#34;image&#34;:&#34;assets/images/300NK_Athens-Blue.png&#34;,&#34;title&#34;:&#34;300NK&#34;,&#34;desc&#34;:&#34;The lightweight 300NK is an ideal and agile ride powered by a potent and stable engine. The single-cylinder liquid-cooled engine offers torque, acceleration and excellent fuel efficiency. It’s sporty and easy to handle. With further technical improvements in power output, smooth running and configurations, what you get is a bike that’s easy to put your feet down at a stoplight and a blast to ride the moment it turns green, all at a price that you will approve.&#34;,&#34;specificationImage&#34;:&#34;assets/images/300NK_左45度.png&#34;,&#34;categoryButton&#34;:&#34;Download brochure&#34;,&#34;imageAreas&#34;:[{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;718,101,25&#34;,&#34;altText&#34;:&#34;5&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;134,469,32&#34;,&#34;altText&#34;:&#34;1&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;896,556,34&#34;,&#34;altText&#34;:&#34;2&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;701,196,33&#34;,&#34;altText&#34;:&#34;3&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;824,290,22&#34;,&#34;altText&#34;:&#34;4&#34;}],&#34;imageRealWidth&#34;:1140,&#34;imageRealHeight&#34;:760}" image="assets/images/300NK_Athens-Blue.png" category="{&#34;title&#34;:&#34;300&#34;,&#34;button&#34;:&#34;Find a Distributor&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/about-us/global_distributors&#34;,&#34;tips&#34;:&#34;CFMOTO models may have different specifications to comply with local regulations, and maybe modified to meet specific demands in a particular region.&#34;,&#34;motorcycleType&#34;:&#34;MOTORCYCLE&#34;,&#34;pointData&#34;:[{&#34;title&#34;:&#34;LIGHTWEIGHT DESIGN&#34;,&#34;name&#34;:&#34;dot-point0&#34;,&#34;des&#34;:&#34;The frame utilizes ultra-light, high strength alloy steel material to provide great torsion resistance.&#34;,&#34;img&#34;:&#34;assets/images/关键部位图/20211209170158.png&#34;,&#34;number&#34;:&#34;/etc/designs/cfmoto/assets/product/category/01@2x.jpg&#34;},{&#34;title&#34;:&#34;Brake System&#34;,&#34;name&#34;:&#34;dot-point1&#34;,&#34;des&#34;:&#34;Industry-leading ABS system serves as a good  support during hard braking to prevent wheel locking or sideslipping.&#34;,&#34;img&#34;:&#34;assets/images/关键部位图/20211209170209.png&#34;,&#34;number&#34;:&#34;/etc/designs/cfmoto/assets/product/category/02@2x.jpg&#34;},{&#34;title&#34;:&#34;All-color TFT display&#34;,&#34;name&#34;:&#34;dot-point2&#34;,&#34;des&#34;:&#34;Eco mode and Sport mode can be effectively  switched over automatically according to the changes of light intensity.&#34;,&#34;img&#34;:&#34;assets/images/关键部位图/20211210134829.png&#34;,&#34;number&#34;:&#34;/etc/designs/cfmoto/assets/product/category/03@2x.jpg&#34;},{&#34;title&#34;:&#34;LED LIGHTS&#34;,&#34;name&#34;:&#34;dot-point3&#34;,&#34;des&#34;:&#34;The tail lights, turning lights and parking  lights feature clearer indicating effects.&#34;,&#34;img&#34;:&#34;assets/images/关键部位图/20211209170219.png&#34;,&#34;number&#34;:&#34;/etc/designs/cfmoto/assets/product/category/04@2x.jpg&#34;},{&#34;title&#34;:&#34;Riding quality&#34;,&#34;name&#34;:&#34;dot-point4&#34;,&#34;des&#34;:&#34;Upgraded waterproofness of the double- throttle cable and the seam of the seat cushion to enhance the driving quality and at the same time improve the driving comfort.&#34;,&#34;img&#34;:&#34;assets/images/关键部位图/20211209134355.png&#34;,&#34;number&#34;:&#34;/etc/designs/cfmoto/assets/product/category/05@2x.jpg&#34;}]}" variant="[{&#34;image&#34;:&#34;assets/images/300NK_Athens-Blue.png&#34;,&#34;title&#34;:&#34;Athens-Blue&#34;,&#34;desc&#34;:&#34;&#34;,&#34;modelColor&#34;:&#34;&#34;,&#34;colorImage&#34;:&#34;assets/images/Athens Blue (1).png&#34;},{&#34;image&#34;:&#34;assets/images/300NK_Nebula-Black_Right.png&#34;,&#34;title&#34;:&#34;Nebula-Black&#34;,&#34;desc&#34;:&#34;&#34;,&#34;modelColor&#34;:&#34;&#34;,&#34;colorImage&#34;:&#34;assets/images/Nebula Black.png&#34;}]"/>
+    </div>
+    
+</div>
+
+
+    
+    
+    <div class="product-graphic-component">
+    <div class="product_graphic_component" data-component="product-graphic-component">
+        <productgraphiccomponent config="{&#34;title&#34;:&#34; DESIGN&#34;,&#34;description&#34;:&#34;Derived from the design language of the V.02NK concept bike, complemented by unique LED headlights. The highly recognizable body comes in two distinct color schemes: Electrosilver/ Nebula Black, with matte and glossy paint finishes that showcase the exceptional quality of the bike.&#34;,&#34;pcTitleFontSize&#34;:&#34;&#34;,&#34;mobTitleFontSize&#34;:&#34;&#34;,&#34;pcDescFontSize&#34;:&#34;&#34;,&#34;mobDescFontSize&#34;:&#34;&#34;,&#34;style&#34;:&#34;divideEqually&#34;,&#34;bottomDescClass&#34;:&#34;&#34;,&#34;twoCol&#34;:{&#34;firstImage&#34;:&#34;assets/images/300nk_01.png&#34;,&#34;secondImage&#34;:&#34;assets/images/300nk_02.png&#34;}}"/>
+    </div>
+    
+</div>
+
+
+    
+    
+    <div class="product-graphic-component">
+    <div class="product_graphic_component" data-component="product-graphic-component">
+        <productgraphiccomponent config="{&#34;title&#34;:&#34;POWER&#34;,&#34;description&#34;:&#34;Adopt a 292cc DOHC single-cylinder water-cooled engine, dual overhead camshaft design, reducing mechanical inertia, acceleration performance is in a leading position in the same class of models; 21.4kW, 25.3N.m peak powertrain and 5lightweight body, not only come for a flexible, surging driving experience, and more efficient and environmentally friendly energy consumption performance.&#34;,&#34;pcTitleFontSize&#34;:&#34;&#34;,&#34;mobTitleFontSize&#34;:&#34;&#34;,&#34;pcDescFontSize&#34;:&#34;&#34;,&#34;mobDescFontSize&#34;:&#34;&#34;,&#34;style&#34;:&#34;twoThree&#34;,&#34;bottomDescClass&#34;:&#34;&#34;,&#34;twoCol&#34;:{&#34;firstImage&#34;:&#34;assets/images/300nk_03.png&#34;,&#34;firstImageDesc&#34;:&#34;POWER:21.4kW/8750rpm TORQUE:25.3N.m/7250rpm&#34;,&#34;secondImage&#34;:&#34;assets/images/300nk_04.png&#34;,&#34;secondImageDesc&#34;:&#34;EFI: Bosch EFI system&#34;,&#34;style&#34;:&#34;top&#34;}}"/>
+    </div>
+    
+</div>
+
+
+    
+    
+    <div class="product-graphic-component">
+    <div class="product_graphic_component" data-component="product-graphic-component">
+        <productgraphiccomponent config="{&#34;title&#34;:&#34;Riding Control&#34;,&#34;description&#34;:&#34;Upgraded waterproofness of the double-throttle cable and the seam of the seat cushion to enhance the riding quality.\r\nCF-SC Sliding Clutch is added to increase the smoothness of shifting between gears by enlarging the power buffer zone, reducing the rear wheel jump caused by engine braking during downshifting, thereby improving the safety of riding and the fun of riding.&#34;,&#34;pcTitleFontSize&#34;:&#34;&#34;,&#34;mobTitleFontSize&#34;:&#34;&#34;,&#34;pcDescFontSize&#34;:&#34;&#34;,&#34;mobDescFontSize&#34;:&#34;&#34;,&#34;style&#34;:&#34;threeTwo&#34;,&#34;bottomDescClass&#34;:&#34;&#34;,&#34;twoCol&#34;:{&#34;firstImage&#34;:&#34;assets/images/300nk_05.png&#34;,&#34;secondImage&#34;:&#34;assets/images/300nk_06.png&#34;,&#34;style&#34;:&#34;top&#34;}}"/>
+    </div>
+    
+</div>
+
+
+    
+    
+    <div class="product-graphic-component">
+    <div class="product_graphic_component" data-component="product-graphic-component">
+        <productgraphiccomponent config="{&#34;title&#34;:&#34;SMART&#34;,&#34;description&#34;:&#34;The technological TFT display tells you everything and gives you timely feedback in an easy glance. You can choose from Eco mode and sport mode, which can also be effectively switched automatically according to the changes of light intensity.&#34;,&#34;pcTitleFontSize&#34;:&#34;&#34;,&#34;mobTitleFontSize&#34;:&#34;&#34;,&#34;pcDescFontSize&#34;:&#34;&#34;,&#34;mobDescFontSize&#34;:&#34;&#34;,&#34;style&#34;:&#34;divideEqually&#34;,&#34;bottomDescClass&#34;:&#34;&#34;,&#34;twoCol&#34;:{&#34;firstImage&#34;:&#34;assets/images/300nk_07.png&#34;,&#34;secondImage&#34;:&#34;assets/images/300nk_08.png&#34;}}"/>
+    </div>
+    
+</div>
+
+
+    
+    
+    <div class="product-specification-component">
+    <div class="product_specification_component" data-component="product-specification-component">
+        <productspecificationcomponent path="/content/cfmoto-product/products/cfmoto/motorcycles/naked/12611" config="{&#34;compared&#34;:&#34;Compare&#34;,&#34;comparedLink&#34;:&#34;/content/cfmoto/global/motorcycles_comparis&#34;,&#34;downloadBrochure&#34;:&#34;Download tech specs&#34;,&#34;title&#34;:&#34;Specifications&#34;}" specification="[{&#34;type&#34;:&#34;Engine&#34;,&#34;specification&#34;:[{&#34;key&#34;:&#34;ENGINE TYPE&#34;,&#34;value&#34;:&#34;Single cylinder,4-stroke,Liquid cooled,4-value,DOHC&#34;},{&#34;key&#34;:&#34;DISPLACEMENT&#34;,&#34;value&#34;:&#34;292cc&#34;},{&#34;key&#34;:&#34;BORE X STROKE&#34;,&#34;value&#34;:&#34;78×61.2mm&#34;},{&#34;key&#34;:&#34;TORQUE&#34;,&#34;value&#34;:&#34;21.4kW/8750rpm&#34;},{&#34;key&#34;:&#34;POWER&#34;,&#34;value&#34;:&#34;25.3N.m/7250rpm&#34;},{&#34;key&#34;:&#34;COMPRESSION RATIO&#34;,&#34;value&#34;:&#34;11:1&#34;},{&#34;key&#34;:&#34;IGNITION&#34;,&#34;value&#34;:&#34;ECU&#34;},{&#34;key&#34;:&#34;TRANSMISSION&#34;,&#34;value&#34;:&#34;6-speed&#34;},{&#34;key&#34;:&#34;FUEL SUPPLY&#34;,&#34;value&#34;:&#34;EFI&#34;},{&#34;key&#34;:&#34;Power Mode&#34;,&#34;value&#34;:&#34;Sport/Eco&#34;}]},{&#34;type&#34;:&#34;Dimensions and Weight&#34;,&#34;specification&#34;:[{&#34;key&#34;:&#34;LENGHT x WIDTH x HEIGHT&#34;,&#34;value&#34;:&#34;1990 x 780 x 1070 mm&#34;},{&#34;key&#34;:&#34;WHEELBASE&#34;,&#34;value&#34;:&#34;1360 mm&#34;},{&#34;key&#34;:&#34;SEAT HEIGHT&#34;,&#34;value&#34;:&#34;795 mm&#34;},{&#34;key&#34;:&#34;MINIMUM GROUND CLEARANCE&#34;,&#34;value&#34;:&#34;150 mm&#34;},{&#34;key&#34;:&#34;CURB WEIGHT&#34;,&#34;value&#34;:&#34;151 kg&#34;},{&#34;key&#34;:&#34;FUEL CAPACITY&#34;,&#34;value&#34;:&#34;12.5L&#34;},{&#34;key&#34;:&#34;MINIMUM TURNING DIAMETER&#34;,&#34;value&#34;:&#34;4.7m&#34;},{&#34;key&#34;:&#34;COLOR&#34;,&#34;value&#34;:&#34;Athens Blue/Nebula Black&#34;}]},{&#34;type&#34;:&#34;Chassis&#34;,&#34;specification&#34;:[{&#34;key&#34;:&#34;SUSPENSION&#34;,&#34;value&#34;:&#34;Front: Φ37 Telescopic upside-down\u003cbr/\u003eRear: Mono, center-aligned&#34;},{&#34;key&#34;:&#34;BRAKE&#34;,&#34;value&#34;:&#34;Front: Φ292mm Single-disc, 4-piston caliper\u003cbr/\u003eRear: Φ220mm Single-disc,single piston caliper&#34;},{&#34;key&#34;:&#34;RIM&#34;,&#34;value&#34;:&#34;Front:3.5×17MT\u003cbr/\u003eRear:4.0×17MT&#34;},{&#34;key&#34;:&#34;TIRE PRESSURE&#34;,&#34;value&#34;:&#34;Front:110/70 R17 M/C\u003cbr/\u003eRear:140/60 R17 M/C&#34;}]}]" product="{&#34;image&#34;:&#34;assets/images/300NK_Athens-Blue.png&#34;,&#34;title&#34;:&#34;300NK&#34;,&#34;desc&#34;:&#34;The lightweight 300NK is an ideal and agile ride powered by a potent and stable engine. The single-cylinder liquid-cooled engine offers torque, acceleration and excellent fuel efficiency. It’s sporty and easy to handle. With further technical improvements in power output, smooth running and configurations, what you get is a bike that’s easy to put your feet down at a stoplight and a blast to ride the moment it turns green, all at a price that you will approve.&#34;,&#34;specificationImage&#34;:&#34;assets/images/300NK_左45度.png&#34;,&#34;categoryButton&#34;:&#34;Download brochure&#34;,&#34;imageAreas&#34;:[{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;718,101,25&#34;,&#34;altText&#34;:&#34;5&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;134,469,32&#34;,&#34;altText&#34;:&#34;1&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;896,556,34&#34;,&#34;altText&#34;:&#34;2&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;701,196,33&#34;,&#34;altText&#34;:&#34;3&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;824,290,22&#34;,&#34;altText&#34;:&#34;4&#34;}],&#34;imageRealWidth&#34;:1140,&#34;imageRealHeight&#34;:760}"/>
+    </div>
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-gallery-component">
+    <div class="product_gallery_component" data-component="product-gallery-component">
+        <productgallerycomponent gallery="{&#34;description&#34;:&#34;Need to Download the latest series of picture,please click&#34;,&#34;downloadCenter&#34;:&#34;Download Center&#34;,&#34;downloadCenterLink&#34;:&#34;/content/cfmoto/global/media-center/download-center&#34;}" spicturelist="{&#34;imageList&#34;:[&#34;assets/images/20211209170345.jpg&#34;,&#34;assets/images/20211209170356.jpg&#34;,&#34;assets/images/20211209170408.jpg&#34;,&#34;assets/images/20211209170332.jpg&#34;,&#34;assets/images/20211209170420.jpg&#34;,&#34;assets/images/20211209170428.jpg&#34;]}" lpicturelist="{&#34;imageList&#34;:[&#34;assets/images/300NK_Athens Blue (21).jpg&#34;,&#34;assets/images/20211209170345.jpg&#34;,&#34;assets/images/300NK_Athens Blue (11).jpg&#34;,&#34;assets/images/300NK_Athens Blue (10).jpg&#34;,&#34;assets/images/20211209170356.jpg&#34;,&#34;assets/images/300NK_Athens Blue (2).jpg&#34;,&#34;assets/images/20211209170332.jpg&#34;]}"/>
+    </div>
+
+    
+
+
+
+</div>
+
+
+    
+    
+    <div class="product-recommend-component">
+    <div class="product_recommend_component" data-component="product-recommend-component">
+        <productrecommendcomponent product="[{&#34;image&#34;:&#34;assets/images/250NK_Athens-Blue.png&#34;,&#34;title&#34;:&#34;250NK &#34;,&#34;desc&#34;:&#34;The lightweight 250NK is an ideal and agile ride powered by a potent and stable engine. The single-cylinder liquid-cooled engine offers torque, acceleration and excellent fuel efficiency. It’s sporty and easy to handle. With further technical improvements in power output, smooth running and configurations, what you get is a bike that’s easy to put your feet down at a stoplight and a blast to ride the moment it turns green, all at a price that you will approve.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/naked/250nk.html&#34;},{&#34;image&#34;:&#34;assets/images/vr17-2-model_1.png&#34;,&#34;title&#34;:&#34;450NK&#34;,&#34;desc&#34;:&#34;450NK isn\u0027t just a ride-feel the exhilaration as you grip the handlebars , it\u0027s an extension of your being. Imagine navigating the bustling urban streets, effortlessly weaving through traffic with precision. The 450NK\u0027s unrivaled handling and agile nature transform the mundane commute into an electrifying adventure. It\u0027s not just a ride; it\u0027s a symphony of motion. Cut the edge- ride the 450NK and shatter the conventional. Embrace the new order of street motorcycles, where power, style, and control converge.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/naked/450nk.html&#34;},{&#34;image&#34;:&#34;assets/images/650NK_Nebula-White.png&#34;,&#34;title&#34;:&#34;650NK&#34;,&#34;desc&#34;:&#34;Neatly packaged motor, 649cc, liquid-cooled, fuel-injected parallel-twin built in-house by CFMOTO with a 6-speed gearbox to extract the best out of that motor. The 650NK is enjoyable in both the city and out on the highway and it will give you a great first taste of big-bike thrills.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/naked/650nk.html&#34;},{&#34;image&#34;:&#34;/content/dam/cfmoto/site/global/product/motorcycle/nk---naked/800nk/800NK 锆石黑.png&#34;,&#34;title&#34;:&#34;800NK&#34;,&#34;desc&#34;:&#34;The manic genes have been primed to explode, every standing hair on end a tribute to the street fighter. Twist the throttle and break into a world of freedom. Feel the heart\u0027s wild beating and the thunderous resonance of the engine. Peak power jets out and violent acceleration cuts an edge. Now, it\u0027s your turn to take the stage.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/naked/800nk.html&#34;}]" productinfo="{&#34;image&#34;:&#34;assets/images/300NK_Athens-Blue.png&#34;,&#34;title&#34;:&#34;300NK&#34;,&#34;desc&#34;:&#34;The lightweight 300NK is an ideal and agile ride powered by a potent and stable engine. The single-cylinder liquid-cooled engine offers torque, acceleration and excellent fuel efficiency. It’s sporty and easy to handle. With further technical improvements in power output, smooth running and configurations, what you get is a bike that’s easy to put your feet down at a stoplight and a blast to ride the moment it turns green, all at a price that you will approve.&#34;,&#34;specificationImage&#34;:&#34;assets/images/300NK_左45度.png&#34;,&#34;categoryButton&#34;:&#34;Download brochure&#34;,&#34;imageAreas&#34;:[{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;718,101,25&#34;,&#34;altText&#34;:&#34;5&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;134,469,32&#34;,&#34;altText&#34;:&#34;1&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;896,556,34&#34;,&#34;altText&#34;:&#34;2&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;701,196,33&#34;,&#34;altText&#34;:&#34;3&#34;},{&#34;shape&#34;:&#34;circle&#34;,&#34;coords&#34;:&#34;824,290,22&#34;,&#34;altText&#34;:&#34;4&#34;}],&#34;imageRealWidth&#34;:1140,&#34;imageRealHeight&#34;:760}" recommend="null"/>
+    </div>
+    
+</div>
+@endsection

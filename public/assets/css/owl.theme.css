@@ -1,0 +1,162 @@
+/*
+*Owl Carousel Owl Demo Theme
+*www.sucaijiayuan.com
+*/
+
+.owl-theme .owl-controls{ width:100%; text-align:center; display:none;}
+/* Styling Next and Prev buttons*/
+
+@media only screen and (max-width:1100px){
+.owl-buttons{position:absolute; width:100%; top:50%; margin-top:-20px;}
+.owl-theme .owl-controls .owl-buttons div{color: #FFF; position:absolute; font-size:0px; display: inline-block;zoom: 1;*display: inline;/*IE7 life-saver*/  }
+.owl-prev{background:url(../images/jt_03.html) no-repeat; background-size:100% 100%; left:0px;}
+.owl-next{background:url(../images/jt_05.html) no-repeat; background-size:100% 100%; right:0px;}
+.owl-prev:hover{background:url(../images/jt_03_.html) no-repeat; background-size:100% 100%; }
+.owl-next:hover{background:url(../images/jt_05_.html) no-repeat; background-size:100% 100%; }
+#owl-demo1 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo1 .owl-prev{background: url(../images/jt_b1.png) no-repeat; background-size:100% 100%; left:0%; width:35px; height:35px; z-index:3;}
+#owl-demo1 .owl-next{background: url(../images/jt_b2.png) no-repeat; background-size:100% 100%; right:0%; width:35px; height:35px; z-index:3;}
+
+
+#owl-demo3 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo3 .owl-prev{background: url(../images/jt_a1.png)  no-repeat; background-size:100% 100%; left:0%; width:35px; height:35px; z-index:3;}
+#owl-demo3 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:0%; width:35px; height:35px; z-index:3;}
+
+#owl-demo32 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo32 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; left:0%; width:35px; height:35px; z-index:3;}
+#owl-demo32 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:0%; width:35px; height:35px; z-index:3;}
+
+
+
+#owl-demo_dsj .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo_dsj .owl-prev{background: url(../images/jt_b1_2.png) no-repeat; background-size:100% 100%; left:-3%; width:35px; height:35px; z-index:3;}
+#owl-demo_dsj .owl-next{background: url(../images/jt_b2_2.png) no-repeat; background-size:100% 100%; right:-3%; width:35px; height:35px; z-index:3;}
+
+#owl-demo4 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo4 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; left:0%; width:35px; height:35px; z-index:3;}
+#owl-demo4 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:0%; width:35px; height:35px; z-index:3;}
+
+#owl-demo11 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo11 .owl-prev{background: url(../images/cls_jt3.png) #333 no-repeat; background-size:100% 100%; left:0%; width:35px; height:35px; z-index:3;}
+#owl-demo11 .owl-next{background: url(../images/cls_jt4.png) #333 no-repeat; background-size:100% 100%; right:0%; width:35px; height:35px; z-index:3;}
+
+#owl-demo7 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo7 .owl-prev{background: url(../images/jt_b1.png) no-repeat; background-size:100% 100%; left:-3%; width:35px; height:35px;  z-index:3;}
+#owl-demo7 .owl-next{background: url(../images/jt_b2.png) no-repeat; background-size:100% 100%; right:-3%; width:35px; height:35px;  z-index:3;}
+
+#owl-demo6 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo6 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; left:0%; width:35px; height:35px; z-index:3; box-shadow:0 4px 6px rgba(0,0,0,.15);}
+#owl-demo6 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:0%; width:35px; height:35px; z-index:3; box-shadow:0 4px 6px rgba(0,0,0,.15);}
+
+
+
+#owl-demo9 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px;}
+#owl-demo9 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; left:0px; width:35px; height:35px; z-index:3; box-shadow:0 4px 6px rgba(0,0,0,.15);}
+#owl-demo9 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:0px; width:35px; height:35px; z-index:3; box-shadow:0 4px 6px rgba(0,0,0,.15);}
+
+#owl-demo8 .owl-buttons{position:absolute; width:100%; height:35px; top:auto; right:0px; margin-top:auto; bottom:-40px;}
+#owl-demo8 .owl-prev{background: url(../images/cls_jt3.png) #333 no-repeat; background-size:100% 100%; left:5px; width:35px; height:35px; z-index:3;}
+#owl-demo8 .owl-next{background: url(../images/cls_jt4.png) #333 no-repeat; background-size:100% 100%; right:5px; width:35px; height:35px; z-index:3;}
+
+#owl-demo82 .owl-buttons{position:absolute; width:100%; height:35px; top:50%; right:0px; margin-top:-17.5px; }
+#owl-demo82 .owl-prev{background: url(../images/cls_jt3.png)  no-repeat; background-size:100% 100%; left:0px; width:35px; height:35px; z-index:3;}
+#owl-demo82 .owl-next{background: url(../images/cls_jt4.png)  no-repeat; background-size:100% 100%; right:0px; width:35px; height:35px; z-index:3;}
+
+#owl-demo51 .owl-buttons{position:absolute; width:100%; height:20px; top:0; right:auto; left:0%; margin-top:auto; z-index:4; text-align:center;}
+#owl-demo51 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:25px; width:15px; height:20px; top:21px;}
+#owl-demo51 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:25px;  width:15px; height:20px; top:21px;}
+
+#owl-demo52 .owl-buttons{position:absolute; width:100%; height:20px; top:0; right:auto; left:0%; margin-top:auto; z-index:4; text-align:center;}
+#owl-demo52 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:25px; width:15px; height:20px; top:21px;}
+#owl-demo52 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:25px;  width:15px; height:20px; top:21px;}
+
+.owl-demo52 .owl-buttons{position:absolute; width:100%; height:20px; top:0; right:auto; left:0%; margin-top:auto; z-index:4; text-align:center;}
+.owl-demo52 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:25px; width:15px; height:20px; top:21px;}
+.owl-demo52 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:25px;  width:15px; height:20px; top:21px;}
+}
+.owl-prev,.owl-next{-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	transition:all 0.2s linear;}
+#owl-demo1 .owl-prev:hover{background: url(../images/jt_b1.png) #00809b no-repeat; background-size:100% 100%;}
+#owl-demo1 .owl-next:hover{background: url(../images/jt_b2.png) #00809b no-repeat; background-size:100% 100%;}
+@media only screen and (min-width: 1100px){
+.owl-buttons{position:absolute; width:100%; top:50%; margin-top:-54.5px;}
+.owl-theme .owl-controls .owl-buttons div{color: #FFF; position:absolute; font-size:0px; display: inline-block;zoom: 1;*display: inline;/*IE7 life-saver*/ }
+.owl-prev{background: url(../images/y81_11.html) no-repeat; background-size:100% 100%; left:3%;}
+.owl-next{background: url(../images/y81_14.html) no-repeat; background-size:100% 100%; right:3%;}
+
+#owl-demo1 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-31px;}
+#owl-demo1 .owl-prev{background: url(../images/jt_b1.png) no-repeat; background-size:100% 100%; left:-4%; width:66px; height:62px;}
+#owl-demo1 .owl-next{background: url(../images/jt_b2.png) no-repeat; background-size:100% 100%; right:-4%; width:66px; height:62px;}
+
+
+#owl-demo3 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-31px;}
+#owl-demo3 .owl-prev{background: url(../images/jt_b1_2.png) no-repeat; background-size:100% 100%; left:-4%; width:66px; height:62px;}
+#owl-demo3 .owl-next{background: url(../images/jt_b2_2.png) no-repeat; background-size:100% 100%; right:-4%; width:66px; height:62px;}
+
+#owl-demo32 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-31px;}
+#owl-demo32 .owl-prev{background: url(../images/jt_b1.png) no-repeat; background-size:100% 100%; left:-4%; width:66px; height:62px;}
+#owl-demo32 .owl-next{background: url(../images/jt_b2.png) no-repeat; background-size:100% 100%; right:-4%; width:66px; height:62px;}
+
+#owl-demo4 .owl-buttons{position:absolute; width:15%; height:62px; top:auto; right:21%; margin-top:auto; bottom:-31px; z-index:4; text-align:center;}
+#owl-demo4 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; margin:0px 15px; position:static; left:auto; display:inline-block; width:66px; height:62px;}
+#owl-demo4 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; margin:0px 15px; position: static; right:auto; display:inline-block; width:66px; height:62px;}
+
+#owl-demo6 .owl-buttons{position:absolute; width:88%; height:20px; top:auto; right:auto; left:6%; margin-top:auto; bottom:12%; z-index:4; text-align:center;}
+#owl-demo6 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:0px; width:15px; height:20px;}
+#owl-demo6 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:auto; left:40px; width:15px; height:20px;}
+
+#owl-demo51 .owl-buttons{position:absolute; width:100%; height:20px; top:0; right:auto; left:0%; margin-top:auto; z-index:4; text-align:center;}
+#owl-demo51 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:25px; width:15px; height:20px; top:21px;}
+#owl-demo51 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:25px;  width:15px; height:20px; top:21px;}
+
+#owl-demo52 .owl-buttons{position:absolute; width:100%; height:20px; top:0; right:auto; left:0%; margin-top:auto; z-index:4; text-align:center;}
+#owl-demo52 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:25px; width:15px; height:20px; top:21px;}
+#owl-demo52 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:25px;  width:15px; height:20px; top:21px;}
+
+.owl-demo52 .owl-buttons{position:absolute; width:100%; height:20px; top:0; right:auto; left:0%; margin-top:auto; z-index:4; text-align:center;}
+.owl-demo52 .owl-prev{background: url(../images/cls_jt1.png) no-repeat; background-size:100% 100%;  left:25px; width:15px; height:20px; top:21px;}
+.owl-demo52 .owl-next{background: url(../images/cls_jt2.png) no-repeat; background-size:100% 100%;  right:25px;  width:15px; height:20px; top:21px;}
+
+#owl-demo7 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-31px;}
+#owl-demo7 .owl-prev{background: url(../images/jt_b1.png) no-repeat; background-size:100% 100%; left:-4%; width:66px; height:62px;}
+#owl-demo7 .owl-next{background: url(../images/jt_b2.png) no-repeat; background-size:100% 100%; right:-4%; width:66px; height:62px;}
+
+#owl-demo8 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-31px;}
+#owl-demo8 .owl-prev{background: url(../images/cls_jt3.png) no-repeat; background-size:100% 100%; left:15px; width:66px; height:62px; z-index:3;}
+#owl-demo8 .owl-next{background: url(../images/cls_jt4.png) no-repeat; background-size:100% 100%; right:15px; width:66px; height:62px; z-index:3;}
+
+#owl-demo9 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-45px;}
+#owl-demo9 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; left:-31px; width:66px; height:62px; z-index:3; box-shadow:0 4px 6px rgba(0,0,0,.15);}
+#owl-demo9 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:-31px; width:66px; height:62px; z-index:3; box-shadow:0 4px 6px rgba(0,0,0,.15);}
+
+#owl-demo_dsj .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0px; margin-top:-31px;}
+#owl-demo_dsj .owl-prev{background: url(../images/jt_b1_2.png) no-repeat; background-size:100% 100%; left:-100px; width:66px; height:62px;}
+#owl-demo_dsj .owl-next{background: url(../images/jt_b2_2.png) no-repeat; background-size:100% 100%; right:-100px; width:66px; height:62px;}
+
+
+/*#owl-demo4 .owl-buttons{position:absolute; width:100%; height:62px; top:50%; right:0%; margin-top:-31px; z-index:4; text-align:center;}
+#owl-demo4 .owl-prev{background: url(../images/jt_a1.png) no-repeat; background-size:100% 100%; left:120px; width:66px; height:62px;}
+#owl-demo4 .owl-next{background: url(../images/jt_a2.png) no-repeat; background-size:100% 100%; right:3%;  width:66px; height:62px;}
+*/
+
+
+}
+
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page{display: inline-block;zoom: 1;*display: inline;/*IE7 life-saver*/}
+@media only screen and (max-width: 680px){
+.owl-theme .owl-controls .owl-page span{display: block;width:20px;height:3px;margin:0px 2px; background:#949495;}
+}
+
+@media only screen and (min-width: 680px){
+.owl-theme .owl-controls .owl-page span{display: block;width:30px;height:6px;margin:0px 6px; background:#949495;}
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{background:#52bdbc;}
+/* If PaginationNumbers is true*/
+.owl-theme .owl-controls .owl-page span.owl-numbers{height: auto;width: auto;color: #FFF;padding: 2px 10px;font-size: 12px;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;}
+/* preloading images*/
+.owl-item.loading{min-height: 150px;background: url(../images/AjaxLoader.html) no-repeat center center}

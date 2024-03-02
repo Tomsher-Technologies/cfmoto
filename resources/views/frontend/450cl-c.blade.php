@@ -1,0 +1,135 @@
+@extends('layouts.app.main')
+@section('content')
+
+<div class="product-banner-component">
+
+<div class="product_banner_component" data-component="product-banner-component">
+    <productbannercomponent banner="[{&#34;image&#34;:&#34;assets/images/bannerPC.jpg&#34;,&#34;mobileImage&#34;:&#34;assets/images/bannerWAP.jpg&#34;}]" characteristic="[{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;449&#34;,&#34;unit&#34;:&#34;CC&#34;,&#34;name&#34;:&#34;Engine&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;30&#34;,&#34;unit&#34;:&#34;kW&#34;,&#34;name&#34;:&#34;Power&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;42&#34;,&#34;unit&#34;:&#34;N.m&#34;,&#34;name&#34;:&#34;Torque&#34;,&#34;isMobShow&#34;:&#34;true&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;TCS&#34;},{&#34;image&#34;:&#34;undefined&#34;,&#34;mobileImage&#34;:&#34;undefined&#34;,&#34;value&#34;:&#34;British Style&#34;}]"/>
+</div>
+</div>
+
+
+    
+    
+    <div class="product-category-component">
+    <div class="product_category_component" data-component="product-category-component">
+        <productcategorycomponent product="{&#34;image&#34;:&#34;assets/images/model_1.png&#34;,&#34;title&#34;:&#34;450CL-C&#34;,&#34;desc&#34;:&#34;More than a cruiser motorcycle, 450CL-C is the perfect fusion of detail and classic, seamlessly blending cruiser design with a spirit of boundless freedom. Its refined design pays homage to classic allure, while the spirit of freedom takes you on a journey of cool life cruising. In the saddle of 450CL-C, it\u0027s not just about comfort, but the pursuit of true self.&#34;,&#34;specificationImage&#34;:&#34;assets/images/jscs.jpg&#34;,&#34;categoryButton&#34;:&#34;Download brochure&#34;,&#34;imageAreas&#34;:[],&#34;imageRealWidth&#34;:1140,&#34;imageRealHeight&#34;:760}" image="assets/images/model_1.png" category="{&#34;title&#34;:&#34;450&#34;,&#34;button&#34;:&#34;Find a Distributor&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/about-us/global_distributors&#34;,&#34;tips&#34;:&#34;CFMOTO models may have different specifications to comply with local regulations, and maybe modified to meet specific demands in a particular region.&#34;,&#34;downloadBrochureText&#34;:&#34;Download brochure&#34;,&#34;downloadBrochureLink&#34;:&#34;/content/dam/cfmoto/site/global/product/motorcycle/cl-x----classic/450cl-c/2024/brochure/450CL-C_Folding_International Version.pdf&#34;,&#34;downloadName&#34;:&#34;450CL-C_Folding_International Version.pdf&#34;,&#34;motorcycleType&#34;:&#34;MOTORCYCLE&#34;}" variant="[{&#34;image&#34;:&#34;assets/images/vmr28-1-model_1.png&#34;,&#34;title&#34;:&#34;Bordeaux Red&#34;,&#34;desc&#34;:&#34;&#34;,&#34;modelColor&#34;:&#34;&#34;,&#34;colorImage&#34;:&#34;assets/images/vmc28-1-model_11.png&#34;},{&#34;image&#34;:&#34;assets/images/vmr28-2-model_2.png&#34;,&#34;title&#34;:&#34;Nebula Black&#34;,&#34;desc&#34;:&#34;&#34;,&#34;modelColor&#34;:&#34;&#34;,&#34;colorImage&#34;:&#34;assets/images/vmc28-2-model_22.png&#34;}]"/>
+    </div>
+    
+</div>
+
+
+    
+    
+    <div class="product-fullSpecialty-component">
+    <div class="product_fullspecialty_component" data-component="product-fullspecialty-component">
+        <productfullspecialtycomponent power="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" design="{&#34;title&#34;:&#34;DESIGN&#34;,&#34;desc&#34;:&#34;450CL-C is a masterpiece of streamlined design that captivates at every glance. Its exterior boasts the allure of a classic era, highlighted by the meticulously polished fuel tank cap that gleams like a mirror. The 1989 nameplate and silver ring logo pay homage to heritage, celebrating a timeless legacy. The ultra-polished fuel tank is a statement of refinement, reflecting the world around it. Complementing the aesthetic, a classic round headlight illuminates the path ahead, while the integrated taillight leaves a lasting impression.&#34;,&#34;image&#34;:&#34;assets/images/PC_DESIGN2.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_DESIGN.jpg&#34;,&#34;isShow&#34;:&#34;true&#34;,&#34;productFeatures&#34;:[{&#34;name&#34;:&#34;Ultra-Polish Fuel Tank&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Integrated Taillight&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Classic Round Headlight&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Nameplate And Silver Ring Logo&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}],&#34;designData&#34;:{},&#34;designDataReal&#34;:{}}" riding="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" safety="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" smart="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}"/>
+    </div>
+
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-fullSpecialty-component">
+    <div class="product_fullspecialty_component" data-component="product-fullspecialty-component">
+        <productfullspecialtycomponent power="{&#34;title&#34;:&#34;POWER&#34;,&#34;desc&#34;:&#34;450CL-C &#39;s strong heartbeat on road redefines cruiser performance. With an impressive max power of 30kW at 8000rpm and carefully calibrated low-speed torque, reaching a max torque of 42Nm at 6250rpm, it epitomizes the allure of cruiser driving. The 270° crankshaft angle and double balance shaft harmonize to create a ride that&#39;s as smooth as it is controlled, ensuring vibrations never disrupt the joy of your journey. Adding a touch of modern engineering to the classic cruiser, the innovative Gates Belt Drive efficiently transfers power, while exuding sophistication.&#34;,&#34;image&#34;:&#34;assets/images/PC_POWER.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_POWER.jpg&#34;,&#34;productFeatures&#34;:[{&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}],&#34;powerData&#34;:{},&#34;powerDataReal&#34;:{}}" design="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" riding="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" safety="{&#34;title&#34;:&#34;POWER&#34;,&#34;desc&#34;:&#34;450CL-C &#39;s strong heartbeat on road redefines cruiser performance. With an impressive max power of 30kW at 8000rpm and carefully calibrated low-speed torque, reaching a max torque of 42Nm at 6250rpm, it epitomizes the allure of cruiser driving. The 270° crankshaft angle and double balance shaft harmonize to create a ride that&#39;s as smooth as it is controlled, ensuring vibrations never disrupt the joy of your journey. Adding a touch of modern engineering to the classic cruiser, the innovative Gates Belt Drive efficiently transfers power, while exuding sophistication.&#34;,&#34;image&#34;:&#34;assets/images/PC_POWER.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_POWER.jpg&#34;,&#34;isShow&#34;:&#34;true&#34;,&#34;productFeatures&#34;:[{&#34;value&#34;:&#34;30kW/8000rpm&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;42N.m/6250rpm&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;270° Crankshaft&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;Double-Balanced Shaft&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}]}" smart="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}"/>
+    </div>
+
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-fullSpecialty-component">
+    <div class="product_fullspecialty_component" data-component="product-fullspecialty-component">
+        <productfullspecialtycomponent power="{&#34;title&#34;:&#34;EXHAUST SYSTEM&#34;,&#34;desc&#34;:&#34;450CL-C&#39;s dual-chamber exhaust system produces a distinctive and captivating exhaust note that harmonises with every exhilarating twist of the throttle. Feel the pulse of power and freedom resonate through the air, unleashing the roar within. Adorned with refined matte ceramic paint, let the road resonate with the soul-stirring melody of the 450CL-C, a harmonious blend of performance and style that turns every journey into a passionate performance.&#34;,&#34;image&#34;:&#34;assets/images/PC_EXHAUSTSYSTEM.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_EXHAUSTSYSTEM.jpg&#34;,&#34;productFeatures&#34;:[{&#34;value&#34;:&#34;Dual-Chamber Exhaust&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;Refined Matte Ceramic Paint&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}],&#34;powerData&#34;:{},&#34;powerDataReal&#34;:{}}" design="{&#34;title&#34;:&#34;EXHAUST SYSTEM&#34;,&#34;desc&#34;:&#34;450CL-C&#39;s dual-chamber exhaust system produces a distinctive and captivating exhaust note that harmonises with every exhilarating twist of the throttle. Feel the pulse of power and freedom resonate through the air, unleashing the roar within. Adorned with refined matte ceramic paint, let the road resonate with the soul-stirring melody of the 450CL-C, a harmonious blend of performance and style that turns every journey into a passionate performance.&#34;,&#34;image&#34;:&#34;assets/images/PC_EXHAUSTSYSTEM.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_EXHAUSTSYSTEM.jpg&#34;,&#34;isShow&#34;:&#34;true&#34;,&#34;productFeatures&#34;:[{&#34;value&#34;:&#34;Dual-Chamber Exhaust&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;Refined Matte Ceramic Paint&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}],&#34;designData&#34;:{},&#34;designDataReal&#34;:{}}" riding="{&#34;title&#34;:&#34;EXHAUST SYSTEM&#34;,&#34;desc&#34;:&#34;450CL-C&#39;s dual-chamber exhaust system produces a distinctive and captivating exhaust note that harmonises with every exhilarating twist of the throttle. Feel the pulse of power and freedom resonate through the air, unleashing the roar within. Adorned with refined matte ceramic paint, let the road resonate with the soul-stirring melody of the 450CL-C, a harmonious blend of performance and style that turns every journey into a passionate performance.&#34;,&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" safety="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" smart="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}"/>
+    </div>
+
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-fullSpecialty-component">
+    <div class="product_fullspecialty_component" data-component="product-fullspecialty-component">
+        <productfullspecialtycomponent power="{&#34;title&#34;:&#34;HANDLING&#34;,&#34;desc&#34;:&#34;450CL-C strikes a balance between comfort and style. With a seat height of 690mm, it envelops the rider in pure comfort. Leather seat is treated with the pioneering Pinstripe® Retro Technology.  Combining unrivaled comfort with timeless style, every ride becomes an embodiment of true cruising spirit. Curb weight of 181kg ensures stability while riding.&#34;,&#34;image&#34;:&#34;assets/images/PC_HANDLING.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_HANDLING.jpg&#34;,&#34;productFeatures&#34;:[{&#34;name&#34;:&#34;Seat Height&#34;,&#34;value&#34;:&#34;690&#34;,&#34;unit&#34;:&#34;mm&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:true},{&#34;value&#34;:&#34;Leather Seat&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Curb Weight&#34;,&#34;value&#34;:&#34;181&#34;,&#34;unit&#34;:&#34;kg&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:true}],&#34;powerData&#34;:{&#34;Seat Height&#34;:0,&#34;Curb Weight&#34;:0},&#34;powerDataReal&#34;:{&#34;Seat Height&#34;:&#34;690&#34;,&#34;Curb Weight&#34;:&#34;181&#34;}}" design="{&#34;title&#34;:&#34;HANDLING&#34;,&#34;desc&#34;:&#34;450CL-C strikes a balance between comfort and style. With a seat height of 690mm, it envelops the rider in pure comfort. Leather seat is treated with the pioneering Pinstripe® Retro Technology.  Combining unrivaled comfort with timeless style, every ride becomes an embodiment of true cruising spirit. Curb weight of 181kg ensures stability while riding.&#34;,&#34;image&#34;:&#34;assets/images/PC_HANDLING.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_HANDLING.jpg&#34;,&#34;isShow&#34;:&#34;true&#34;,&#34;productFeatures&#34;:[{&#34;name&#34;:&#34;Seat Height&#34;,&#34;value&#34;:&#34;690&#34;,&#34;unit&#34;:&#34;mm&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:true},{&#34;value&#34;:&#34;Leather Seat&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Curb weigh&#34;,&#34;value&#34;:&#34;181&#34;,&#34;unit&#34;:&#34;kg&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:true}],&#34;designData&#34;:{&#34;Seat Height&#34;:0,&#34;Curb weigh&#34;:0},&#34;designDataReal&#34;:{&#34;Seat Height&#34;:&#34;690&#34;,&#34;Curb weigh&#34;:&#34;181&#34;}}" riding="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" safety="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" smart="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}"/>
+    </div>
+
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-fullSpecialty-component">
+    <div class="product_fullspecialty_component" data-component="product-fullspecialty-component">
+        <productfullspecialtycomponent power="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" design="{&#34;title&#34;:&#34;SAFETY&#34;,&#34;desc&#34;:&#34;450CL-C is your unwavering companion on the road. Equipped with a Φ37mm upside down suspension, it glides over any terrain with confidence. At the front Ø320mm single discs, gripped by 4-radial calipers, and rear Ø220mm single discs both provide excellent stopping power. With standard ABS and traction control system (TCS), keep in control, even on challenging surfaces. Trust in the 450CL-C&#39;s reliability as it paves the way for worry-free cruising.&#34;,&#34;image&#34;:&#34;assets/images/PC_SAFETY2.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_SAFETY2.jpg&#34;,&#34;isShow&#34;:&#34;true&#34;,&#34;productFeatures&#34;:[{&#34;name&#34;:&#34;Upside Down Suspension&#34;,&#34;value&#34;:&#34;Φ37mm&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Front Single Disc&#34;,&#34;value&#34;:&#34;Ø320mm&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Standard&#34;,&#34;value&#34;:&#34;ABS&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;Standard&#34;,&#34;value&#34;:&#34;TCS&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}],&#34;designData&#34;:{},&#34;designDataReal&#34;:{}}" riding="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" safety="{&#34;title&#34;:&#34;SAFETY&#34;,&#34;desc&#34;:&#34;450CL-C is your unwavering companion on the road. Equipped with a Φ37mm upside down suspension, it glides over any terrain with confidence. At the front Ø320mm single discs, gripped by 4-radial calipers, and rear Ø220mm single discs both provide excellent stopping power. With standard ABS and traction control system (TCS), keep in control, even on challenging surfaces. Trust in the 450CL-C&#39;s reliability as it paves the way for worry-free cruising.&#34;,&#34;image&#34;:&#34;assets/images/PC_SAFETY.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_SAFETY.jpg&#34;,&#34;productFeatures&#34;:[{&#34;unit&#34;:&#34;Φ37mm upside down suspension&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;Front Ø320mm Single Disc&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;ABS&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;value&#34;:&#34;TCS&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}]}" smart="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}"/>
+    </div>
+
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-fullSpecialty-component">
+    <div class="product_fullspecialty_component" data-component="product-fullspecialty-component">
+        <productfullspecialtycomponent power="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" design="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" riding="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}" safety="{&#34;title&#34;:&#34;INTELLIGENCE&#34;,&#34;desc&#34;:&#34;450CL-C brings innovation to the experience with 3.6’’ retro style round TFT curved display, which supports navigation projection, with built-in shift and flameout reminders. This intelligent technology enhances the joy of riding. The T-box enables seamless vehicle-phone connectivity, offering functions like OTA upgrades, MotoPlay, security and anti-theft features, track recording, and real-time viewing of vehicle information through the CFMOTO RIDE app. This elevates the rider experience by providing convenience at your fingertips.&#34;,&#34;image&#34;:&#34;assets/images/PC_INTELLIGENCE.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/WAP_INTELLIGENCE.jpg&#34;,&#34;isShow&#34;:&#34;true&#34;,&#34;productFeatures&#34;:[{&#34;name&#34;:&#34;3.6&#39;&#39; Round Curved TFT Display&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;T-Box(Optional)&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false},{&#34;name&#34;:&#34;OTA&#34;,&#34;image&#34;:&#34;&#34;,&#34;mbImage&#34;:&#34;&#34;,&#34;isCountTo&#34;:false}]}" smart="{&#34;image&#34;:&#34;undefined&#34;,&#34;mbImage&#34;:&#34;undefined&#34;}"/>
+    </div>
+
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-specification-component">
+    <div class="product_specification_component" data-component="product-specification-component">
+        <productspecificationcomponent path="/content/cfmoto-product/products/cfmoto/motorcycles/classic/450cl-c" config="{&#34;compared&#34;:&#34;Compare&#34;,&#34;comparedLink&#34;:&#34;/content/cfmoto/global/motorcycles_comparis&#34;,&#34;downloadBrochure&#34;:&#34;Download tech specs&#34;,&#34;title&#34;:&#34;Specifications&#34;}" specification="[{&#34;type&#34;:&#34;Engine&#34;,&#34;specification&#34;:[{&#34;key&#34;:&#34;Engine Type&#34;,&#34;value&#34;:&#34;2-Cylinder, Water-cooled, DOHC&#34;},{&#34;key&#34;:&#34;Displacement&#34;,&#34;value&#34;:&#34;449cc&#34;},{&#34;key&#34;:&#34;Bore x Stroke&#34;,&#34;value&#34;:&#34;72 x 55.2mm&#34;},{&#34;key&#34;:&#34;Maximum Power&#34;,&#34;value&#34;:&#34;30kW/8000rpm&#34;},{&#34;key&#34;:&#34;Maximum Torque&#34;,&#34;value&#34;:&#34;42N.m/6250rpm&#34;},{&#34;key&#34;:&#34;Transmission&#34;,&#34;value&#34;:&#34;Wet multi plate, slipper clutch&#34;}]},{&#34;type&#34;:&#34;Dimensions and Weight&#34;,&#34;specification&#34;:[{&#34;key&#34;:&#34;Length x Width x Height&#34;,&#34;value&#34;:&#34;2205x805x1110 mm&#34;},{&#34;key&#34;:&#34;Wheelbase&#34;,&#34;value&#34;:&#34;1485 mm&#34;},{&#34;key&#34;:&#34;Minimum Ground Clearance&#34;,&#34;value&#34;:&#34;160 mm&#34;},{&#34;key&#34;:&#34;Curb Weight&#34;,&#34;value&#34;:&#34;181 kg&#34;},{&#34;key&#34;:&#34;Fuel Capacity&#34;,&#34;value&#34;:&#34;12 L&#34;},{&#34;key&#34;:&#34;Colors&#34;,&#34;value&#34;:&#34;Nebula Black/ Bordeaux Red&#34;}]},{&#34;type&#34;:&#34;Chassis&#34;,&#34;specification&#34;:[{&#34;key&#34;:&#34;Front Suspension&#34;,&#34;value&#34;:&#34;Ø37mm Upside Down Telescopic Fork&#34;},{&#34;key&#34;:&#34;Rear fok&#34;,&#34;value&#34;:&#34;Dual-Swing Arm&#34;},{&#34;key&#34;:&#34;Rear Suspension&#34;,&#34;value&#34;:&#34;Monoshock absorber with preload adjustable&#34;},{&#34;key&#34;:&#34;Front Brake&#34;,&#34;value&#34;:&#34; Ø320mm Single Discs 4-radial calipers J,Juan&#34;},{&#34;key&#34;:&#34;Rear Brake&#34;,&#34;value&#34;:&#34; Ø220mm Single Discs J.Juan&#34;},{&#34;key&#34;:&#34;Rim&#34;,&#34;value&#34;:&#34;Front：MT 3.0×16\u003cbr/\u003e Rear：MT 3.5×16&#34;},{&#34;key&#34;:&#34;Front Tire&#34;,&#34;value&#34;:&#34;130/90-R16 M/C CST&#34;},{&#34;key&#34;:&#34;Rear Tire&#34;,&#34;value&#34;:&#34;150/80-R16 M/C CST&#34;},{&#34;key&#34;:&#34;ABS&#34;,&#34;value&#34;:&#34;Standard&#34;},{&#34;key&#34;:&#34;TCS&#34;,&#34;value&#34;:&#34;Standard&#34;}]}]" product="{&#34;image&#34;:&#34;assets/images/model_1.png&#34;,&#34;title&#34;:&#34;450CL-C&#34;,&#34;desc&#34;:&#34;More than a cruiser motorcycle, 450CL-C is the perfect fusion of detail and classic, seamlessly blending cruiser design with a spirit of boundless freedom. Its refined design pays homage to classic allure, while the spirit of freedom takes you on a journey of cool life cruising. In the saddle of 450CL-C, it\u0027s not just about comfort, but the pursuit of true self.&#34;,&#34;specificationImage&#34;:&#34;assets/images/vmf28-jscs.jpg&#34;,&#34;categoryButton&#34;:&#34;Download brochure&#34;,&#34;imageAreas&#34;:[],&#34;imageRealWidth&#34;:1140,&#34;imageRealHeight&#34;:760}"/>
+    </div>
+    
+
+
+</div>
+
+
+    
+    
+    <div class="product-gallery-component">
+    <div class="product_gallery_component" data-component="product-gallery-component">
+        <productgallerycomponent gallery="{&#34;description&#34;:&#34;Need to Download the latest series of picture,please click&#34;,&#34;downloadCenter&#34;:&#34;Download Center&#34;,&#34;downloadCenterLink&#34;:&#34;/content/cfmoto/global/media-center/download-center&#34;}" spicturelist="{&#34;imageList&#34;:[&#34;assets/images/vgd28-6.jpg&#34;,&#34;assets/images/vgd28-2.jpg&#34;,&#34;assets/images/vgd28-4.jpeg&#34;,&#34;assets/images/vgd28-3.jpeg&#34;,&#34;assets/images/vgd28-1.jpg&#34;,&#34;assets/images/vgd28-5.jpeg&#34;]}" lpicturelist="{&#34;imageList&#34;:[&#34;assets/images/vgu28-2.jpg&#34;,&#34;assets/images/vgu28-3.jpg&#34;,&#34;assets/images/vgu28-1.jpg&#34;,&#34;assets/images/vgu28-4.jpg&#34;]}"/>
+    </div>
+
+    
+
+
+
+</div>
+
+
+    
+    
+    <div class="product-recommend-component">
+    <div class="product_recommend_component" data-component="product-recommend-component">
+        <productrecommendcomponent product="[{&#34;image&#34;:&#34;assets/images/250CL-X_Nebula-Black.png&#34;,&#34;title&#34;:&#34;250CL-X&#34;,&#34;desc&#34;:&#34;250CL-X represents “Street Bike” with neo-retro bang.\r\nThis model is an entry-level neo retro motorcycle with neo retro style and world-class technology. Pure fun with style, small displacement version of 700CL-X.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/classic/250cl-x.html&#34;},{&#34;image&#34;:&#34;assets/images/300CL-X_Nebula-White.png&#34;,&#34;title&#34;:&#34;300CL-X&#34;,&#34;desc&#34;:&#34;300CL-X represents “Street Bike” with neo-retro bang.\r\nThis model is an entry-level neo retro motorcycle with neo retro style and world-class technology. Pure fun with style, small displacement version of 700CL-X.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/classic/300cl-x.html&#34;},{&#34;image&#34;:&#34;assets/images/700CL-X-HERITAGE_Nebula-Black.png&#34;,&#34;title&#34;:&#34;700CL-X HERITAGE&#34;,&#34;desc&#34;:&#34;Does X mark the unknown, or does it call us to infinite possibilities?\r\nWhen faced with the uncertain, some find an equation to be solved.\r\nOthers find themselves at the threshold of possibility.\r\nThere are no guarantees on the journey ahead, only miles to be enjoyed on the road ahead. Embrace the possibilities, remove the boundaries and dare to explore diverse terrain. Fraught as it may be with challenges along the way, freedom is on the journey.\r\nThe bold will enjoy every moment of twisting the throttle toward tomorrow.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/classic/700cl-x_heritage.html&#34;},{&#34;image&#34;:&#34;/content/dam/cfmoto/site/global/product/motorcycle/cl-x----classic/700cl-x-sport/700CL-X-SPORT_Nebula-White.png&#34;,&#34;title&#34;:&#34;700CL-X SPORT&#34;,&#34;desc&#34;:&#34;The derivative of CL-X line-up, 700CL-X SPORT, is dashing and energetic. Its café-racer aesthetic style gets a new interpretation with outstanding performance and sophisticated styling. The CL-X design language, featuring X design elements of the headlight, the rear tail light, round mirrors, exposed frame, engine cover, and slim fuel tank shape, easily attracting everyone\u0027s attention. Pre-equipped standard with ABS, electronic throttle, slipper clutch, cruise control, Brembo brakes, KYB suspension, clip-on bars, ignition protection, rollover sensor, and LED lighting. 700CL-X SPORT has two eye-catching color schemes, Nebula White and the Velocity Grey. 700CL-X SPORT has that sophisticated café-style SPORTy look from any angle you look at it.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/classic/700cl-x_sport.html&#34;},{&#34;image&#34;:&#34;/content/dam/cfmoto/site/global/product/motorcycle/cl-x----classic/700cl-x-adventure/700CL-X-ADVENTURE_Aurora-Blue.png&#34;,&#34;title&#34;:&#34;700CL-X ADVENTURE&#34;,&#34;desc&#34;:&#34;700CL-X Adventure is a neo-retro motorcycle with mild off-road capability, essentially a reflection of life attitude. This model shows passionate, hot-blooded, free, romantic and wild.&#34;,&#34;pageLink&#34;:&#34;/content/cfmoto/global/motorcycles/classic/700cl-x_adventure.html&#34;}]" productinfo="{&#34;image&#34;:&#34;assets/images/model_1.png&#34;,&#34;title&#34;:&#34;450CL-C&#34;,&#34;desc&#34;:&#34;More than a cruiser motorcycle, 450CL-C is the perfect fusion of detail and classic, seamlessly blending cruiser design with a spirit of boundless freedom. Its refined design pays homage to classic allure, while the spirit of freedom takes you on a journey of cool life cruising. In the saddle of 450CL-C, it\u0027s not just about comfort, but the pursuit of true self.&#34;,&#34;specificationImage&#34;:&#34;assets/images/jscs.jpg&#34;,&#34;categoryButton&#34;:&#34;Download brochure&#34;,&#34;imageAreas&#34;:[],&#34;imageRealWidth&#34;:1140,&#34;imageRealHeight&#34;:760}" recommend="null"/>
+    </div>
+    
+</div>
+
+@endsection
