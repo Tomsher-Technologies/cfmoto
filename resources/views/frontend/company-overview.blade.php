@@ -64,7 +64,7 @@
                       </div>
                       <div class="service-detail">
                           <h5 class="service-title">
-                              <a href="{{ route('servicedetail') }}"> Mission</a>
+                              <a href="#"> Mission</a>
                           </h5>
                           <p class="service-illustration">
                             Our Mission is to Continuously supply with the best reliable and economical products in the market as well as easy-to-manage and maintain the products
@@ -79,7 +79,7 @@
                       </div>
                       <div class="service-detail">
                           <h5 class="service-title">
-                              <a href="{{ route('servicedetail') }}"> Vision</a>
+                              <a href="#"> Vision</a>
                           </h5>
                           <p class="service-illustration">
                               Our vision is to bring full-grade products that can compete with other brands in terms of quality, affordability, and customer satisfaction. From this, we expanded our vision onto other things with the same criteria of quality, affordability, and customer satisfaction.
@@ -94,7 +94,7 @@
                       </div>
                       <div class="service-detail">
                           <h5 class="service-title">
-                              <a href="{{ route('servicedetail') }}"> Goal</a>
+                              <a href="#"> Goal</a>
                           </h5>
                           <p class="service-illustration">
                               Our goal is to work as hard as possible, to strengthen the group and company with no limitations, and to expand.
