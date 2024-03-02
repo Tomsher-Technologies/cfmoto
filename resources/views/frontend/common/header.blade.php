@@ -1,9 +1,9 @@
 <div class="wsmobileheader clearfix">
          <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-         <span class="smllogo"><img src="assets/images/cfmoto-logo-block.png" width="80" alt="" /></span>
+         <span class="smllogo"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" width="80" alt="" /></span>
          <div class="language-selector d-block d-md-none">
             <select name="menu" id="meun-items">
-               <option selected> <img src="assets/images/en.png" alt=""> EN</option>
+               <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
                <option value="html">AR</option>
             </select>
          </div>
@@ -12,7 +12,7 @@
       <div class="headerfull">
          <div class="container-fluid">
             <div class="wsmain clearfix">
-               <div class="smllogo"><a href="uae.html"><img src="assets/images/cfmoto-logo-block.png" alt="" /></a></div>
+               <div class="smllogo"><a href="uae.html"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" alt="" /></a></div>
                <nav class="wsmenu clearfix">
                   <ul class="wsmenu-list">
                      <li aria-haspopup="true">
