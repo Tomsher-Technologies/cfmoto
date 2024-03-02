@@ -34,7 +34,7 @@
                                              </a>
                                                 </div>
                                                 <div class="col-md-3 text-center">
-                                                  <a href="{{ route('products.cforceev110') }}">
+                                                  <a href="{{ route('cforceev110') }}">
                                                    <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCEEV110_11.png') }}" alt="">
                                                    <h3>CFORCE EV110</h3>
                                                   </a>
