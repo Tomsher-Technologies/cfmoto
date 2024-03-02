@@ -145,7 +145,7 @@
    <div class="col-md-8">
       <h2 class="mb-3">About Us</h2>
       <p style="font-size: 20px; line-height: 35px;">Al Shaali Moto was formed in 2011 introducing On-hand and Off-road Motorcycles such as ATV, UTV, Side by Side, Quad Bike, Sports Boat, Kayaks and Electric Vehicles such as luxury Golf Cart, Electric Club Cart, Resort Cart Utility Vehicle, and Commercial Golf cart, Scooter, Mobility, Electric hummers (HX, HXT, HXT Limo), Electric Classic Cars and Golf Trolleys in all over UAE and GCC. </p>
-      <a href="company-overview.html" class="btn btn-sumbit mt-2">Read More</a>
+      <a href="{{ route('companyoverview') }}" class="btn btn-sumbit mt-2">Read More</a>
       
    </div>
 
@@ -184,13 +184,13 @@
                         <p data-v-00f05126="" class="info_subhead no_postcss_to_px" >
                            CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3
                         </p>
-                        <a data-v-00f05126="" href="news.html" class="related_info_more flex btn_hover no_postcss_to_px" ><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt="img"></a> 
+                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_info_more flex btn_hover no_postcss_to_px" ><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt="img"></a> 
                         <div data-v-00f05126="" class="related_bg_text" >
                            News Information
                         </div>
                      </div>
                      <div data-v-00f05126="" class="related_container_img" >
-                        <a data-v-00f05126="" href="news.html" class="related_container_items_graphic">
+                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/0 (9).jpg" alt="img"></div>
                            <div data-v-00f05126="" class="items_graphic_pic_id">01</div>
                         </a>
@@ -199,7 +199,7 @@
                   <div data-v-00f05126="" class="related_container_bottom" >
                      <!---->
                      <div data-v-00f05126="" class="related_container_items">
-                        <a data-v-00f05126="" href="news.html" class="related_container_items_graphic">
+                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="items_graphic_pic">
                               <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/5th.jpg" alt="img"></div>
                               <div data-v-00f05126="" class="items_graphic_pic_id">
@@ -210,7 +210,7 @@
                         </a>
                      </div>
                      <div data-v-00f05126="" class="related_container_items">
-                        <a data-v-00f05126="" href="news.html" class="related_container_items_graphic">
+                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="items_graphic_pic">
                               <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/goes.jpg" alt="img"></div>
                               <div data-v-00f05126="" class="items_graphic_pic_id">
@@ -221,7 +221,7 @@
                         </a>
                      </div>
                      <div data-v-00f05126="" class="related_container_items">
-                        <a data-v-00f05126="" href="news.html" class="related_container_items_graphic">
+                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="items_graphic_pic">
                               <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/0.jpg" alt="img"></div>
                               <div data-v-00f05126="" class="items_graphic_pic_id">
@@ -247,7 +247,7 @@
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">CFMOTO and Aspar Team will fight together for the Moto2 and Moto3 titles </h1>
                                  <h5 data-v-00f05126="" class="des_text">CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="news.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                               </div>
                            </div>
                            <div data-v-00f05126="" class="related_new-item">
@@ -256,7 +256,7 @@
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class </h1>
                                  <h5 data-v-00f05126="" class="des_text">CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="news.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                               </div>
                            </div>
                            <div data-v-00f05126="" class="related_new-item">
@@ -265,7 +265,7 @@
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">CFMOTO Completes Acquisition of the European Off-Road Brand GOES </h1>
                                  <h5 data-v-00f05126="" class="des_text">Hangzhou, China/ Rousset, France – 8th January, 2024</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="news.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                               </div>
                            </div>
                            <div data-v-00f05126="" class="related_new-item">
@@ -274,7 +274,7 @@
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">CFMOTO and Yamaha Reached an Agreement to Have a Joint Venture in China  </h1>
                                  <h5 data-v-00f05126="" class="des_text">CFMOTO and Yamaha have reached an agreement to have a joint venture in Zhuzhou,China. The name of the new business will be ZHUZHOU CF YAMAHA MOTOR CO.,LTD.(ZCYM).</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="news.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                               </div>
                            </div>
                         </div>
@@ -307,7 +307,7 @@
                </div>
                <div data-v-0444c5bc="" class="cf_about_bottom">
                   <div data-v-0444c5bc="" class="about_bottom_box">
-                     <a data-v-0444c5bc="" href="company-overview.html" class="about_bottom_moreLink no_postcss_to_px flex btn_hover" ><span data-v-0444c5bc="">Learn more</span> <img data-v-0444c5bc="" src="assets/images/right_arrows.png" alt="img"></a> 
+                     <a data-v-0444c5bc="" href="{{ route('companyoverview') }}" class="about_bottom_moreLink no_postcss_to_px flex btn_hover" ><span data-v-0444c5bc="">Learn more</span> <img data-v-0444c5bc="" src="assets/images/right_arrows.png" alt="img"></a> 
                      <picture data-v-0444c5bc="">
                         <source data-v-0444c5bc="" media="(max-width:750px)" srcset="assets/images/about_bg_mobile.png">
                         <img data-v-0444c5bc="" src="assets/images/about_bg.png" alt="img" class="about_bottom_bgBox">
@@ -355,7 +355,7 @@
             
                   </div>
              <div class="text-center mb-5">
-               <a href="become-a-distributor.html" class="btn btn-sumbit"> Become A Distributor</a>
+               <a href="{{ route('becomeadistributor') }}" class="btn btn-sumbit"> Become A Distributor</a>
              </div>
                   <div data-v-79df4e83="" class="cf_regional_country_list list_pc" >
                      <!----><!----><!----><!---->

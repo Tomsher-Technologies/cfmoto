@@ -539,13 +539,13 @@
                   <p data-v-00f05126="" class="info_subhead no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                      CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class
                   </p>
-                  <a data-v-00f05126="" href="/global/media-center/news/news/perfect-conclusion-with-a-ranking-of-5th--cfmoto-achieves-the-be.html" class="related_info_more flex btn_hover no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt="img"></a> 
+                  <a data-v-00f05126="" href="{{ route('news') }}" class="related_info_more flex btn_hover no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt="img"></a> 
                   <div data-v-00f05126="" class="related_bg_text" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                      Latest news
                   </div>
                </div>
                <div data-v-00f05126="" class="related_container_img" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                  <a data-v-00f05126="" href="/global/media-center/news/news/perfect-conclusion-with-a-ranking-of-5th--cfmoto-achieves-the-be.html" class="related_container_items_graphic">
+                  <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                      <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/5th.jpg" alt="img"></div>
                      <div data-v-00f05126="" class="items_graphic_pic_id">01</div>
                   </a>
@@ -554,7 +554,7 @@
             <div data-v-00f05126="" class="related_container_bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                <!---->
                <div data-v-00f05126="" class="related_container_items">
-                  <a data-v-00f05126="" href="/global/media-center/news/news/a--kanopkinas-after-crossing-the-dakar-finish-arch---one-mistake.html" class="related_container_items_graphic">
+                  <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                      <div data-v-00f05126="" class="items_graphic_pic">
                         <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/PressDay14.jpg" alt="img"></div>
                         <div data-v-00f05126="" class="items_graphic_pic_id">
@@ -565,7 +565,7 @@
                   </a>
                </div>
                <div data-v-00f05126="" class="related_container_items">
-                  <a data-v-00f05126="" href="/global/media-center/news/news/a--kanopkinas-reached-the-end-of-the-day-by-helicopter---the-lan.html" class="related_container_items_graphic">
+                  <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                      <div data-v-00f05126="" class="items_graphic_pic">
                         <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/PressDay13.jpg" alt="img"></div>
                         <div data-v-00f05126="" class="items_graphic_pic_id">
@@ -576,7 +576,7 @@
                   </a>
                </div>
                <div data-v-00f05126="" class="related_container_items">
-                  <a data-v-00f05126="" href="/global/media-center/news/news/a--kanopkinas---today-i-wandered-off-the-track--not-once-.html" class="related_container_items_graphic">
+                  <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                      <div data-v-00f05126="" class="items_graphic_pic">
                         <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/PressDay12.jpg" alt="img"></div>
                         <div data-v-00f05126="" class="items_graphic_pic_id">
@@ -602,7 +602,7 @@
                         <div data-v-00f05126="" class="related_mobile_des">
                            <h1 data-v-00f05126="" class="des_title">Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class </h1>
                            <h5 data-v-00f05126="" class="des_text">CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class</h5>
-                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="/global/media-center/news/news/perfect-conclusion-with-a-ranking-of-5th--cfmoto-achieves-the-be.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                         </div>
                      </div>
                      <div data-v-00f05126="" class="related_new-item">
@@ -611,7 +611,7 @@
                         <div data-v-00f05126="" class="related_mobile_des">
                            <h1 data-v-00f05126="" class="des_title">A. Kanopkinas after crossing the Dakar finish arch: "One mistake here can cost a lot" </h1>
                            <h5 data-v-00f05126="" class="des_text">A. Kanopkinas after crossing the Dakar finish arch: "One mistake here can cost a lot"</h5>
-                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="/global/media-center/news/news/a--kanopkinas-after-crossing-the-dakar-finish-arch---one-mistake.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                         </div>
                      </div>
                      <div data-v-00f05126="" class="related_new-item">
@@ -620,7 +620,7 @@
                         <div data-v-00f05126="" class="related_mobile_des">
                            <h1 data-v-00f05126="" class="des_title">A. Kanopkinas reached the end of the day by helicopter: "The landscapes are very beautiful" </h1>
                            <h5 data-v-00f05126="" class="des_text">A. Kanopkinas reached the end of the day by helicopter: "The landscapes are very beautiful"</h5>
-                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="/global/media-center/news/news/a--kanopkinas-reached-the-end-of-the-day-by-helicopter---the-lan.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                         </div>
                      </div>
                      <div data-v-00f05126="" class="related_new-item">
@@ -629,7 +629,7 @@
                         <div data-v-00f05126="" class="related_mobile_des">
                            <h1 data-v-00f05126="" class="des_title">A. Kanopkinas: "Today I wandered off the track. Not once" </h1>
                            <h5 data-v-00f05126="" class="des_text">A. Kanopkinas: "Today I wandered off the track. Not once"</h5>
-                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="/global/media-center/news/news/a--kanopkinas---today-i-wandered-off-the-track--not-once-.html" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                           <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
                         </div>
                      </div>
                   </div>

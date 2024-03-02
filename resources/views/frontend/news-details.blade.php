@@ -5,15 +5,15 @@
       <div class="new-detail">
          <div class="top">
             <div aria-label="Breadcrumb" role="navigation" class="el-breadcrumb">
-               <a href="/content/cfmoto/global.html" class="el-breadcrumb__item">
+               <a href="https://www.cfmoto.com/global.html" class="el-breadcrumb__item">
                <span role="link" class="el-breadcrumb__inner is-link">CFMOTO Global</span>
                <i class="el-breadcrumb__separator el-icon-arrow-right left"></i>
                </a>
-               <a href="/global/media-center/news.html" class="el-breadcrumb__item">
+               <a href="{{ route('news') }}" class="el-breadcrumb__item">
                <span role="link" class="el-breadcrumb__inner is-link">News</span>
                <i class="el-breadcrumb__separator el-icon-arrow-right left"></i>
                </a>
-               <a href="/global/media-center/news/news/perfect-conclusion-with-a-ranking-of-5th--cfmoto-achieves-the-be.html" class="el-breadcrumb__item">
+               <a href="{{ route('news') }}" class="el-breadcrumb__item">
                <span role="link" class="el-breadcrumb__inner is-link">Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class</span>
                </a>
             </div>
