@@ -383,7 +383,7 @@
                   <p data-v-ccf46a22="" class="smart-des no_postcss_to_px">CFMOTO first-generation intelligent interactive center, the latest technological innovation, brings a full-sensory immersive driving experience.</p>
                </div>
                <div data-v-ccf46a22="" class="smart-main">
-                  <button data-v-ccf46a22="" class="ride-swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><img data-v-ccf46a22="" src="/etc/designs/cfmoto/assets/product/circle_left_new.png') }}" alt="" srcset=""></button> 
+                  <button data-v-ccf46a22="" class="ride-swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><img data-v-ccf46a22="" src="{{ asset('assets/images/circle_left_new.png') }}" alt="" srcset=""></button> 
                   <div data-v-ccf46a22="" class="swiper-container ride-swiper swiper-container-initialized swiper-container-horizontal">
                      <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1560px, 0px, 0px);">
                         <div data-v-ccf46a22="" class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" style="width: 1560px;" data-swiper-slide-index="1">
@@ -409,7 +409,7 @@
                      </div>
                      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                   </div>
-                  <button data-v-ccf46a22="" class="ride-swiper-next" tabindex="0" role="button" aria-label="Next slide"><img data-v-ccf46a22="" src="/etc/designs/cfmoto/assets/product/circle_right_new.png') }}" alt="" srcset=""></button>
+                  <button data-v-ccf46a22="" class="ride-swiper-next" tabindex="0" role="button" aria-label="Next slide"><img data-v-ccf46a22="" src="{{ asset('assets/images/circle_right_new.png') }}" alt="" srcset=""></button>
                </div>
             </div>
          </main>
