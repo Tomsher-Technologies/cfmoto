@@ -13,18 +13,18 @@
                   <li data-v-5758fa05="" class="footer_list_items">
                      <!----> 
                      <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
-                        <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">CFORCE</span> <!---->
                         </a>
-                        <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">ZFORCE</span> <!---->
                         </a>
 
-                        <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">UFORCE</span> <!---->
                         </a>
 
-                        <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">MOTORCYCLES</span> <!---->
                         </a>
                      </div>
@@ -33,13 +33,13 @@
                   <li data-v-5758fa05="" class="footer_list_items">
                      <!----> 
                      <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
-                        <a data-v-5758fa05="" href="company-overview.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('companyoverview') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">About CFMOTO</span> <!---->
                         </a>
-                        <a data-v-5758fa05="" href="racing.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('racing') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">CFMOTO Racing</span> <!---->
                         </a>
-                        <a data-v-5758fa05="" href="ride.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('ride') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">CFMOTO Ride
                            </span> <!---->
                         </a>
@@ -49,10 +49,10 @@
                   <li data-v-5758fa05="" class="footer_list_items">
                      <!----> 
                      <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
-                        <a data-v-5758fa05="" href="news.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('news') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">News</span> <!---->
                         </a>
-                        <a data-v-5758fa05="" href="contact-us.html" class="footer_nav_item">
+                        <a data-v-5758fa05="" href="{{ route('contactus') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">Contact Us</span> <!---->
                         </a>
 
@@ -161,8 +161,8 @@
                                                       <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                       <span class="el-checkbox__label">
                                                          <div data-v-5758fa05="">
-                                                            By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
-                                                            <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html">
+                                                            By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html" target="_blank">privacy policy</a> , 
+                                                            <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html" target="_blank">
                                                                marketing communications.<!-- a-->
                                                             </a>
                                                          </div>
@@ -201,7 +201,7 @@
                   </li>
                </ul>
                <div data-v-5758fa05="" class="mobile subscribe_input_wrap">
-                  <a data-v-5758fa05="" href="/global/media-center/news.html" class="news">News</a> 
+                  <a data-v-5758fa05="" href="{{ route('news') }}" class="news">News</a> 
                   <div data-v-5758fa05="" class="cf_footer_subscribe">
                      <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
                      <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
@@ -316,8 +316,8 @@
                                                 <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                 <span class="el-checkbox__label">
                                                    <div data-v-5758fa05="">
-                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
-                                                      <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html">
+                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html" target="_blank">privacy policy</a> , 
+                                                      <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html" target="_blank">
                                                          marketing communications.<!-- a-->
                                                       </a>
                                                    </div>
