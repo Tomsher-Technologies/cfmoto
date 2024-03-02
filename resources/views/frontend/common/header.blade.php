@@ -399,7 +399,7 @@
                                                 <div class="wstheading clearfix">TR-G</div>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                           <a href="{{ route('01250trg') }}">
+                                           <a href="{{ route('o1250trg') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/1250TR-G.png') }}" alt="">
                                              <h3>1250TR-G
                                              </h3>
