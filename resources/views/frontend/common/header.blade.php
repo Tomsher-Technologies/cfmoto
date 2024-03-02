@@ -189,7 +189,7 @@
                                                 <div class="wstheading clearfix">Naked</div>
                                              </div>
                                              <div class="col-md-3 text-center">
-                         <a href="{{ route('250nk') }}">
+                         <a href="{{ route('t250nk') }}">
                            <img data-v-87eb4736="" src="{{ asset('assets/images/250NK_Athens-Blue.png') }}" alt="">
                            <h3>250NK 
            
@@ -197,21 +197,21 @@
                          </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                     <a href="{{ route('300nk') }}">
+                                     <a href="{{ route('t300nk') }}">
                                        <img data-v-87eb4736="" src="{{ asset('assets/images/300NK_Athens-Blue.png') }}" alt="">
                                        <h3>300NK
                                        </h3>
                                      </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                       <a href="{{ route('450nk') }}">
+                                       <a href="{{ route('f450nk') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/model_1.png') }}" alt="">
                                           <h3>450NK
                                           </h3>
                                        </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                        <a href="{{ route('650nk') }}">
+                                        <a href="{{ route('s650nk') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/650NK_Nebula-White.png') }}" alt="">
                                           <h3>650NK
                                           </h3>
@@ -219,7 +219,7 @@
                                              </div>
 
                                              <div class="col-md-3 text-center">
-                                       <a href="{{ route('800nk') }}">
+                                       <a href="{{ route('e800nk') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/800NK 锆石黑.png') }}" alt="">
                                           <h3>800NK
                                           </h3>
@@ -231,14 +231,14 @@
                                                 <div class="wstheading clearfix">Sport Racing</div>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                         <a href="{{ route('250sr1') }}">
+                                         <a href="{{ route('t250sr1') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/250SR_1.png') }}" alt="">
                                           <h3>250SR
                                           </h3>
                                          </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                        <a href="{{ route('250sr2') }}">
+                                        <a href="{{ route('t250sr2') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/编组 3.png') }}" alt="">
                                           <h3>250SR
                                           </h3>
@@ -252,14 +252,14 @@
                                           </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                            <a href="{{ route('450sr') }}">
+                                            <a href="{{ route('f450sr') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/450SR-1.png') }}" alt="">
                                              <h3>450SR
                                              </h3>
                                             </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                        <a href="{{ route('450srs') }}">
+                                        <a href="{{ route('f450srs') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/编组 3备份 9.png') }}" alt="">
                                           <h3>450SR S
                                           </h3>
@@ -271,42 +271,42 @@
                                                 <div class="wstheading clearfix">Classic</div>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                           <a href="{{ route('250clx') }}">
+                                           <a href="{{ route('t250clx') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/250CL-X_Nebula-Black.png') }}" alt="">
                                              <h3>250CL-X
                                              </h3>
                                            </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                            <a href="{{ route('300clx') }}">
+                                            <a href="{{ route('t300clx') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/300CL-X_Nebula-White.png') }}" alt="">
                                              <h3>300CL-X
                                              </h3>
                                             </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                          <a href="{{ route('450clc') }}">
+                                          <a href="{{ route('f450clc') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/model_2.png') }}" alt="">
                                              <h3>450CL-C
                                              </h3>
                                           </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                          <a href="{{ route('700clxheritage') }}">
+                                          <a href="{{ route('s700clxheritage') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-HERITAGE_Nebula-Black.png') }}" alt="">
                                              <h3>700CL-X HERITAGE
                                              </h3>
                                           </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                            <a href="{{ route('700clxsport') }}">
+                                            <a href="{{ route('s700clxsport') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-SPORT_Nebula-White.png') }}" alt="">
                                              <h3>700CL-X SPORT
                                              </h3>
                                             </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                            <a href="{{ route('700clxadventur') }}">
+                                            <a href="{{ route('s700clxadventur') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-ADVENTURE_Aurora-Blue.png') }}" alt="">
                                              <h3>700CL-X ADVENTURE
                                              </h3>
@@ -318,35 +318,35 @@
                                                 <div class="wstheading clearfix">Mult-Touring</div>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                          <a href="{{ route('650mt') }}">
+                                          <a href="{{ route('s650mt') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/650MT_Athens-Blue.png') }}" alt="">
                                              <h3>650MT
                                              </h3>
                                           </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                       <a href="{{ route('700mt') }}">
+                                       <a href="{{ route('s700mt') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/700MT_Nebula-White_Right.png') }}" alt="">
                                           <h3>700MT
                                           </h3>
                                        </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                     <a href="{{ route('800mtsport') }}">
+                                     <a href="{{ route('e800mtsport') }}">
                                        <img data-v-87eb4736="" src="{{ asset('assets/images/800MT-SPORT_Nebula-Black.png') }}" alt="">
                                        <h3>800MT SPORT 
                                        </h3>
                                      </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                        <a href="{{ route('800mttouring') }}">
+                                        <a href="{{ route('e800mttouring') }}">
                                           <img data-v-87eb4736="" src="{{ asset('assets/images/800MT-TOURING_Twilight-Blue.png') }}" alt="">
                                           <h3>800MT TOURING
                                           </h3>
                                         </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                          <a href="{{ route('800mtexplore') }}">
+                                          <a href="{{ route('e800mtexplore') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/800MT EXPLORE EDITION_Gem Black_Right.png') }}" alt="">
                                              <h3>800MT EXPLORE
                                              </h3>
@@ -385,7 +385,7 @@
                                                 <div class="wstheading clearfix">Grand Touring</div>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                          <a href="{{ route('650gt') }}">
+                                          <a href="{{ route('s650gt') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/gt650.png') }}" alt="">
                                              <h3>
                                                 650GT
