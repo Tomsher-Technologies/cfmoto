@@ -7,7 +7,7 @@
 
          <div class="row w-100">
             <div class="col-md-7">
-               <div data-v-43473ba4="" data-v-7b5f97a0="" class="contactUs_banner m-0"><img data-v-43473ba4="" src="assets/images/5th.jpg" alt="" class="contactUs_banner_img isPc"> <img data-v-43473ba4="" src="assets/images/contact_us_mobile.png" alt="" class="contactUs_banner_mobile_img isMobile"></div>
+               <div data-v-43473ba4="" data-v-7b5f97a0="" class="contactUs_banner m-0"><img data-v-43473ba4="" src="{{ asset('assets/images/5th.jpg') }}" alt="" class="contactUs_banner_img isPc"> <img data-v-43473ba4="" src="{{ asset('assets/images/contact_us_mobile.png') }}" alt="" class="contactUs_banner_mobile_img isMobile"></div>
 
             </div>
             <div class="col-md-5">

@@ -10,15 +10,15 @@
                   <div data-v-592e88dc="" class="swiper-slide swiper-slide-active" style="width: 1903px;">
                      <div data-v-592e88dc="" class="banner_player">
                         <video data-v-592e88dc="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" muted="muted" loop="loop" autoplay="autoplay" x5-playsinline="true">
-                           <source data-v-592e88dc="" src="assets/video/ride-banner.mp4" type="video/mp4">
-                           <source data-v-592e88dc="" src="assets/video/ride-banner.mp4" type="video/ogg">
+                           <source data-v-592e88dc="" src="{{ asset('assets/video/ride-banner.mp4') }}" type="video/mp4">
+                           <source data-v-592e88dc="" src="{{ asset('assets/video/ride-banner.mp4') }}" type="video/ogg">
                         </video>
                      </div>
                      <div data-v-592e88dc="" class="video_progress">
                         <svg data-v-592e88dc="">
                            <circle data-v-592e88dc="" cx="16" cy="16" r="14.5" style="stroke-dashoffset: -57.5297;"></circle>
                         </svg>
-                        <a data-v-592e88dc="" href="javascript:;" class="video_play stopBtn"><img data-v-592e88dc="" src="assets/images/stop.png" alt="" class="stopBtn"></a>
+                        <a data-v-592e88dc="" href="javascript:;" class="video_play stopBtn"><img data-v-592e88dc="" src="{{ asset('assets/images/stop.png') }}" alt="" class="stopBtn"></a>
                      </div>
                   </div>
                </div>
@@ -27,8 +27,8 @@
             <div data-v-592e88dc="" class="banner_scroll">
                <p data-v-592e88dc="" class="banner_scroll_text">Scroll</p>
                <picture data-v-592e88dc="">
-                  <source data-v-592e88dc="" media="(max-width:1080px)" srcset="assets/images/banner/scroll_mobile.png">
-                  <img data-v-592e88dc="" src="assets/images/scroll_new.png" alt="img" class="cf_banner_scroll">
+                  <source data-v-592e88dc="" media="(max-width:1080px)" srcset="{{ asset('assets/images/banner/scroll_mobile.png') }}">
+                  <img data-v-592e88dc="" src="{{ asset('assets/images/scroll_new.png') }}" alt="img" class="cf_banner_scroll">
                </picture>
             </div>
             <!---->
@@ -48,7 +48,7 @@
                <div data-v-639f58e2="" class="digital_main">
                   <div data-v-639f58e2="" class="digital_main_box">
                      <div data-v-639f58e2="" class="main_tips" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                        <div data-v-639f58e2="" class="main_tips_box"><img data-v-639f58e2="" src="assets/images/Digital-Key.png" alt="img" class="main_tips_icon"></div>
+                        <div data-v-639f58e2="" class="main_tips_box"><img data-v-639f58e2="" src="{{ asset('assets/images/Digital-Key.png') }}" alt="img" class="main_tips_icon"></div>
                         <p data-v-639f58e2="" class="main_tips_key">Digital Key</p>
                      </div>
                      <h3 data-v-639f58e2="" class="main_title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Non-inductive connection and quickly start the vehicle</h3>
@@ -356,9 +356,9 @@
                               </svg>
                            </div>
                         </div>
-                        <img data-v-639f58e2="" src="assets/images/digital_img.png" alt="img"> 
+                        <img data-v-639f58e2="" src="{{ asset('assets/images/digital_img.png') }}" alt="img"> 
                         <div data-v-639f58e2="" class="lock-box">
-                           <div data-v-639f58e2="" class="lock-con unlock"><img data-v-639f58e2="" src="assets/images//Arc.png" alt="img" class="arc-header"> <img data-v-639f58e2="" src="assets/images//anchor.png" alt="img" class="arc-body"></div>
+                           <div data-v-639f58e2="" class="lock-con unlock"><img data-v-639f58e2="" src="{{ asset('assets/images//Arc.png') }}" alt="img" class="arc-header"> <img data-v-639f58e2="" src="{{ asset('assets/images//anchor.png') }}" alt="img" class="arc-body"></div>
                         </div>
                      </div>
                   </div>
@@ -383,33 +383,33 @@
                   <p data-v-ccf46a22="" class="smart-des no_postcss_to_px">CFMOTO first-generation intelligent interactive center, the latest technological innovation, brings a full-sensory immersive driving experience.</p>
                </div>
                <div data-v-ccf46a22="" class="smart-main">
-                  <button data-v-ccf46a22="" class="ride-swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><img data-v-ccf46a22="" src="/etc/designs/cfmoto/assets/product/circle_left_new.png" alt="" srcset=""></button> 
+                  <button data-v-ccf46a22="" class="ride-swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><img data-v-ccf46a22="" src="/etc/designs/cfmoto/assets/product/circle_left_new.png') }}" alt="" srcset=""></button> 
                   <div data-v-ccf46a22="" class="swiper-container ride-swiper swiper-container-initialized swiper-container-horizontal">
                      <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1560px, 0px, 0px);">
                         <div data-v-ccf46a22="" class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" style="width: 1560px;" data-swiper-slide-index="1">
-                           <div data-v-ccf46a22="" class="swiper-img"><img data-v-ccf46a22="" src="assets/images/Motoplay.png" alt=""></div>
+                           <div data-v-ccf46a22="" class="swiper-img"><img data-v-ccf46a22="" src="{{ asset('assets/images/Motoplay.png') }}" alt=""></div>
                         </div>
                         <div data-v-ccf46a22="" class="swiper-slide swiper-slide-active" style="width: 1560px;" data-swiper-slide-index="0">
                            <div data-v-ccf46a22="" class="swiper-video">
                               <video data-v-ccf46a22="" preload="auto" webkit-playsinline="true" autoplay="autoplay" x-webkit-airplay="true" playsinline="" muted="muted" loop="loop" x5-playsinline="true" class="video-player">
-                                 <source data-v-ccf46a22="" src="assets/video/MMI.mp4" type="video/mp4">
+                                 <source data-v-ccf46a22="" src="{{ asset('assets/video/MMI.mp4') }}" type="video/mp4">
                               </video>
                            </div>
                         </div>
                         <div data-v-ccf46a22="" class="swiper-slide swiper-slide-next swiper-slide-duplicate-prev" style="width: 1560px;" data-swiper-slide-index="1">
-                           <div data-v-ccf46a22="" class="swiper-img"><img data-v-ccf46a22="" src="assets/images/Motoplay.png" alt=""></div>
+                           <div data-v-ccf46a22="" class="swiper-img"><img data-v-ccf46a22="" src="{{ asset('assets/images/Motoplay.png') }}" alt=""></div>
                         </div>
                         <div data-v-ccf46a22="" class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 1560px;" data-swiper-slide-index="0">
                            <div data-v-ccf46a22="" class="swiper-video">
                               <video data-v-ccf46a22="" preload="auto" webkit-playsinline="true" autoplay="autoplay" x-webkit-airplay="true" playsinline="" muted="muted" loop="loop" x5-playsinline="true" class="video-player">
-                                 <source data-v-ccf46a22="" src="assets/video/MMI.mp4" type="video/mp4">
+                                 <source data-v-ccf46a22="" src="{{ asset('assets/video/MMI.mp4') }}" type="video/mp4">
                               </video>
                            </div>
                         </div>
                      </div>
                      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                   </div>
-                  <button data-v-ccf46a22="" class="ride-swiper-next" tabindex="0" role="button" aria-label="Next slide"><img data-v-ccf46a22="" src="/etc/designs/cfmoto/assets/product/circle_right_new.png" alt="" srcset=""></button>
+                  <button data-v-ccf46a22="" class="ride-swiper-next" tabindex="0" role="button" aria-label="Next slide"><img data-v-ccf46a22="" src="/etc/designs/cfmoto/assets/product/circle_right_new.png') }}" alt="" srcset=""></button>
                </div>
             </div>
          </main>
@@ -424,7 +424,7 @@
             <div data-v-0826730e="" class="navigation_main">
                <div data-v-0826730e="" class="navigation_main_box">
                   <div data-v-0826730e="" class="main_tips" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <div data-v-0826730e="" class="main_tips_box"><img data-v-0826730e="" src="assets/images/Navigation.png" alt="img" class="main_tips_icon"></div>
+                     <div data-v-0826730e="" class="main_tips_box"><img data-v-0826730e="" src="{{ asset('assets/images/Navigation.png') }}" alt="img" class="main_tips_icon"></div>
                      <p data-v-0826730e="" class="main_tips_key">Navigation</p>
                   </div>
                   <h3 data-v-0826730e="" class="main_title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Guide your way</h3>
@@ -434,8 +434,8 @@
                   <p data-v-0826730e=""> Navigation</p>
                </h2>
                <div data-v-0826730e="" class="navigation_relevance">
-                  <div data-v-0826730e="" class="relevance_phone" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-0826730e="" src="assets/images/guide_phone.png" alt="img"></div>
-                  <div data-v-0826730e="" class="relevance_img" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-0826730e="" src="assets/images/guide_map.png" alt="img"></div>
+                  <div data-v-0826730e="" class="relevance_phone" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-0826730e="" src="{{ asset('assets/images/guide_phone.png') }}" alt="img"></div>
+                  <div data-v-0826730e="" class="relevance_img" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-0826730e="" src="{{ asset('assets/images/guide_map.png') }}" alt="img"></div>
                </div>
             </div>
          </div>
@@ -449,12 +449,12 @@
          <div data-v-47dda5a6="" data-v-29b2ca84="" id="rideTrailRoute" class="trail_route page-guide page-guide-num4">
             <div data-v-47dda5a6="" class="trail_route_main">
                <div data-v-47dda5a6="" class="trail_route_relevance">
-                  <div data-v-47dda5a6="" class="relevance-moto" style="translate: none; rotate: none; scale: none; transform: translate(0%, -50%) translate(0px, 0.008px); opacity: 1;"><img data-v-47dda5a6="" src="assets/images/Trail-route-img.png" alt="img"></div>
-                  <div data-v-47dda5a6="" class="relevance-phone" style="translate: none; rotate: none; scale: none; transform: translate(0%, -50%) translate(0px, 0.008px); opacity: 1;"><img data-v-47dda5a6="" src="assets/images/Trail-route-phone.png" alt="img"></div>
+                  <div data-v-47dda5a6="" class="relevance-moto" style="translate: none; rotate: none; scale: none; transform: translate(0%, -50%) translate(0px, 0.008px); opacity: 1;"><img data-v-47dda5a6="" src="{{ asset('assets/images/Trail-route-img.png') }}" alt="img"></div>
+                  <div data-v-47dda5a6="" class="relevance-phone" style="translate: none; rotate: none; scale: none; transform: translate(0%, -50%) translate(0px, 0.008px); opacity: 1;"><img data-v-47dda5a6="" src="{{ asset('assets/images/Trail-route-phone.png') }}" alt="img"></div>
                </div>
                <div data-v-47dda5a6="" class="trail_route_main_box">
                   <div data-v-47dda5a6="" class="main_tips" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <div data-v-47dda5a6="" class="main_tips_box"><img data-v-47dda5a6="" src="assets/images/Navigation.png" alt="img" class="main_tips_icon"></div>
+                     <div data-v-47dda5a6="" class="main_tips_box"><img data-v-47dda5a6="" src="{{ asset('assets/images/Navigation.png') }}" alt="img" class="main_tips_icon"></div>
                      <p data-v-47dda5a6="" class="main_tips_key">Trail route</p>
                   </div>
                   <h3 data-v-47dda5a6="" class="main_title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Massive trail routes allow you to play outdoors as you like</h3>
@@ -463,7 +463,7 @@
                         MMI provides route memory and Trail navigation without fear of complex road conditions, allowing you to play dff outdoors as you like
                      </p>
                   </div>
-                  <div data-v-47dda5a6="" class="relevance-imap" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-47dda5a6="" src="assets/images/Trail-route-map.png" alt="img"></div>
+                  <div data-v-47dda5a6="" class="relevance-imap" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-47dda5a6="" src="{{ asset('assets/images/Trail-route-map.png') }}" alt="img"></div>
                </div>
                <h2 data-v-47dda5a6="" class="main-keyword" style="opacity: 1;">
                   <p data-v-47dda5a6="">Trail route</p>
@@ -489,7 +489,7 @@
                            </div>
                         </div>
                         <video data-v-32a76436="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" muted="muted" loop="loop" x5-playsinline="true" class="video-player">
-                           <source data-v-32a76436="" src="assets/video/Carplay.mp4" type="video/mp4">
+                           <source data-v-32a76436="" src="{{ asset('assets/video/Carplay.mp4')}}" type="video/mp4">
                         </video>
                      </div>
                      <div data-v-32a76436="" class="swiper-slide swiper-slide-next" style="width: 1903px;">
@@ -544,7 +544,7 @@
             <div data-v-3fa70cd2="" class="assistance_main_top">
                <div data-v-3fa70cd2="" class="assistance_main_box">
                   <div data-v-3fa70cd2="" class="main_tips" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <div data-v-3fa70cd2="" class="main_tips_box"><img data-v-3fa70cd2="" src="assets/images/BSD-LCAx.png" alt="" class="main_tips_icon"></div>
+                     <div data-v-3fa70cd2="" class="main_tips_box"><img data-v-3fa70cd2="" src="{{ asset('assets/images/BSD-LCAx.png') }}" alt="" class="main_tips_icon"></div>
                      <p data-v-3fa70cd2="" class="main_tips_key">ARAS</p>
                   </div>
                   <h3 data-v-3fa70cd2="" class="main_title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Advanced rider assistance system</h3>
@@ -553,27 +553,27 @@
                <h2 data-v-3fa70cd2="" class="main-keyword" style="opacity: 0.4;"> ARAS 
                   LCA+RCW
                </h2>
-               <div data-v-3fa70cd2="" class="relevance-img" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-3fa70cd2="" src="assets/images/assistance-01.png" alt=""></div>
+               <div data-v-3fa70cd2="" class="relevance-img" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-01.png') }}" alt=""></div>
             </div>
             <div data-v-3fa70cd2="" class="assistance_relevance" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                <div data-v-3fa70cd2="" class="relevance-videos pc">
                   <div data-v-3fa70cd2="" class="videos-items" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                      <div data-v-3fa70cd2="" class="video-box">
-                        <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="assets/images/assistance-bsd.png" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png" alt=""></button></div>
+                        <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-bsd.png') }}" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png') }}" alt=""></button></div>
                         <p data-v-3fa70cd2="" class="video-tip">BSD</p>
                      </div>
                      <article data-v-3fa70cd2="" class="video-des no_postcss_to_px">Blind Spot Detection (BSD) system offers real-time information on what is happening in the blind spots around the vehicle via light(on dashboard) and sound warning, and improve driving safety.</article>
                   </div>
                   <div data-v-3fa70cd2="" class="videos-items" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                      <div data-v-3fa70cd2="" class="video-box">
-                        <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="assets/images/assistance-lca.png" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png" alt=""></button></div>
+                        <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-lca.png') }}" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png') }}" alt=""></button></div>
                         <p data-v-3fa70cd2="" class="video-tip">LCA</p>
                      </div>
                      <article data-v-3fa70cd2="" class="video-des no_postcss_to_px">Lane Changing Assist (LCA) warns motorists about approaching vehicles in adjacent lanes and provide an audible and/or visual(on dashboard)warning to help you make a safe lane change.</article>
                   </div>
                   <div data-v-3fa70cd2="" class="videos-items" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
                      <div data-v-3fa70cd2="" class="video-box">
-                        <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="assets/images/assistance-rcw.png" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png" alt=""></button></div>
+                        <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-rcw.png') }}" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png') }}" alt=""></button></div>
                         <p data-v-3fa70cd2="" class="video-tip">RCW</p>
                      </div>
                      <article data-v-3fa70cd2="" class="video-des no_postcss_to_px">Rear Collision Warning (RCW) scans the rear area and warns you of a vehicle approaching from behind by rapid signal flash(on dashboard) to avoid rear-end collision.</article>
@@ -585,7 +585,7 @@
                         <div data-v-3fa70cd2="" class="swiper_slide swiper-slide">
                            <div data-v-3fa70cd2="" class="videos-items">
                               <div data-v-3fa70cd2="" class="video-box">
-                                 <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="assets/images/assistance-bsd.png" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png" alt=""></button></div>
+                                 <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-bsd.png') }}" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png') }}" alt=""></button></div>
                                  <p data-v-3fa70cd2="" class="video-tip">BSD</p>
                               </div>
                               <article data-v-3fa70cd2="" class="video-des">Blind Spot Detection (BSD) system offers real-time information on what is happening in the blind spots around the vehicle via light(on dashboard) and sound warning, and improve driving safety.</article>
@@ -594,7 +594,7 @@
                         <div data-v-3fa70cd2="" class="swiper_slide swiper-slide">
                            <div data-v-3fa70cd2="" class="videos-items">
                               <div data-v-3fa70cd2="" class="video-box">
-                                 <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="assets/images/assistance-lca.png" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png" alt=""></button></div>
+                                 <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-lca.png') }}" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png') }}" alt=""></button></div>
                                  <p data-v-3fa70cd2="" class="video-tip">LCA</p>
                               </div>
                               <article data-v-3fa70cd2="" class="video-des">Lane Changing Assist (LCA) warns motorists about approaching vehicles in adjacent lanes and provide an audible and/or visual(on dashboard)warning to help you make a safe lane change.</article>
@@ -603,7 +603,7 @@
                         <div data-v-3fa70cd2="" class="swiper_slide swiper-slide">
                            <div data-v-3fa70cd2="" class="videos-items">
                               <div data-v-3fa70cd2="" class="video-box">
-                                 <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="assets/images/assistance-rcw.png" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png" alt=""></button></div>
+                                 <div data-v-3fa70cd2="" class="video-player"><img data-v-3fa70cd2="" src="{{ asset('assets/images/assistance-rcw.png') }}" alt="" class="video-poster"> <button data-v-3fa70cd2="" class="video-play"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/common/play-1.png') }}" alt=""></button></div>
                                  <p data-v-3fa70cd2="" class="video-tip">RCW</p>
                               </div>
                               <article data-v-3fa70cd2="" class="video-des">Rear Collision Warning (RCW) scans the rear area and warns you of a vehicle approaching from behind by rapid signal flash(on dashboard) to avoid rear-end collision.</article>
@@ -617,7 +617,7 @@
             </div>
             <div data-v-3fa70cd2="" class="van-overlay" style="z-index: 999; display: none;">
                <div data-v-3fa70cd2="" class="wrapper">
-                  <button data-v-3fa70cd2="" class="wrapper-close"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/product/circle_close_new.png" alt=""></button> 
+                  <button data-v-3fa70cd2="" class="wrapper-close"><img data-v-3fa70cd2="" src="/etc/designs/cfmoto/assets/product/circle_close_new.png') }}" alt=""></button> 
                   <video data-v-3fa70cd2="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" loop="loop" x5-playsinline="true" controls="controls" class="video-player">
                      <source data-v-3fa70cd2="" src="" type="video/mp4">
                   </video>
@@ -639,7 +639,7 @@
                         <span data-v-0e345f00="" class="bar-number">100%</span> 
                         <div data-v-0e345f00="" class="progress"><span data-v-0e345f00="" class="progress-in" style="width: 100%;"></span></div>
                      </div>
-                     <img data-v-0e345f00="" src="assets/images/upgrade-1.png" alt="img">
+                     <img data-v-0e345f00="" src="{{ asset('assets/images/upgrade-1.png') }}" alt="img">
                   </div>
                   <div data-v-0e345f00="" class="relevance-phone" style="translate: none; rotate: none; scale: none; transform: translate(0%, -50%) translate(0px, 0.008px); opacity: 1;">
                      <div data-v-0e345f00="" style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto;">
@@ -648,11 +648,11 @@
                               <clipPath id="__lottie_element_226">
                                  <rect width="346" height="742" x="0" y="0"></rect>
                               </clipPath>
-                              <image xlink:href="assets/images/img_0.png"></image>
-                              <image xlink:href="assets/images/img_1.png"></image>
-                              <image xlink:href="assets/images/img_2.png"></image>
-                              <image xlink:href="assets/images/img_3.png"></image>
-                              <image xlink:href="assets/images/img_4.png"></image>
+                              <image xlink:href="{{ asset('assets/images/img_0.png') }}"></image>
+                              <image xlink:href="{{ asset('assets/images/img_1.png') }}"></image>
+                              <image xlink:href="{{ asset('assets/images/img_2.png') }}"></image>
+                              <image xlink:href="{{ asset('assets/images/img_3.png') }}"></image>
+                              <image xlink:href="{{ asset('assets/images/img_4.png') }}"></image>
                               <clipPath id="__lottie_element_231">
                                  <path d="M0,0 L750,0 L750,1624 L0,1624z"></path>
                               </clipPath>
@@ -670,7 +670,7 @@
                            <g clip-path="url(#__lottie_element_226)">
                               <g clip-path="url(#__lottie_element_231)" transform="matrix(0.45197001099586487,0,0,0.45197001099586487,3.5112457275390625,4.0003662109375)" opacity="1" style="display: block;">
                                  <g class="png" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
-                                    <image width="750px" height="1624px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_4.png"></image>
+                                    <image width="750px" height="1624px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_4.png') }}"></image>
                                  </g>
                                  <g transform="matrix(1,0,0,1,391.5,1601)" opacity="1" style="display: block;">
                                     <g opacity="1" transform="matrix(1,0,0,1,0,0)">
@@ -1975,10 +1975,10 @@
                                     </g>
                                  </g>
                                  <g class="png" transform="matrix(0.8708502054214478,0.4915485382080078,-0.4915485382080078,0.8708502054214478,322.86309814453125,592.8745727539062)" opacity="1" style="display: block;">
-                                    <image width="238px" height="238px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_3.png"></image>
+                                    <image width="238px" height="238px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_3.png') }}"></image>
                                  </g>
                                  <g class="png" style="display: block;" transform="matrix(1,0,0,1,249,636)" opacity="0.9999906498495722">
-                                    <image width="238px" height="238px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_2.png"></image>
+                                    <image width="238px" height="238px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_2.png') }}"></image>
                                  </g>
                                  <g filter="url(#__lottie_element_257)" transform="matrix(1,0,0,1,368,756)" opacity="1" style="display: block;">
                                     <g opacity="1" transform="matrix(1,0,0,1,0,0)">
@@ -1991,22 +1991,22 @@
                                     </g>
                                  </g>
                                  <g class="png" style="display: block;" transform="matrix(1,0,0,1,321.5,719)" opacity="0.9999943460794488">
-                                    <image width="95px" height="70px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_1.png"></image>
+                                    <image width="95px" height="70px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_1.png') }}"></image>
                                  </g>
                                  <g class="png" transform="matrix(1,0,0,1,157.75,1024.25)" opacity="1" style="display: block;">
-                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_0.png"></image>
+                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_0.png') }}"></image>
                                  </g>
                                  <g class="png" transform="matrix(1,0,0,1,157.75,1094.25)" opacity="1" style="display: block;">
-                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_0.png"></image>
+                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_0.png') }}"></image>
                                  </g>
                                  <g class="png" transform="matrix(1,0,0,1,157.75,1160.75)" opacity="1" style="display: block;">
-                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_0.png"></image>
+                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_0.png') }}"></image>
                                  </g>
                                  <g class="png" transform="matrix(1,0,0,1,157.75,1229.75)" opacity="1" style="display: block;">
-                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_0.png"></image>
+                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_0.png') }}"></image>
                                  </g>
                                  <g class="png" transform="matrix(1,0,0,1,157.75,1297.75)" opacity="1" style="display: block;">
-                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="assets/images/img_0.png"></image>
+                                    <image width="36px" height="36px" preserveAspectRatio="xMidYMid slice" xlink:href="{{ asset('assets/images/img_0.png') }}"></image>
                                  </g>
                               </g>
                               <g transform="matrix(1,0,0,1,173,371)" opacity="1" style="display: block;">
@@ -2021,7 +2021,7 @@
                </div>
                <div data-v-0e345f00="" class="upgrade_main_box">
                   <div data-v-0e345f00="" class="main_tips" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <div data-v-0e345f00="" class="main_tips_box"><img data-v-0e345f00="" src="assets/images/OTA-upgrade.png" alt="img" class="main_tips_icon"></div>
+                     <div data-v-0e345f00="" class="main_tips_box"><img data-v-0e345f00="" src="{{ asset('assets/images/OTA-upgrade.png') }}" alt="img" class="main_tips_icon"></div>
                      <p data-v-0e345f00="" class="main_tips_key">OTA upgrade</p>
                   </div>
                   <h3 data-v-0e345f00="" class="main_title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Remotely controlled vehicle component upgrades</h3>
@@ -2046,7 +2046,7 @@
             <div data-v-40c9ad36="" class="ride-content-textInfo">
                <div data-v-40c9ad36="" class="textInfo-box">
                   <div data-v-40c9ad36="" class="main_tips" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <div data-v-40c9ad36="" class="main_tips_box"><img data-v-40c9ad36="" src="assets/images/Vehicle-reminder.png" alt="img" class="main_tips_icon"></div>
+                     <div data-v-40c9ad36="" class="main_tips_box"><img data-v-40c9ad36="" src="{{ asset('assets/images/Vehicle-reminder.png') }}" alt="img" class="main_tips_icon"></div>
                      <p data-v-40c9ad36="" class="main_tips_key">Vehicle reminder</p>
                   </div>
                   <h3 data-v-40c9ad36="" class="main_title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Set vehicle functions according to your needs</h3>
@@ -2054,28 +2054,28 @@
                </div>
                <div data-v-40c9ad36="" class="textInfo-tips">
                   <div data-v-40c9ad36="" class="tips—list" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <img data-v-40c9ad36="" src="assets/images/Vehicle location.png" alt="img" class="tips-img"> 
+                     <img data-v-40c9ad36="" src="{{ asset('assets/images/Vehicle location.png') }}" alt="img" class="tips-img"> 
                      <p data-v-40c9ad36="" class="tips-text no_postcss_to_px">Vehicle location</p>
                   </div>
                   <div data-v-40c9ad36="" class="tips—list" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <img data-v-40c9ad36="" src="assets/images/Electronic Fence.png" alt="img" class="tips-img"> 
+                     <img data-v-40c9ad36="" src="{{ asset('assets/images/Electronic Fence.png') }}" alt="img" class="tips-img"> 
                      <p data-v-40c9ad36="" class="tips-text no_postcss_to_px">Electronic Fence</p>
                   </div>
                   <div data-v-40c9ad36="" class="tips—list" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <img data-v-40c9ad36="" src="assets/images/Vehicle Message  Settings.png" alt="img" class="tips-img"> 
+                     <img data-v-40c9ad36="" src="{{ asset('assets/images/Vehicle Message  Settings.png') }}" alt="img" class="tips-img"> 
                      <p data-v-40c9ad36="" class="tips-text no_postcss_to_px">Vehicle Message Settings</p>
                   </div>
                   <div data-v-40c9ad36="" class="tips—list" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                     <img data-v-40c9ad36="" src="assets/images/Dashboard setting.png" alt="img" class="tips-img"> 
+                     <img data-v-40c9ad36="" src="{{ asset('assets/images/Dashboard setting.png') }}" alt="img" class="tips-img"> 
                      <p data-v-40c9ad36="" class="tips-text no_postcss_to_px">Dashboard setting</p>
                   </div>
                </div>
             </div>
             <div data-v-40c9ad36="" class="ride-content-phones">
-               <div data-v-40c9ad36="" class="content-phones" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-40c9ad36="" src="assets/images/Vehicle reminder_2.png" alt="img"></div>
-               <div data-v-40c9ad36="" class="content-phones" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-40c9ad36="" src="assets/images/Vehicle reminder_1.png" alt="img"></div>
+               <div data-v-40c9ad36="" class="content-phones" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-40c9ad36="" src="{{ asset('assets/images/Vehicle reminder_2.png') }}" alt="img"></div>
+               <div data-v-40c9ad36="" class="content-phones" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-40c9ad36="" src="{{ asset('assets/images/Vehicle reminder_1.png') }}" alt="img"></div>
             </div>
-            <div data-v-40c9ad36="" class="ride-content-moto" style="translate: none; rotate: none; scale: none; transform: translate(-168px, 0px); opacity: 1;"><img data-v-40c9ad36="" src="assets/images/Vehicle reminder_moto_950.png" alt="img"></div>
+            <div data-v-40c9ad36="" class="ride-content-moto" style="translate: none; rotate: none; scale: none; transform: translate(-168px, 0px); opacity: 1;"><img data-v-40c9ad36="" src="{{ asset('assets/images/Vehicle reminder_moto_950.png') }}" alt="img"></div>
             <h2 data-v-40c9ad36="" class="main-keyword" style="opacity: 0.4;">
                <p data-v-40c9ad36="">  Reminder  </p>
                <p data-v-40c9ad36="">  </p>
@@ -2090,27 +2090,27 @@
       <div data-v-f6cc46c0="" id="rideApp" class="rideApp-content page-guide page-guide-num9">
          <div data-v-f6cc46c0="" class="content-main">
             <div data-v-f6cc46c0="" class="main-phone" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-               <video data-v-f6cc46c0="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" muted="muted" x5-playsinline="true" poster="assets/images//app-ldownload.png" class="video-player" style="display: none;">
+               <video data-v-f6cc46c0="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" muted="muted" x5-playsinline="true" poster="{{ asset('assets/images//app-ldownload.png') }}" class="video-player" style="display: none;">
                   <source data-v-f6cc46c0="" src="/content/dam/cfmoto/site/global/ride/videos/APP.mp4" type="video/mp4">
                </video>
                <div data-v-f6cc46c0="" class="img-player" style="display: block;">
-                  <img data-v-f6cc46c0="" src="assets/images//APP.png" alt="" class="img-player-APPlogo"> 
+                  <img data-v-f6cc46c0="" src="{{ asset('assets/images//APP.png') }}" alt="" class="img-player-APPlogo"> 
                   <div data-v-f6cc46c0="" class="img-player-info">
                      <h3 data-v-f6cc46c0="">For more <br data-v-f6cc46c0="">experience,<br data-v-f6cc46c0="">please click the<br data-v-f6cc46c0="">button on the</h3>
                      <div data-v-f6cc46c0="" class="info-text">
                         <p data-v-f6cc46c0="">right to download</p>
-                        <img data-v-f6cc46c0="" src="assets/images//箭头.png" alt="">
+                        <img data-v-f6cc46c0="" src="{{ asset('assets/images//箭头.png') }}" alt="">
                      </div>
                   </div>
-                  <img data-v-f6cc46c0="" src="assets/images//CFMOTO.png" alt="" class="img-player-PClogo">
+                  <img data-v-f6cc46c0="" src="{{ asset('assets/images//CFMOTO.png') }}" alt="" class="img-player-PClogo">
                </div>
             </div>
-            <div data-v-f6cc46c0="" class="main-moto" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-f6cc46c0="" src="assets/images/app-ldownload-moto.png" alt=""></div>
+            <div data-v-f6cc46c0="" class="main-moto" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-f6cc46c0="" src="{{ asset('assets/images/app-ldownload-moto.png') }}" alt=""></div>
          </div>
          <div data-v-f6cc46c0="" class="main-info">
             <h3 data-v-f6cc46c0="" class="info-title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">CFMOTO RIDE APP</h3>
             <p data-v-f6cc46c0="" class="info-des no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">A professional application created for CFMOTO users, come and experience it together</p>
-            <div data-v-f6cc46c0="" class="app-downLoad" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-f6cc46c0="" href="https://apps.apple.com/us/app/cfmoto-ride/id1585964307"><img data-v-f6cc46c0="" src="assets/images/downLoad-app.png" alt=""></a><a data-v-f6cc46c0="" href="https://play.google.com/store/apps/details?id=com.cfmoto.cfmotointernational"><img data-v-f6cc46c0="" src="assets/images/downLoad-google.png" alt=""></a></div>
+            <div data-v-f6cc46c0="" class="app-downLoad" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-f6cc46c0="" href="https://apps.apple.com/us/app/cfmoto-ride/id1585964307"><img data-v-f6cc46c0="" src="{{ asset('assets/images/downLoad-app.png') }}" alt=""></a><a data-v-f6cc46c0="" href="https://play.google.com/store/apps/details?id=com.cfmoto.cfmotointernational"><img data-v-f6cc46c0="" src="{{ asset('assets/images/downLoad-google.png') }}" alt=""></a></div>
          </div>
          <h2 data-v-f6cc46c0="" class="main-keyword" style="opacity: 1;">
             <p data-v-f6cc46c0="">CFMOTO

@@ -24,7 +24,7 @@
                                  <svg data-v-1b348b13="">
                                     <circle data-v-1b348b13="" cx="16" cy="16" r="14.5" ></circle>
                                  </svg>
-                                 <a data-v-1b348b13="" href="javascript:;" class="video_play stopBtn"><img data-v-1b348b13="" src="assets/images/stop.png" alt="" class="stopBtn"> <img data-v-1b348b13="" src="assets/images/play.png" alt="" class="stopBtn" style="display: none;"></a>
+                                 <a data-v-1b348b13="" href="javascript:;" class="video_play stopBtn"><img data-v-1b348b13="" src="{{ asset('assets/images/stop.png') }}" alt="" class="stopBtn"> <img data-v-1b348b13="" src="{{ asset('assets/images/play.png') }}" alt="" class="stopBtn" style="display: none;"></a>
                               </div>
                            </div>
                         </div>
@@ -33,8 +33,8 @@
                      <div data-v-1b348b13="" class="banner_scroll">
                         <p data-v-1b348b13="" class="banner_scroll_text">Scroll</p>
                         <picture data-v-1b348b13="">
-                           <source data-v-1b348b13="" media="(max-width:1080px)" srcset="assets/images/banner/scroll_mobile.png">
-                           <img data-v-1b348b13="" src="assets/images/scroll_new.png" alt="" class="brand_banner_scroll">
+                           <source data-v-1b348b13="" media="(max-width:1080px)" srcset="{{ asset('assets/images/banner/scroll_mobile.png') }}">
+                           <img data-v-1b348b13="" src="{{ asset('assets/images/scroll_new.png') }}" alt="" class="brand_banner_scroll">
                         </picture>
                      </div>
                      <div data-v-1b348b13="" slot="pagination" class="banner-swiper-pagination"></div>
@@ -70,7 +70,7 @@
                      <div data-v-1c5364c2="" class="vision_text_img">vision</div>
                   </div>
                   <div data-v-1c5364c2="" class="cf_vision_content_r img_hover">
-                     <img data-v-1c5364c2="" src="assets/images/brandVoice_20230629.png" alt="img"> 
+                     <img data-v-1c5364c2="" src="{{ asset('assets/images/brandVoice_20230629.png') }}" alt="img"> 
                      <div data-v-1c5364c2="" class="img_text">
                         determined. progressive. more fun.
                      </div>
@@ -88,7 +88,7 @@
                   <p>CFMOTO is proud to offer the opportunity to expand the boundaries of our customers' enjoyment, providing them with high-quality, high-performance products, while being at the leading edge of industry design, trends and technology.</p>
                   <p></p>
                </div>
-               <img data-v-1c5364c2="" src="assets/images/brandVoice_20230629.png" alt="img" class="vision_img"> 
+               <img data-v-1c5364c2="" src="{{ asset('assets/images/brandVoice_20230629.png') }}" alt="img" class="vision_img"> 
                <div data-v-1c5364c2="" class="vision_text_img">vision</div>
             </div>
          </div>
@@ -116,7 +116,7 @@
                      <div data-v-1c5364c2="" class="vision_text_img">mission</div>
                   </div>
                   <div data-v-1c5364c2="" class="cf_vision_content_r img_hover">
-                     <img data-v-1c5364c2="" src="assets/images/x6_20230629.png" alt="img"> 
+                     <img data-v-1c5364c2="" src="{{ asset('assets/images/x6_20230629.png') }}" alt="img"> 
                      <div data-v-1c5364c2="" class="img_text">
                         determined. progressive. more fun.
                      </div>
@@ -134,7 +134,7 @@
                   <p>At the heart of our mission is the drive and curiosity to be courageous. It is this hunger to explore new possibilities and embrace change, that allows us to embrace a mindset of going further, aiming higher, and to explore more of our own potential.</p>
                   <p></p>
                </div>
-               <img data-v-1c5364c2="" src="assets/images/x6_20230629.png" alt="img" class="vision_img"> 
+               <img data-v-1c5364c2="" src="{{ asset('assets/images/x6_20230629.png') }}" alt="img" class="vision_img"> 
                <div data-v-1c5364c2="" class="vision_text_img">mission</div>
             </div>
          </div>
@@ -145,7 +145,7 @@
 <div class="brand-values-component">
    <div data-component="brand-values-component" data-initialized="true" class="brand_values_component">
       <div data-v-5b024440="" id="brand_ourValues" class="ourValues ourValues_box brandRelated_item page-guide page-guide-num3">
-         <img data-v-5b024440="" src="assets/images/ourValuesBg.png" alt="img" class="bgImg ourValues_bg isPc"> 
+         <img data-v-5b024440="" src="{{ asset('assets/images/ourValuesBg.png') }}" alt="img" class="bgImg ourValues_bg isPc"> 
          <div data-v-5b024440="" class="ourValues_content content">
             <div data-v-5b024440="" class="cf_ourValues">
                <div data-v-5b024440="" class="banner_swiper_container isPc">
@@ -166,7 +166,7 @@
                      <div data-v-5b024440="" class="cf_ourValues_content_b">
                         <div data-v-5b024440="" class="cf_ourValues_content_b_img">
                            <div data-v-5b024440="" class="cf_ourValues_content_b_img_l" >
-                              <div data-v-5b024440="" class="img_hover"><img data-v-5b024440="" src="assets/images/ourValues1.png" alt="img"></div>
+                              <div data-v-5b024440="" class="img_hover"><img data-v-5b024440="" src="{{ asset('assets/images/ourValues1.png') }}" alt="img"></div>
                               <p data-v-5b024440="" class="img_text">
                                  determined.
                               </p>
@@ -175,7 +175,7 @@
                               </p>
                            </div>
                            <div data-v-5b024440="" class="cf_ourValues_content_b_img_c" >
-                              <div data-v-5b024440="" class="img_hover"><img data-v-5b024440="" src="assets/images/ourValues2.png" alt="img"></div>
+                              <div data-v-5b024440="" class="img_hover"><img data-v-5b024440="" src="{{ asset('assets/images/ourValues2.png') }}" alt="img"></div>
                               <p data-v-5b024440="" class="img_text">
                                  progressive.
                               </p>
@@ -184,7 +184,7 @@
                               </p>
                            </div>
                            <div data-v-5b024440="" class="cf_ourValues_content_b_img_r" >
-                              <div data-v-5b024440="" class="img_hover"><img data-v-5b024440="" src="assets/images/ourValues3.png" alt="img"></div>
+                              <div data-v-5b024440="" class="img_hover"><img data-v-5b024440="" src="{{ asset('assets/images/ourValues3.png') }}" alt="img"></div>
                               <p data-v-5b024440="" class="img_text">
                                  more fun.
                               </p>
@@ -196,7 +196,7 @@
                      </div>
                   </div>
                </div>
-               <div data-v-5b024440="" class="banner_swiper_container_m cf_ourValues_content_m isMobile" style="background: url(&quot;assets/images/ourValuesBg_m.png&quot;) 0% 0% / 100% 100% no-repeat;">
+               <div data-v-5b024440="" class="banner_swiper_container_m cf_ourValues_content_m isMobile" style="background: url({{ asset('assets/images/ourValuesBg_m.png') }}) 0% 0% / 100% 100% no-repeat;">
                   <div data-v-5b024440="" class="second_title" >
                      <!---->
                      Determined, Progressive, 
@@ -209,7 +209,7 @@
                      <div data-v-5b024440="" class="swiper-container ourValues_swiper_container_box swiper-container-initialized swiper-container-horizontal">
                         <div class="swiper-wrapper" style="transition-duration: 0ms;">
                            <div data-v-5b024440="" class="ourvalue_swiper_slide swiper-slide" >
-                              <div data-v-5b024440="" class="ourValues_img img_hover"><img data-v-5b024440="" src="assets/images/ourValues1.png"></div>
+                              <div data-v-5b024440="" class="ourValues_img img_hover"><img data-v-5b024440="" src="{{ asset('assets/images/ourValues1.png') }}"></div>
                               <div data-v-5b024440="" class="ourValues_img_text">
                                  determined.
                               </div>
@@ -218,7 +218,7 @@
                               </div>
                            </div>
                            <div data-v-5b024440="" class="ourvalue_swiper_slide swiper-slide" >
-                              <div data-v-5b024440="" class="ourValues_img img_hover"><img data-v-5b024440="" src="assets/images/ourValues2.png"></div>
+                              <div data-v-5b024440="" class="ourValues_img img_hover"><img data-v-5b024440="" src="{{ asset('assets/images/ourValues2.png') }}"></div>
                               <div data-v-5b024440="" class="ourValues_img_text">
                                  progressive.
                               </div>
@@ -227,7 +227,7 @@
                               </div>
                            </div>
                            <div data-v-5b024440="" class="ourvalue_swiper_slide swiper-slide" >
-                              <div data-v-5b024440="" class="ourValues_img img_hover"><img data-v-5b024440="" src="assets/images/ourValues3.png"></div>
+                              <div data-v-5b024440="" class="ourValues_img img_hover"><img data-v-5b024440="" src="{{ asset('assets/images/ourValues3.png') }}"></div>
                               <div data-v-5b024440="" class="ourValues_img_text">
                                  more fun.
                               </div>
@@ -270,7 +270,7 @@
                         </div>
                      </div>
                   </div>
-                  <div data-v-28d715b3="" class="cf_promise_content_b"><img data-v-28d715b3="" src="assets/images/z10_20230629.png" alt="img"></div>
+                  <div data-v-28d715b3="" class="cf_promise_content_b"><img data-v-28d715b3="" src="{{ asset('assets/images/z10_20230629.png') }}" alt="img"></div>
                </div>
             </div>
             <div data-v-28d715b3="" class="banner_swiper_container_m cf_promise_content_m isMobile" style="">
@@ -285,7 +285,7 @@
                   <p>For that reason, CFMOTO strives to offer a portfolio of products to meet the needs of everyone, regardless of skill level and usage scenario. We encourage you to dream the wildest dream and explore the world, while we can be your loyal companion for everyday work and inner growth.</p>
                   <p></p>
                </div>
-               <img data-v-28d715b3="" src="assets/images/promise_m_20230629.png" alt="img" class="promise_img"> 
+               <img data-v-28d715b3="" src="{{ asset('assets/images/promise_m_20230629.png') }}" alt="img" class="promise_img"> 
                <div data-v-28d715b3="" class="description_bottom description" ></div>
             </div>
          </div>
@@ -309,7 +309,7 @@
                      <div data-v-1c5364c2="" class="vision_text_img">driving force</div>
                   </div>
                   <div data-v-1c5364c2="" class="cf_vision_content_r img_hover">
-                     <img data-v-1c5364c2="" src="assets/images/cfmoto450_20230629.png" alt="img"> 
+                     <img data-v-1c5364c2="" src="{{ asset('assets/images/cfmoto450_20230629.png') }}" alt="img"> 
                      <div data-v-1c5364c2="" class="img_text">
                         determined. progressive. more fun.
                      </div>
@@ -323,7 +323,7 @@
                   <span data-v-1c5364c2="" class="gradientColor">force</span>
                </div>
                <div data-v-1c5364c2="" class="description description_1" >CFMOTO, as a brand, encourages everyone from employees to customers, to push through boundaries and explore the world with like-minded people who share their passion for powersports.</div>
-               <img data-v-1c5364c2="" src="assets/images/cfmoto450_20230629.png" alt="img" class="vision_img"> 
+               <img data-v-1c5364c2="" src="{{ asset('assets/images/cfmoto450_20230629.png') }}" alt="img" class="vision_img"> 
                <div data-v-1c5364c2="" class="vision_text_img">driving force</div>
             </div>
          </div>
@@ -335,7 +335,7 @@
    <div data-component="introduce-campus-component" data-initialized="true" class="introduce_campus_component">
       <div data-v-9776c554="" class="brandRelated page-guide page-guide-num6">
          <div data-v-9776c554="" class="brandRelated_item our_brand_behavior our_brand_behavior_box">
-            <img data-v-9776c554="" src="assets/images/our_brand_behavior_bg.png" alt="" class="bgImg isPc our_brand_behavior_bg"> 
+            <img data-v-9776c554="" src="{{ asset('assets/images/our_brand_behavior_bg.png') }}" alt="" class="bgImg isPc our_brand_behavior_bg"> 
             <div data-v-9776c554="" class="content our_brand_behavior_content">
                <div data-v-9776c554="" class="brand_behavior ourBrandBehavior">
                   <div data-v-9776c554="" class="ourBrandBehavior_l">
@@ -376,7 +376,7 @@
                      <div data-v-9776c554="" class="ourBrandBehavior_r isPc">
                         <div data-v-9776c554="" class="text-img">our brand behavior</div>
                      </div>
-                     <img data-v-9776c554="" src="assets/images/our_brand_behavior_m.png" alt="img" class="isMobile ourBrandBehavior_m">
+                     <img data-v-9776c554="" src="{{ asset('assets/images/our_brand_behavior_m.png') }}" alt="img" class="isMobile ourBrandBehavior_m">
                   </div>
                </div>
             </div>

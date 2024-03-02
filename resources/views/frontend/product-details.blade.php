@@ -11,8 +11,8 @@
                         <div data-v-31789566="" class="swiper_slider swiper-slide swiper-slide-active" style="width: 1903px;">
                            <div data-v-31789566="" class="img_box">
                               <picture data-v-31789566="">
-                                 <source data-v-31789566="" media="(max-width: 1080px)" srcset="assets/images/CFORECE450-BANNER1.png">
-                                 <img data-v-31789566="" src="assets/images/CFORECE450-BANNER1.png" alt="">
+                                 <source data-v-31789566="" media="(max-width: 1080px)" srcset="assets/images/CFORECE450-BANNER1.png') }}">
+                                 <img data-v-31789566="" src="{{ asset('assets/images/CFORECE450-BANNER1.png') }}" alt="">
                               </picture>
                               <!---->
                            </div>
@@ -20,8 +20,8 @@
                         <div data-v-31789566="" class="swiper_slider swiper-slide swiper-slide-next" style="width: 1903px;">
                            <div data-v-31789566="" class="img_box">
                               <picture data-v-31789566="">
-                                 <source data-v-31789566="" media="(max-width: 1080px)" srcset="assets/images/CFORECE450-banner.png">
-                                 <img data-v-31789566="" src="assets/images/CFORECE450-banner.png" alt="">
+                                 <source data-v-31789566="" media="(max-width: 1080px)" srcset="{{ asset('assets/images/CFORECE450-banner.png') }}">
+                                 <img data-v-31789566="" src="{{ asset('assets/images/CFORECE450-banner.png') }}" alt="">
                               </picture>
                               <!---->
                            </div>
@@ -29,8 +29,8 @@
                         <div data-v-31789566="" class="swiper_slider swiper-slide" style="width: 1903px;">
                            <div data-v-31789566="" class="img_box">
                               <picture data-v-31789566="">
-                                 <source data-v-31789566="" media="(max-width: 1080px)" srcset="assets/images/CFORECE450-BANNER2.png">
-                                 <img data-v-31789566="" src="assets/images/CFORECE450-BANNER2.png" alt="">
+                                 <source data-v-31789566="" media="(max-width: 1080px)" srcset="{{ asset('assets/images/CFORECE450-BANNER2.png') }}">
+                                 <img data-v-31789566="" src="{{ asset('assets/images/CFORECE450-BANNER2.png') }}" alt="">
                               </picture>
                               <!---->
                            </div>
@@ -109,12 +109,12 @@
                   <div data-v-31789566="" class="banner_scroll">
                      <p data-v-31789566="" class="banner_scroll_text">Scroll</p>
                      <picture data-v-31789566="">
-                        <source data-v-31789566="" media="(max-width:1080px)" srcset="assets/images/banner/scroll_mobile.png">
-                        <img data-v-31789566="" src="assets/images/scroll_new.png" alt="" class="cf_banner_scroll">
+                        <source data-v-31789566="" media="(max-width:1080px)" srcset="{{ asset('assets/images/banner/scroll_mobile.png') }}">
+                        <img data-v-31789566="" src="{{ asset('assets/images/scroll_new.png') }}" alt="" class="cf_banner_scroll">
                      </picture>
                   </div>
                </div>
-               <div data-v-31789566="" class="scroll_mobile"><img data-v-31789566="" src="assets/images/scroll_mobile.png" alt=""></div>
+               <div data-v-31789566="" class="scroll_mobile"><img data-v-31789566="" src="{{ asset('assets/images/scroll_mobile.png') }}" alt=""></div>
             </div>
          </div>
       </div>
@@ -135,10 +135,10 @@
                   <!----> 
                   <div data-v-37a9a09f="" class="cf_full_specialty_img">
                      <div data-v-37a9a09f="" class="left_box">
-                        <img data-v-37a9a09f="" src="assets/images/CFORECE450_01.jpg"> <!---->
+                        <img data-v-37a9a09f="" src="{{ asset('assets/images/CFORECE450_01.jpg') }}"> <!---->
                      </div>
                      <div data-v-37a9a09f="" class="right_box">
-                        <img data-v-37a9a09f="" src="assets/images/CFORECE450_02.jpg"> <!---->
+                        <img data-v-37a9a09f="" src="{{ asset('assets/images/CFORECE450_02.jpg') }}"> <!---->
                      </div>
                   </div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_desc no_postcss_to_px" style="">Introducing the CFORCE 450, the ultimate value for money ATV. Powered by a reliable 400cc engine and equipped with a robust 4WD system, this all-terrain vehicle is designed to tackle any job with ease. Packed with work-ready features, the CFORCE 450 is the perfect companion for farmers and ranchers. With its durable construction and impressive performance, this ATV is built to handle tough tasks. Whether you need to haul loads, traverse rough trails, or navigate through muddy fields, the CFORCE 450 has the power and capability to get the job done. Experience unmatched value with the CFORCE 450, a versatile and reliable ATV that stands alone in delivering unbeatable performance and quality at an affordable price.</div>
@@ -154,7 +154,7 @@
                <div data-v-37a9a09f="" id="specialtyG7404DWH2EC8" class="cf-full_full_screen_pic">
                   <div data-v-37a9a09f="" class="cf_full_specialty_title mobile">400CC SINGLE-CYLINDER ENGINE</div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_title pc" style="">400CC SINGLE-CYLINDER ENGINE</div>
-                  <div data-v-37a9a09f="" class="cf_full_specialty_img"><img data-v-37a9a09f="" src="assets/images/CFORECE450_03.png"></div>
+                  <div data-v-37a9a09f="" class="cf_full_specialty_img"><img data-v-37a9a09f="" src="{{ asset('assets/images/CFORECE450_03.png') }}"></div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_desc no_postcss_to_px pc" style="">Designed to handle the demands of farmers and rural work, the CFORCE 450 ATV boasts a powerful 30 horsepower, 400cc engine equipped with Bosch Electronic Fuel Injection (EFI) for optimal efficiency and reliable performance. The Continuously Variable Transmission (CVT) allows for smooth gear shifts, making it easy to navigate through fields, pastures, and rugged terrain. Whether you need to transport heavy loads, navigate through uneven landscapes, or access hard-to-reach areas, its robust engine with 30hp and CVT transmission system are up to the task.</div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_desc mobile" style="">Designed to handle the demands of farmers and rural work, the CFORCE 450 ATV boasts a powerful 30 horsepower, 400cc engine equipped with Bosch Electronic Fuel Injection (EFI) for optimal efficiency and reliable performance. The Continuously Variable Transmission (CVT) allows for smooth gear shifts, making it easy to navigate through fields, pastures, and rugged terrain. Whether you need to transport heavy loads, navigate through uneven landscapes, or access hard-to-reach areas, its robust engine with 30hp and CVT transmission system are up to the task.</div>
                </div>
@@ -169,7 +169,7 @@
                <div data-v-37a9a09f="" id="specialty6FRS7JY3K2OY" class="cf-full_full_screen_pic">
                   <div data-v-37a9a09f="" class="cf_full_specialty_title mobile" style="">REFINEMENTS ACROSS THE BOARD</div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_title pc" style="">REFINEMENTS ACROSS THE BOARD</div>
-                  <div data-v-37a9a09f="" class="cf_full_specialty_img"><img data-v-37a9a09f="" src="assets/images/CFORECE450_04.png"></div>
+                  <div data-v-37a9a09f="" class="cf_full_specialty_img"><img data-v-37a9a09f="" src="{{ asset('assets/images/CFORECE450_04.png') }}"></div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_desc no_postcss_to_px pc" style="">With refinements in nearly every category, the newest generation CFORCE 450 and CFORCE 520 bring even more rugged capability to the CFMOTO family of ATVs. Infused with the right technology to work harder and smarter, the CFORCE 450 and 520 are outfitted for more utility performance than ever. With increased loading capacity, tighter turning radius, a stronger frame and even more suspension travel, the CFORCE 450 and 520 will take on your toughest tasks, and still be ready for fun when the work is done.</div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_desc mobile" style="">With refinements in nearly every category, the newest generation CFORCE 450 and CFORCE 520 bring even more rugged capability to the CFMOTO family of ATVs. Infused with the right technology to work harder and smarter, the CFORCE 450 and 520 are outfitted for more utility performance than ever. With increased loading capacity, tighter turning radius, a stronger frame and even more suspension travel, the CFORCE 450 and 520 will take on your toughest tasks, and still be ready for fun when the work is done.</div>
                </div>
@@ -187,10 +187,10 @@
                   <!----> 
                   <div data-v-37a9a09f="" class="cf_full_specialty_img">
                      <div data-v-37a9a09f="" class="left_box">
-                        <img data-v-37a9a09f="" src="assets/images/CFORECE450_10.png"> <!---->
+                        <img data-v-37a9a09f="" src="{{ asset('assets/images/CFORECE450_10.png') }}"> <!---->
                      </div>
                      <div data-v-37a9a09f="" class="right_box">
-                        <img data-v-37a9a09f="" src="assets/images/CFORECE450_11.png"> <!---->
+                        <img data-v-37a9a09f="" src="{{ asset('assets/images/CFORECE450_11.png') }}"> <!---->
                      </div>
                   </div>
                   <div data-v-37a9a09f="" class="cf_full_specialty_desc no_postcss_to_px" style="">The CFORCE 450 is a reliable workhorse for farmers, with a carrying capacity of up to 90 kg on front and rear high-intensity steel racks, and a towing capacity of up to 612 kg. Its durable construction and impressive hauling and towing capabilities make it ideal for transporting tools, equipment, feed, and crops, making farm tasks efficient and effective.</div>
@@ -247,18 +247,18 @@
                      </li>
                   </div>
                   <!----><!----> 
-                  <div data-v-3fb92384="" class="specification_operation" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-3fb92384="" href="#" target="_blank" class="moreLink no_postcss_to_px"><span data-v-3fb92384="">Compare</span> <img data-v-3fb92384="" src="assets/images/right_arrows.png" alt=""></a> <a data-v-3fb92384="" href="assets/images/11760" target="_blank" download="Specifications" class="bottom_box_downLink no_postcss_to_px"><img data-v-3fb92384="" src="assets/images/green_down-arrow.png" alt=""> <span data-v-3fb92384="">Download brochure</span></a></div>
+                  <div data-v-3fb92384="" class="specification_operation" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-3fb92384="" href="#" target="_blank" class="moreLink no_postcss_to_px"><span data-v-3fb92384="">Compare</span> <img data-v-3fb92384="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a> <a data-v-3fb92384="" href="assets/images/11760" target="_blank" download="Specifications" class="bottom_box_downLink no_postcss_to_px"><img data-v-3fb92384="" src="{{ asset('assets/images/green_down-arrow.png') }}" alt=""> <span data-v-3fb92384="">Download brochure</span></a></div>
                   <p data-v-3fb92384="" class="specification_tips no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span data-v-3fb92384="">*</span>
                      All figures are preliminary and subject to change.
                   </p>
                </div>
                <div data-v-3fb92384="" class="specification_box_right" style="translate: none; rotate: none; scale: none; transform: translate(0px, -360.492px); opacity: 1;">
                   <picture data-v-3fb92384="">
-                     <source data-v-3fb92384="" media="(min-width:1080px )" srcset="assets/images/CFORCE450_jscs.png">
-                     <img data-v-3fb92384="" src="assets/images/CFORCE450_jscs.png" alt="" class="specification_bg">
+                     <source data-v-3fb92384="" media="(min-width:1080px )" srcset="{{ asset('assets/images/CFORCE450_jscs.png') }}">
+                     <img data-v-3fb92384="" src="{{ asset('assets/images/CFORCE450_jscs.png') }}" alt="" class="specification_bg">
                   </picture>
                </div>
-               <img data-v-3fb92384="" src="assets/images/specification_bottom_slogan1.png" class="specification_bottom_slogan">
+               <img data-v-3fb92384="" src="{{ asset('assets/images/specification_bottom_slogan1.png') }}" class="specification_bottom_slogan">
             </div>
          </div>
       </div>
@@ -269,25 +269,25 @@
             <div data-v-2b0522ca="" class="gallery_top_box">
                <h1 data-v-2b0522ca="" class="gallery_tit">Gallery</h1>
                <p data-v-2b0522ca="" class="gallery_des no_postcss_to_px">Need to Download the latest series of picture,please click
-                  <a data-v-2b0522ca="" href="#" class="bottom_box_downLink"><img data-v-2b0522ca="" src="assets/images/green_down-arrow.png" alt=""> <span data-v-2b0522ca="">Download Center</span></a>
+                  <a data-v-2b0522ca="" href="#" class="bottom_box_downLink"><img data-v-2b0522ca="" src="{{ asset('assets/images/green_down-arrow.png') }}" alt=""> <span data-v-2b0522ca="">Download Center</span></a>
                </p>
             </div>
             <div class="swiper-container gallery-top">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img1.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img1.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img2.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img2.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img3.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img3.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img4.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img4.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img5.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img5.jpg') }}" alt=""></div>
                   </div>
                </div>
                <!-- Add Arrows -->
@@ -297,19 +297,19 @@
             <div class="swiper-container gallery-thumbs">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img1.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img1.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img2.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img2.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img3.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img3.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img4.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img4.jpg') }}" alt=""></div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="swiper-slide-container"><img src="assets/images/gallery-img5.jpg" alt=""></div>
+                     <div class="swiper-slide-container"><img src="{{ asset('assets/images/gallery-img5.jpg') }}" alt=""></div>
                   </div>
                </div>
             </div>

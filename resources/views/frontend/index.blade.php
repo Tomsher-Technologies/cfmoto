@@ -18,7 +18,7 @@
                                  <svg data-v-592e88dc="">
                                     <circle data-v-592e88dc="" cx="16" cy="16" r="14.5" style="stroke-dashoffset: -16.9581;"></circle>
                                  </svg>
-                                 <a data-v-592e88dc="" href="#" class="video_play stopBtn"><img data-v-592e88dc="" src="assets/images/stop.png" alt="" class="stopBtn"></a>
+                                 <a data-v-592e88dc="" href="#" class="video_play stopBtn"><img data-v-592e88dc="" src="{{ asset('assets/images/stop.png') }}" alt="" class="stopBtn"></a>
                               </div>
                            </div>
                         </div>
@@ -27,8 +27,8 @@
                      <div data-v-592e88dc="" class="banner_scroll">
                         <p data-v-592e88dc="" class="banner_scroll_text">Scroll</p>
                         <picture data-v-592e88dc="">
-                           <source data-v-592e88dc="" media="(max-width:1080px)" srcset="assets/images/banner/scroll_mobile.png">
-                           <img data-v-592e88dc="" src="assets/images/scroll_new.png" alt="img" class="cf_banner_scroll">
+                           <source data-v-592e88dc="" media="(max-width:1080px)" srcset="{{ asset('assets/images/banner/scroll_mobile.png') }}">
+                           <img data-v-592e88dc="" src="{{ asset('assets/images/scroll_new.png') }}" alt="img" class="cf_banner_scroll">
                         </picture>
                      </div>
                      <!---->
@@ -48,20 +48,20 @@
          <div class="wrapper">
             <div class="content2">
                <div class="bg-shape">
-                  <img src="assets/images/rotate-image.jpg" alt="">
+                  <img src="{{ asset('assets/images/rotate-image.jpg') }}" alt="">
                </div>
                <div class="product-img">
                   <div class="product-img__item" id="img1">
-                     <img src="assets/images/MY2024_UFORCE_1000_XL_Desert_Tan_Right.png" alt="star wars" class="product-img__img">
+                     <img src="{{ asset('assets/images/MY2024_UFORCE_1000_XL_Desert_Tan_Right.png') }}" alt="star wars" class="product-img__img">
                   </div>
                   <div class="product-img__item" id="img2">
-                     <img src="assets/images/MY2024_ZFORCE_950_SPORT_Magma_Red_Right (1).png" alt="star wars" class="product-img__img">
+                     <img src="{{ asset('assets/images/MY2024_ZFORCE_950_SPORT_Magma_Red_Right (1).png') }}" alt="star wars" class="product-img__img">
                   </div>
                   <div class="product-img__item" id="img3">
-                     <img src="assets/images/MY2024_UFORCE_1000_XL_Desert_Tan_Right (2).png" alt="star wars" class="product-img__img">
+                     <img src="{{ asset('assets/images/MY2024_UFORCE_1000_XL_Desert_Tan_Right (2).png') }}" alt="star wars" class="product-img__img">
                   </div>
                   <div class="product-img__item" id="img4">
-                     <img src="assets/images/MY2024_UFORCE_1000_XL_Desert_Tan_Right.png" alt="star wars" class="product-img__img">
+                     <img src="{{ asset('assets/images/MY2024_UFORCE_1000_XL_Desert_Tan_Right.png') }}" alt="star wars" class="product-img__img">
                   </div>
                </div>
                <div class="product-slider">
@@ -140,7 +140,7 @@
                   <div data-v-2c06fea9="" class="description no_postcss_to_px w-75">
 <div class="row align-items-center">
    <div class="col-md-4">
-      <div><img data-v-2c06fea9="" src="assets/images/moto-icon.png" alt="img"></div>
+      <div><img data-v-2c06fea9="" src="{{ asset('assets/images/moto-icon.png') }}" alt="img"></div>
    </div>
    <div class="col-md-8">
       <h2 class="mb-3">About Us</h2>
@@ -184,14 +184,14 @@
                         <p data-v-00f05126="" class="info_subhead no_postcss_to_px" >
                            CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3
                         </p>
-                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_info_more flex btn_hover no_postcss_to_px" ><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt="img"></a> 
+                        <a data-v-00f05126="" href="{{ route('news') }}" class="related_info_more flex btn_hover no_postcss_to_px" ><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img"></a> 
                         <div data-v-00f05126="" class="related_bg_text" >
                            News Information
                         </div>
                      </div>
                      <div data-v-00f05126="" class="related_container_img" >
                         <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
-                           <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/0 (9).jpg" alt="img"></div>
+                           <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/0 (9).jpg') }}" alt="img"></div>
                            <div data-v-00f05126="" class="items_graphic_pic_id">01</div>
                         </a>
                      </div>
@@ -201,7 +201,7 @@
                      <div data-v-00f05126="" class="related_container_items">
                         <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="items_graphic_pic">
-                              <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/5th.jpg" alt="img"></div>
+                              <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/5th.jpg') }}" alt="img"></div>
                               <div data-v-00f05126="" class="items_graphic_pic_id">
                                  02
                               </div>
@@ -212,7 +212,7 @@
                      <div data-v-00f05126="" class="related_container_items">
                         <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="items_graphic_pic">
-                              <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/goes.jpg" alt="img"></div>
+                              <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/goes.jpg') }}" alt="img"></div>
                               <div data-v-00f05126="" class="items_graphic_pic_id">
                                  03
                               </div>
@@ -223,7 +223,7 @@
                      <div data-v-00f05126="" class="related_container_items">
                         <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                            <div data-v-00f05126="" class="items_graphic_pic">
-                              <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/0.jpg" alt="img"></div>
+                              <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/0.jpg') }}" alt="img"></div>
                               <div data-v-00f05126="" class="items_graphic_pic_id">
                                  04
                               </div>
@@ -243,38 +243,38 @@
                         <div data-v-00f05126="" class="related-mobile">
                            <div data-v-00f05126="" class="related_new-item">
                               <p data-v-00f05126="" class="des_type">Jan 30, 2024</p>
-                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/0.jpg" alt=""></a> 
+                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/0.jpg') }}" alt=""></a> 
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">CFMOTO and Aspar Team will fight together for the Moto2 and Moto3 titles </h1>
                                  <h5 data-v-00f05126="" class="des_text">CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                               </div>
                            </div>
                            <div data-v-00f05126="" class="related_new-item">
                               <p data-v-00f05126="" class="des_type">Jan 21, 2024</p>
-                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/5th.jpg" alt=""></a> 
+                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/5th.jpg') }}" alt=""></a> 
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class </h1>
                                  <h5 data-v-00f05126="" class="des_text">CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                               </div>
                            </div>
                            <div data-v-00f05126="" class="related_new-item">
                               <p data-v-00f05126="" class="des_type">Jan 07, 2024</p>
-                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/goes.jpg" alt=""></a> 
+                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/goes.jpg') }}" alt=""></a> 
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">CFMOTO Completes Acquisition of the European Off-Road Brand GOES </h1>
                                  <h5 data-v-00f05126="" class="des_text">Hangzhou, China/ Rousset, France – 8th January, 2024</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                               </div>
                            </div>
                            <div data-v-00f05126="" class="related_new-item">
                               <p data-v-00f05126="" class="des_type">Sep 19, 2023</p>
-                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/0.jpg" alt=""></a> 
+                              <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/0.jpg') }}" alt=""></a> 
                               <div data-v-00f05126="" class="related_mobile_des">
                                  <h1 data-v-00f05126="" class="des_title">CFMOTO and Yamaha Reached an Agreement to Have a Joint Venture in China  </h1>
                                  <h5 data-v-00f05126="" class="des_text">CFMOTO and Yamaha have reached an agreement to have a joint venture in Zhuzhou,China. The name of the new business will be ZHUZHOU CF YAMAHA MOTOR CO.,LTD.(ZCYM).</h5>
-                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                                 <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                               </div>
                            </div>
                         </div>
@@ -303,14 +303,14 @@
                      <p data-v-0444c5bc="">CFMOTO</p>
                      <p data-v-0444c5bc="">GCC</p>
                   </div>
-                  <div data-v-0444c5bc="" class="about_top_badge"><img data-v-0444c5bc="" src="assets/images/badge_out.png" alt="img" class="badge_out"></div>
+                  <div data-v-0444c5bc="" class="about_top_badge"><img data-v-0444c5bc="" src="{{ asset('assets/images/badge_out.png') }}" alt="img" class="badge_out"></div>
                </div>
                <div data-v-0444c5bc="" class="cf_about_bottom">
                   <div data-v-0444c5bc="" class="about_bottom_box">
-                     <a data-v-0444c5bc="" href="{{ route('companyoverview') }}" class="about_bottom_moreLink no_postcss_to_px flex btn_hover" ><span data-v-0444c5bc="">Learn more</span> <img data-v-0444c5bc="" src="assets/images/right_arrows.png" alt="img"></a> 
+                     <a data-v-0444c5bc="" href="{{ route('companyoverview') }}" class="about_bottom_moreLink no_postcss_to_px flex btn_hover" ><span data-v-0444c5bc="">Learn more</span> <img data-v-0444c5bc="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img"></a> 
                      <picture data-v-0444c5bc="">
-                        <source data-v-0444c5bc="" media="(max-width:750px)" srcset="assets/images/about_bg_mobile.png">
-                        <img data-v-0444c5bc="" src="assets/images/about_bg.png" alt="img" class="about_bottom_bgBox">
+                        <source data-v-0444c5bc="" media="(max-width:750px)" srcset="{{ asset('assets/images/about_bg_mobile.png') }}">
+                        <img data-v-0444c5bc="" src="{{ asset('assets/images/about_bg.png') }}" alt="img" class="about_bottom_bgBox">
                      </picture>
                      <div data-v-0444c5bc="" class="about_bottom_text">DETERMINED. PROGRESSIVE. MORE FUN.  </div>
                   </div>
@@ -347,7 +347,7 @@
                   <h1 data-v-79df4e83="" class="cf_regional_bottom_title" >We are authorized dealer in GCC region</h1>
                   <div data-v-79df4e83="" class="cf_regional_list first" >
                      <div class="map-container">
-                        <img src="assets/images/world-map.png">
+                        <img src="{{ asset('assets/images/world-map.png') }}">
                 
   
 

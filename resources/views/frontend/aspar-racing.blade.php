@@ -50,14 +50,14 @@
               <p data-v-00f05126="" class="info_subhead no_postcss_to_px" >
                  CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3
               </p>
-              <a data-v-00f05126="" href="{{ route('news') }}" class="related_info_more flex btn_hover no_postcss_to_px" ><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt="img"></a> 
+              <a data-v-00f05126="" href="{{ route('news') }}" class="related_info_more flex btn_hover no_postcss_to_px" ><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img"></a> 
               <div data-v-00f05126="" class="related_bg_text" >
                  News Information
               </div>
            </div>
            <div data-v-00f05126="" class="related_container_img" >
               <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
-                 <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/0 (9).jpg" alt="img"></div>
+                 <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/0 (9).jpg') }}" alt="img"></div>
                  <div data-v-00f05126="" class="items_graphic_pic_id">01</div>
               </a>
            </div>
@@ -67,7 +67,7 @@
            <div data-v-00f05126="" class="related_container_items">
               <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                  <div data-v-00f05126="" class="items_graphic_pic">
-                    <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/5th.jpg" alt="img"></div>
+                    <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/5th.jpg') }}" alt="img"></div>
                     <div data-v-00f05126="" class="items_graphic_pic_id">
                        02
                     </div>
@@ -78,7 +78,7 @@
            <div data-v-00f05126="" class="related_container_items">
               <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                  <div data-v-00f05126="" class="items_graphic_pic">
-                    <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/goes.jpg" alt="img"></div>
+                    <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/goes.jpg') }}" alt="img"></div>
                     <div data-v-00f05126="" class="items_graphic_pic_id">
                        03
                     </div>
@@ -89,7 +89,7 @@
            <div data-v-00f05126="" class="related_container_items">
               <a data-v-00f05126="" href="{{ route('news') }}" class="related_container_items_graphic">
                  <div data-v-00f05126="" class="items_graphic_pic">
-                    <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="assets/images/0.jpg" alt="img"></div>
+                    <div data-v-00f05126="" class="imgBox"><img data-v-00f05126="" src="{{ asset('assets/images/0.jpg') }}" alt="img"></div>
                     <div data-v-00f05126="" class="items_graphic_pic_id">
                        04
                     </div>
@@ -109,38 +109,38 @@
               <div data-v-00f05126="" class="related-mobile">
                  <div data-v-00f05126="" class="related_new-item">
                     <p data-v-00f05126="" class="des_type">Jan 30, 2024</p>
-                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/0.jpg" alt=""></a> 
+                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/0.jpg') }}" alt=""></a> 
                     <div data-v-00f05126="" class="related_mobile_des">
                        <h1 data-v-00f05126="" class="des_title">CFMOTO and Aspar Team will fight together for the Moto2 and Moto3 titles </h1>
                        <h5 data-v-00f05126="" class="des_text">CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3</h5>
-                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                     </div>
                  </div>
                  <div data-v-00f05126="" class="related_new-item">
                     <p data-v-00f05126="" class="des_type">Jan 21, 2024</p>
-                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/5th.jpg" alt=""></a> 
+                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/5th.jpg') }}" alt=""></a> 
                     <div data-v-00f05126="" class="related_mobile_des">
                        <h1 data-v-00f05126="" class="des_title">Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class </h1>
                        <h5 data-v-00f05126="" class="des_text">CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class</h5>
-                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                     </div>
                  </div>
                  <div data-v-00f05126="" class="related_new-item">
                     <p data-v-00f05126="" class="des_type">Jan 07, 2024</p>
-                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/goes.jpg" alt=""></a> 
+                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/goes.jpg') }}" alt=""></a> 
                     <div data-v-00f05126="" class="related_mobile_des">
                        <h1 data-v-00f05126="" class="des_title">CFMOTO Completes Acquisition of the European Off-Road Brand GOES </h1>
                        <h5 data-v-00f05126="" class="des_text">Hangzhou, China/ Rousset, France – 8th January, 2024</h5>
-                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                     </div>
                  </div>
                  <div data-v-00f05126="" class="related_new-item">
                     <p data-v-00f05126="" class="des_type">Sep 19, 2023</p>
-                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="assets/images/0.jpg" alt=""></a> 
+                    <a data-v-00f05126="" href="" class="related_product_items"><img data-v-00f05126="" src="{{ asset('assets/images/0.jpg') }}" alt=""></a> 
                     <div data-v-00f05126="" class="related_mobile_des">
                        <h1 data-v-00f05126="" class="des_title">CFMOTO and Yamaha Reached an Agreement to Have a Joint Venture in China  </h1>
                        <h5 data-v-00f05126="" class="des_text">CFMOTO and Yamaha have reached an agreement to have a joint venture in Zhuzhou,China. The name of the new business will be ZHUZHOU CF YAMAHA MOTOR CO.,LTD.(ZCYM).</h5>
-                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="assets/images/right_arrows.png" alt=""></a></div>
+                       <div data-v-00f05126="" class="des_bottom"><a data-v-00f05126="" href="{{ route('news') }}" class="info_more_mobile flex"><span data-v-00f05126="">Learn more</span> <img data-v-00f05126="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a></div>
                     </div>
                  </div>
               </div>

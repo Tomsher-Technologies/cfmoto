@@ -20,7 +20,7 @@
                   <div class="col-lg-6">
                       <div class="about-left-image">
                           <figure class="top-left-img">
-                              <img src="assets/images/favicon.png" alt="">
+                              <img src="{{ asset('assets/images/favicon.png') }}" alt="">
                           </figure>
                           <div class="bottom-content">
                               <div class="img-year-content">
@@ -132,7 +132,7 @@
                             <div class="col-lg-5">
                          <div class="product-item text-center wrap-owner">
                                       <figure class="product-image">
-                                              <img src="assets/images/owner.png" alt="">
+                                              <img src="{{ asset('assets/images/owner.png') }}" alt="">
                                       </figure>
                                       <div class="product-content">
                                           <h5>H.E. MARWAN AL SHAALI</h5>
@@ -167,7 +167,7 @@
                   </div>
                            <div class="col-lg-6">
                           <figure>
-                              <img src="assets/images/map.jpg" alt="">
+                              <img src="{{ asset('assets/images/map.jpg') }}" alt="">
                           </figure>
                   </div>
               </div>
@@ -191,7 +191,7 @@
                   <div class="charge-step">
                      <a href="https://cfmoto-uae.com/" target="_blank">
                       <figure class="charging-step-img">
-                          <img src="assets/images/g-1.png" alt="">
+                          <img src="{{ asset('assets/images/g-1.png') }}" alt="">
                       </figure>
                   </a>
                       <div class="step-content">
@@ -202,7 +202,7 @@
                   <div class="charge-step">
                       <a href="https://www.alshaaliev.com/" target="_blank">
                       <figure class="charging-step-img">
-                          <img src="assets/images/g-2.png" alt="">
+                          <img src="{{ asset('assets/images/g-2.png') }}" alt="">
                       </figure>
                   </a>
                       <div class="step-content">
@@ -213,7 +213,7 @@
                   <div class="charge-step">
                       <a href="https://baicuae.com/" target="_blank">
                       <figure class="charging-step-img">
-                          <img src="assets/images/g-3.png" alt="">
+                          <img src="{{ asset('assets/images/g-3.png') }}" alt="">
                       </figure>
                   </a>
                       <div class="step-content">
@@ -224,7 +224,7 @@
                   <div class="charge-step">
                        <a href="https://www.ixmoto.com/" target="_blank">
                       <figure class="charging-step-img">
-                          <img src="assets/images/g-4.png" alt="">
+                          <img src="{{ asset('assets/images/g-4.png') }}" alt="">
                       </figure>
                   </a>
                       <div class="step-content">
