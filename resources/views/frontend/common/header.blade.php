@@ -306,7 +306,7 @@
                                             </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                            <a href="{{ route('s700clxadventur') }}">
+                                            <a href="{{ route('s700clxadventure') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-ADVENTURE_Aurora-Blue.png') }}" alt="">
                                              <h3>700CL-X ADVENTURE
                                              </h3>
