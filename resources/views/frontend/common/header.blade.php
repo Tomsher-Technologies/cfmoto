@@ -436,9 +436,18 @@
                      </li>
                      <li aria-haspopup="true"><a href="news.html" class="navtext"> <span>News</span></a>
                      </li>
-                     <li aria-haspopup="true"><a href="racing.html" class="navtext"><span>CFMOTO Racing</span></a>
-                     </li>
+                     <li aria-haspopup="true" class="dropdown">
+                        <a class="dropdown-toggle navtext" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           CFMOTO Racing
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="aspar-racing.html">CFMOTO Aspar Racing Team </a></li>
+                          <li><a class="dropdown-item" href="racing.html">CFMOTO Thundering Racing Team</a></li>
+                        </ul>
+                      </li>
                      <li aria-haspopup="true"><a href="ride.html" class="navtext"> <span>CFMOTO Ride</span></a>
+                 
+                        
                      <li aria-haspopup="true"><a href="brands.html" class="navtext"> <span>Brand</span></a>
                      <li aria-haspopup="true"><a href="company-overview.html" class="navtext"> <span> About Us</span></a>
                      </li>

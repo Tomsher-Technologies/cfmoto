@@ -118,7 +118,7 @@
                                                          <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
                                                          <span class="el-input__suffix">
                                                             <span class="el-input__suffix-inner">
-                                                               <i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
+                                                               <i class="el-select_caret el-input_icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
                                                             </span>
                                                             <!---->
                                                          </span>
@@ -126,8 +126,8 @@
                                                       </div>
                                                       <div class="el-select-dropdown el-popper" style="display: none;">
                                                          <div class="el-scrollbar" style="">
-                                                            <div class="el-select-dropdown__wrap el-scrollbar__wrap">
-                                                               <ul class="el-scrollbar__view el-select-dropdown__list">
+                                                            <div class="el-select-dropdown_wrap el-scrollbar_wrap">
+                                                               <ul class="el-scrollbar_view el-select-dropdown_list">
                                                                   <!---->
                                                                   <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
                                                                   <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
@@ -158,7 +158,7 @@
                                                 <!---->
                                                 <div class="el-form-item__content">
                                                    <label data-v-5758fa05="" class="el-checkbox">
-                                                      <span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value=""></span>
+                                                      <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                       <span class="el-checkbox__label">
                                                          <div data-v-5758fa05="">
                                                             By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
@@ -256,7 +256,7 @@
                                                    <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
                                                    <span class="el-input__suffix">
                                                       <span class="el-input__suffix-inner">
-                                                         <i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
+                                                         <i class="el-select_caret el-input_icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
                                                       </span>
                                                       <!---->
                                                    </span>
@@ -264,8 +264,8 @@
                                                 </div>
                                                 <div class="el-select-dropdown el-popper" style="display: none;">
                                                    <div class="el-scrollbar" style="">
-                                                      <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
-                                                         <ul class="el-scrollbar__view el-select-dropdown__list">
+                                                      <div class="el-select-dropdown_wrap el-scrollbar_wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                                         <ul class="el-scrollbar_view el-select-dropdown_list">
                                                             <!---->
                                                             <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
                                                             <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
@@ -313,7 +313,7 @@
                                           <!---->
                                           <div class="el-form-item__content">
                                              <label data-v-5758fa05="" class="el-checkbox">
-                                                <span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value=""></span>
+                                                <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                 <span class="el-checkbox__label">
                                                    <div data-v-5758fa05="">
                                                       By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
