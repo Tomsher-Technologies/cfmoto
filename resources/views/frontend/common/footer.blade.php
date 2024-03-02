@@ -4,9 +4,9 @@
             <div data-v-5758fa05="" class="cf_footer_nav">
                <div class="d-block pb-5 mb-5 text-center" style="border-bottom: 1px solid #ccc;">
                   
-               <span>                     <img src="assets/images/alshali-moto.png" class="alshli-logo me-5"  alt=""></span>
+               <span>                     <img src="{{ asset('assets/images/alshali-moto.png') }}" class="alshli-logo me-5"  alt=""></span>
        
-               <span>                     <img src="assets/images/cfmoto-logo-block.png" class="alshli-logo" alt=""></span>
+               <span>                     <img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" class="alshli-logo" alt=""></span>
                </div>
 
                <ul data-v-5758fa05="" class="footer_list p-0">
@@ -65,7 +65,7 @@
                      Subscribe
                      <div data-v-5758fa05="" class="pc mt-3">
                         <div data-v-5758fa05="" class="cf_footer_subscribe">
-                           <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="assets/images/right_arrows.png" alt=""></button> <!----> 
+                           <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
                            <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
                               <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_wrap">
                                  <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
@@ -183,7 +183,7 @@
                                                       <!----><!---->
                                                       <span>
                                                          Subscribe
-                                                         <!----> <img data-v-5758fa05="" src="assets/images/right_arrows.png" alt="" class="btn_hover">
+                                                         <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
                                                       </span>
                                                    </button>
                                                    <!---->
@@ -196,14 +196,14 @@
                               </div>
                            </div>
                         </div>
-                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="assets/images/facebook备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/facebook-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="assets/images/youtube备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/youtube-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="assets/images/instagram备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/instagram-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="assets/images/linkedin-white.png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/linkedin-white.png" alt="" class="hover"></a>
+                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/1250TR-G.png') }}assets/images/youtube-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="assets/images/instagram备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/1250TR-G.png') }}assets/images/instagram-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>
                      </div>
                   </li>
                </ul>
                <div data-v-5758fa05="" class="mobile subscribe_input_wrap">
                   <a data-v-5758fa05="" href="/global/media-center/news.html" class="news">News</a> 
                   <div data-v-5758fa05="" class="cf_footer_subscribe">
-                     <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="assets/images/right_arrows.png" alt=""></button> <!----> 
+                     <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
                      <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
                         <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_wrap">
                            <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
@@ -299,7 +299,7 @@
                                                 <!----><!---->
                                                 <span>
                                                    Subscribe
-                                                   <!----> <img data-v-5758fa05="" src="assets/images/right_arrows.png" alt="" class="btn_hover">
+                                                   <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
                                                 </span>
                                              </button>
                                              <!---->
@@ -335,7 +335,7 @@
                      </div>
                   </div>
                   <div data-v-5758fa05="" class="cf_footer_language_social">
-                           <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="assets/images/facebook备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/facebook-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="assets/images/youtube备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/youtube-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="assets/images/instagram备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/instagram-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="assets/images/linkedin-white.png" alt="" class="normal"> <img data-v-5758fa05="" src="assets/images/linkedin-white.png" alt="" class="hover"></a>                     <div data-v-5758fa05="" class="cf_footer_language">
+                           <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>                     <div data-v-5758fa05="" class="cf_footer_language">
                         <div data-v-5758fa05="" class="cf_footer_language_default"><img data-v-5758fa05="" class="cf_footer_language_icon"> <span data-v-5758fa05="" class="cf_footer_language_text"></span></div>
                         <div data-v-5758fa05="" class="ul-wrap">
                            <div data-v-5758fa05="" class="drop-down-content">
