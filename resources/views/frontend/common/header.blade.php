@@ -245,7 +245,7 @@
                                         </a>
                                              </div>
                                              <div class="col-md-3 text-center">
-                                          <a href="{{ route('300sr') }}">
+                                          <a href="{{ route('t300sr') }}">
                                              <img data-v-87eb4736="" src="{{ asset('assets/images/编组 3备份 4.png') }}" alt="">
                                              <h3>300SR
                                              </h3>
