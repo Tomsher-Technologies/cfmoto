@@ -13,7 +13,7 @@
                            <div data-v-c0f438ac="" class="twoRounds_banner_info">
                               <div data-v-c0f438ac="" class="title" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">Driving with CFMOTO thunder racing team in ABU DHABI</div>
                               <div data-v-c0f438ac="" class="description no_postcss_to_px" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">CMOTO four-wheelers been achieving splendid performance in recent years, and this year, not an exception either. As the partner official racing team of the group, CFMOTO Thunder Racing Team is now focusing on the world-class all terrain vehicle races and has been outperforming in rallies across the world.</div>
-                              <div data-v-c0f438ac="" class="btn btn_hover no_postcss_to_px" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                              <div data-v-c0f438ac="" class="btn btn_hover no_postcss_to_px" style="color:#fff;translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                                  Learn more
                                  <img data-v-c0f438ac="" src="{{ asset('assets/images/right_arrows.png') }}" alt="">
                               </div>
