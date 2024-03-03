@@ -358,7 +358,7 @@
                         </div>
                         <img data-v-639f58e2="" src="{{ asset('assets/images/digital_img.png') }}" alt="img"> 
                         <div data-v-639f58e2="" class="lock-box">
-                           <div data-v-639f58e2="" class="lock-con unlock"><img data-v-639f58e2="" src="{{ asset('assets/images//Arc.png') }}" alt="img" class="arc-header"> <img data-v-639f58e2="" src="{{ asset('assets/images//anchor.png') }}" alt="img" class="arc-body"></div>
+                           <div data-v-639f58e2="" class="lock-con unlock"><img data-v-639f58e2="" src="{{ asset('assets/images/Arc.png') }}" alt="img" class="arc-header"> <img data-v-639f58e2="" src="{{ asset('assets/images//anchor.png') }}" alt="img" class="arc-body"></div>
                         </div>
                      </div>
                   </div>
@@ -2096,11 +2096,11 @@
       <div data-v-f6cc46c0="" id="rideApp" class="rideApp-content page-guide page-guide-num9">
          <div data-v-f6cc46c0="" class="content-main">
             <div data-v-f6cc46c0="" class="main-phone" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-               <video data-v-f6cc46c0="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" muted="muted" x5-playsinline="true" poster="{{ asset('assets/images//app-ldownload.png') }}" class="video-player" style="display: none;">
+               <video data-v-f6cc46c0="" preload="auto" webkit-playsinline="true" x-webkit-airplay="true" playsinline="" muted="muted" x5-playsinline="true" poster="{{ asset('assets/images/app-ldownload.png') }}" class="video-player" style="display: none;">
                   <source data-v-f6cc46c0="" src="/content/dam/cfmoto/site/global/ride/videos/APP.mp4" type="video/mp4">
                </video>
                <div data-v-f6cc46c0="" class="img-player" style="display: block;">
-                  <img data-v-f6cc46c0="" src="{{ asset('assets/images//APP.png') }}" alt="" class="img-player-APPlogo"> 
+                  <img data-v-f6cc46c0="" src="{{ asset('assets/images/APP.png') }}" alt="" class="img-player-APPlogo"> 
                   <div data-v-f6cc46c0="" class="img-player-info">
                      <h3 data-v-f6cc46c0="">For more <br data-v-f6cc46c0="">experience,<br data-v-f6cc46c0="">please click the<br data-v-f6cc46c0="">button on the</h3>
                      <div data-v-f6cc46c0="" class="info-text">
