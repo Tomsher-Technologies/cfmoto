@@ -1,10 +1,490 @@
-@extends('layouts.app.main')
-@section('content')
+<!doctype >
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title></title>
+      <link rel="stylesheet" href="{{ asset('assets/css/clientlib-all.lc-202401081956-lc.min.f12464e7415ea6247b9e9c9d91a43427.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/css.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/jquery.hiSlider.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 
-<main id="content" class="site-main">
+      <link rel="stylesheet" href="{{ asset('assets/css/webslidemenu.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/demo.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/white-gry.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}">
+
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css') }}">
+      <link rel="stylesheet" href="https://alshaalimoto.com/style.css') }}">
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css') }}">
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css') }}">
+
+   </head>
+
+
+   <div class="wsmobileheader clearfix">
+      <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+      <span class="smllogo"><img src="images/menu-logo.png') }}" width="80" alt="" /></span>
+      <div class="wssearch clearfix">
+         dddd
+      </div>
+   </div>
+   </div>
+   <div class="headerfull">
+      <div class="container-fluid">
+         <div class="wsmain clearfix">
+            <div class="smllogo"><a href="uae.html"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" alt="" /></a></div>
+            <nav class="wsmenu clearfix">
+               <ul class="wsmenu-list">
+                  <li aria-haspopup="true">
+                     <a href="#" class="navtext"><span></span> <span>Products</span></a>
+                     <div class="wsshoptabing wtsdepartmentmenu clearfix">
+                        <div class="wsshopwp clearfix">
+                           <ul class="wstabitem clearfix">
+                              <li class="wsshoplink-active">
+                                 <a href="#">CFORCE</a>
+                                 <div class="wstitemright clearfix wstitemrightactive">
+                                    <div class="row ">
+                                       <div class="col-lg-12 col-md-12 clearfix">
+                                          <div class="wstheading clearfix">CFORCE</div>
+                                          <div class="row g-5">
+                                             <div class="col-md-3 text-center">
+                                           <a href="product-details.html">
+                                           <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE110_11.png') }}" alt="">
+                                           <h3>CFORCE 110</h3>
+                                          </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                               <a href="cforce-ev110.html">
+                                                <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCEEV110_11.png') }}" alt="">
+                                                <h3>CFORCE EV110</h3>
+                                               </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                         <a href="cforce-450l.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE450L_11.png') }}" alt="">
+                                          <h3>CFORCE 450 L
+                                          </h3>
+                                         </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                   <a href="cforce-625-touring.html">
+                                    <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE625TOURING_44.png') }}" alt="">
+                                    <h3>CFORCE 625 TOURING
+                                    </h3>
+                                   </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                       <a href="cforce-625-touring-overland.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/model_1.png') }}" alt="">
+                                          <h3>CFORCE 625 TOURING OVERLAND
+                                          </h3>
+                                       </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                   <a href="cforce-850-xc.html">
+                                    <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE850XC_11.png') }}" alt="">
+                                    <h3>CFORCE 850 XC
+                                    </h3>
+                                   </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                     <a href="cforce-1000.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE1000_11.png') }}" alt="">
+                                       <h3>CFORCE 1000
+                                       </h3>
+                                     </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                   <a href="cforce-1000-overland.html">
+                                    <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE1000OVERLAND_22.png') }}" alt="">
+                                    <h3>CFORCE 1000 OVERLAND
+                                    </h3>
+                                   </a>
+                                             </div>
+                                             <div class="col-md-3 text-center">
+                                                <a href="cforce-850-touring.html">
+                                                 <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE850TOURING (1).png') }}" alt="">
+                                                 <h3>CFORCE 850 TOURING
+                                                 </h3>
+                                                </a>
+                                                          </div>
+
+
+                                                          <div class="col-md-3 text-center">
+                                                            <a href="cforce-1000-touring.html">
+                                                             <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE1000TOURING (1).png') }}" alt="">
+                                                             <h3>
+                                                               CFORCE 1000 TOURING 
+  </h3>
+                                                            </a>
+                                                                      </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a href="#">ZFORCE</a>
+                                 <div class="wstitemright clearfix">
+                                    <div class="container-fluid">
+                                       <div class="row">
+                                          <div class="col-lg-12 col-md-12 clearfix">
+                                             <div class="wstheading clearfix">ZFORCE</div>
+                                             <div class="row">
+                                                <div class="col-md-3 text-center">
+                                            <a href="zforce-950-sport-4.html">
+                                             <img data-v-87eb4736="" src="{{ asset('assets/images/ZFORCE_950_SPORT-4_1.png') }}" alt="">
+                                             <h3>ZFORCE 950 SPORT-4
+                                             </h3>
+                                            </a>
+                                                </div>
+                                                <div class="col-md-3 text-center">
+                                           <a href="zforce-1000-sport-r.html">
+                                             <img data-v-87eb4736="" src="{{ asset('assets/images/ZFORCE1000SPORTR_33.png') }}" alt="">
+                                             <h3>ZFORCE 1000 SPORT R
+                                             </h3>
+                                           </a>
+                                                </div>
+                                                <div class="col-md-3 text-center">
+                                         <a href="zforce-950-sport.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/vm11-model_1.png') }}" alt="">
+                                          <h3>ZFORCE 950 SPORT
+                                          </h3>
+                                         </a>
+                                                </div>
+                                                <div class="col-md-3 text-center">
+                                   <a href="zforce-800-trail.html">
+                                    <img data-v-87eb4736="" src="{{ asset('assets/images/ZFORCE800TRAIL_22.png') }}" alt="">
+                                    <h3>ZFORCE 800 TRAIL
+                                    </h3>
+                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a href="#">UFORCE</a>
+                                 <div class="wstitemright clearfix">
+                                    <div class="wstheading clearfix">UFORCE</div>
+                                    <div class="container-fluid">
+                                       <div class="row">
+                                          <div class="col-lg-12 col-md-12 clearfix">
+                                             <div class="row">
+                                                <div class="col-md-3 text-center">
+                                     <a href="uforce-600.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/UFORCE600_11A.png') }}" alt="">
+                                       <h3>UFORCE 600
+                                       </h3>
+                                     </a>
+                                                </div>
+                                                <div class="col-md-3 text-center">
+                                        <a href="uforce-1000.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/UFORCE1000_33A.png') }}" alt="">
+                                          <h3>UFORCE 1000
+                                          </h3>
+                                        </a>
+                                                </div>
+                                                <div class="col-md-3 text-center">
+                                      <a href="uforce-1000-xl.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/UFORCE1000XL_33A.png') }}" alt="">
+                                       <h3>UFORCE 1000 XL
+                                       </h3>
+                                      </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a href="#">MOTORCYCLES</a>
+                                 <div class="wstitemright clearfix kitchenmenuimg">
+                                    <div class="container-fluid">
+                                       <div class="row">
+                                          <div class="col-md-12">
+                                             <div class="wstheading clearfix">Naked</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                      <a href="250nk.html">
+                        <img data-v-87eb4736="" src="{{ asset('assets/images/250NK_Athens-Blue.png') }}" alt="">
+                        <h3>250NK 
+        
+                        </h3>
+                      </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                  <a href="300nk.html">
+                                    <img data-v-87eb4736="" src="{{ asset('assets/images/300NK_Athens-Blue.png') }}" alt="">
+                                    <h3>300NK
+                                    </h3>
+                                  </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                    <a href="450nk.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/model_1.png') }}" alt="">
+                                       <h3>450NK
+                                       </h3>
+                                    </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                     <a href="650nk.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/650NK_Nebula-White.png') }}" alt="">
+                                       <h3>650NK
+                                       </h3>
+                                     </a>
+                                          </div>
+
+                                          <div class="col-md-3 text-center">
+                                    <a href="800nk.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/800NK 锆石黑.png') }}" alt="">
+                                       <h3>800NK
+                                       </h3>
+                                    </a>
+                                          </div>
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">Sport Racing</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                      <a href="250sr1.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/250SR_1.png') }}" alt="">
+                                       <h3>250SR
+                                       </h3>
+                                      </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                     <a href="250sr2.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/编组 3.png') }}" alt="">
+                                       <h3>250SR
+                                       </h3>
+                                     </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                       <a href="300sr.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/编组 3备份 4.png') }}" alt="">
+                                          <h3>300SR
+                                          </h3>
+                                       </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                         <a href="450sr.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/450SR-1.png') }}" alt="">
+                                          <h3>450SR
+                                          </h3>
+                                         </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                     <a href="450sr-s.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/编组 3备份 9.png') }}" alt="">
+                                       <h3>450SR S
+                                       </h3>
+                                     </a>
+                                          </div>
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">Classic</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                        <a href="250cl-x.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/250CL-X_Nebula-Black.png') }}" alt="">
+                                          <h3>250CL-X
+                                          </h3>
+                                        </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                         <a href="300cl-x.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/300CL-X_Nebula-White.png') }}" alt="">
+                                          <h3>300CL-X
+                                          </h3>
+                                         </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                       <a href="450cl-c.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/model_2.png') }}" alt="">
+                                          <h3>450CL-C
+                                          </h3>
+                                       </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                       <a href="700cl-x-heritage.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-HERITAGE_Nebula-Black.png') }}" alt="">
+                                          <h3>700CL-X HERITAGE
+                                          </h3>
+                                       </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                         <a href="700cl-x-sport.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-SPORT_Nebula-White.png') }}" alt="">
+                                          <h3>700CL-X SPORT
+                                          </h3>
+                                         </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                         <a href="700cl-x-adventure.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/700CL-X-ADVENTURE_Aurora-Blue.png') }}" alt="">
+                                          <h3>700CL-X ADVENTURE
+                                          </h3>
+                                         </a>
+                                          </div>
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">Mult-Touring</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                       <a href="650mt.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/650MT_Athens-Blue.png') }}" alt="">
+                                          <h3>650MT
+                                          </h3>
+                                       </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                    <a href="700mt.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/700MT_Nebula-White_Right.png') }}" alt="">
+                                       <h3>700MT
+                                       </h3>
+                                    </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                  <a href="800mt-sport.html">
+                                    <img data-v-87eb4736="" src="{{ asset('assets/images/800MT-SPORT_Nebula-Black.png') }}" alt="">
+                                    <h3>800MT SPORT 
+                                    </h3>
+                                  </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                     <a href="800mt-touring.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/800MT-TOURING_Twilight-Blue.png') }}" alt="">
+                                       <h3>800MT TOURING
+                                       </h3>
+                                     </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                       <a href="800mt-explore.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/800MT EXPLORE EDITION_Gem Black_Right.png') }}" alt="">
+                                          <h3>800MT EXPLORE
+                                          </h3>
+                                       </a>
+                                          </div>
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">PAPIO</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                     <a href="st-papio.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/ST-PAPIO_Lemon Yellow.png') }}" alt="">
+                                       <h3>ST PAPIO
+                                       </h3>
+                                     </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                      <a href="xo-papio-racer.html">
+                                       <img data-v-87eb4736="" src="{{ asset('assets/images/XO-PAPIO-ABS_Fiery-Red_Right.png') }}" alt="">
+                                       <h3>XO PAPIO RACER
+                                       </h3>
+                                      </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                        <a href="xo-papio-trail.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/1_GalaxyGrey.png') }}" alt="">
+                                          <h3>XO PAPIO TRAIL
+                                          </h3>
+                                        </a>
+                                          </div>
+
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">Grand Touring</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                       <a href="650gt.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/gt650.png') }}" alt="">
+                                          <h3>
+                                             650GT
+                                          </h3>
+                                       </a>
+                                          </div>
+
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">TR-G</div>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                        <a href="1250tr-g.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/1250TR-G.png') }}" alt="">
+                                          <h3>1250TR-G
+                                          </h3>
+                                        </a>
+                                          </div>
+
+                                       </div>
+                                       <div class="row ">
+                                          <div class="col-md-12 mt-5">
+                                             <div class="wstheading clearfix">YOUTH DIRT BIKE</div>
+                                          </div>
+                                          
+                                          <div class="col-md-3 text-center">
+                                          <a href="cx-5e.html">
+                                             <img data-v-87eb4736="" src="{{ asset('assets/images/CX-5E_1.png') }}" alt="">
+                                             <h3>CX-5E
+                                             </h3>
+                                          </a>
+                                          </div>
+                                          <div class="col-md-3 text-center">
+                                         <a href="cx-2e.html">
+                                          <img data-v-87eb4736="" src="{{ asset('assets/images/CX-2E_1.png') }}" alt="">
+                                          <h3>CX-2E
+                                          </h3>
+                                         </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </li>
+                  <li aria-haspopup="true"><a href="news.html" class="navtext"> <span>News</span></a>
+                  </li>
+                  <li aria-haspopup="true"><a href="racing.html" class="navtext"><span>CFMOTO Racing</span></a>
+                  </li>
+                  <li aria-haspopup="true"><a href="ride.html" class="navtext"> <span>CFMOTO Ride</span></a>
+                  <li aria-haspopup="true"><a href="brands.html" class="navtext"> <span>Brand</span></a>
+                  <li aria-haspopup="true"><a href="company-overview.html" class="navtext"> <span> About Us</span></a>
+                  </li>
+                  <li aria-haspopup="true"><a href="contact-us.html" class="navtext"> <span> Contact Us</span></a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="language-selector d-none d-md-block">
+               <select name="menu" id="meun-items">
+                  <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
+                  <option value="html">AR</option>
+               </select>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <main id="content" class="site-main">
       <!-- Inner Banner html start-->
       <section class="inner-banner-wrap">
-          <div class="inner-baner-container" style="background-image: url(assets/images/about-us.jpg);">
+          <div class="inner-baner-container" style="background-image: url('assets/images/about-us.jpg')">
               <div class="container">
                   <div class="inner-banner-content">
                       <h1 class="inner-title">Alshali Moto</h1>
@@ -64,7 +544,7 @@
                       </div>
                       <div class="service-detail">
                           <h5 class="service-title">
-                              <a href="#"> Mission</a>
+                              <a href="service-detail.html"> Mission</a>
                           </h5>
                           <p class="service-illustration">
                             Our Mission is to Continuously supply with the best reliable and economical products in the market as well as easy-to-manage and maintain the products
@@ -79,7 +559,7 @@
                       </div>
                       <div class="service-detail">
                           <h5 class="service-title">
-                              <a href="#"> Vision</a>
+                              <a href="service-detail.html"> Vision</a>
                           </h5>
                           <p class="service-illustration">
                               Our vision is to bring full-grade products that can compete with other brands in terms of quality, affordability, and customer satisfaction. From this, we expanded our vision onto other things with the same criteria of quality, affordability, and customer satisfaction.
@@ -94,7 +574,7 @@
                       </div>
                       <div class="service-detail">
                           <h5 class="service-title">
-                              <a href="#"> Goal</a>
+                              <a href="service-detail.html"> Goal</a>
                           </h5>
                           <p class="service-illustration">
                               Our goal is to work as hard as possible, to strengthen the group and company with no limitations, and to expand.
@@ -327,4 +807,396 @@
    </div>
 </div>
 
-@endsection
+<div data-component="footer-component" data-initialized="true" class="footer_component">
+   <div data-v-5758fa05="" class="cf_footer">
+
+      <div data-v-5758fa05="" class="cf_footer_nav">
+         <div class="d-block pb-5 mb-5 text-center" style="border-bottom: 1px solid #ccc;">
+            
+         <span>                     <img src="{{ asset('assets/images/alshali-moto.png') }}" class="alshli-logo me-5"  alt=""></span>
+ 
+         <span>                     <img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" class="alshli-logo" alt=""></span>
+         </div>
+
+         <ul data-v-5758fa05="" class="footer_list p-0">
+            <li data-v-5758fa05="" class="footer_list_items">
+               <!----> 
+               <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
+                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">CFORCE</span> <!---->
+                  </a>
+                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">ZFORCE</span> <!---->
+                  </a>
+
+                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">UFORCE</span> <!---->
+                  </a>
+
+                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">MOTORCYCLES</span> <!---->
+                  </a>
+               </div>
+               <!---->
+            </li>
+            <li data-v-5758fa05="" class="footer_list_items">
+               <!----> 
+               <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
+                  <a data-v-5758fa05="" href="company-overview.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">About CFMOTO</span> <!---->
+                  </a>
+                  <a data-v-5758fa05="" href="racing.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">CFMOTO Racing</span> <!---->
+                  </a>
+                  <a data-v-5758fa05="" href="ride.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">CFMOTO Ride
+                     </span> <!---->
+                  </a>
+               </div>
+               <!---->
+            </li>
+            <li data-v-5758fa05="" class="footer_list_items">
+               <!----> 
+               <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
+                  <a data-v-5758fa05="" href="news.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">News</span> <!---->
+                  </a>
+                  <a data-v-5758fa05="" href="contact-us.html" class="footer_nav_item">
+                     <span data-v-5758fa05="" class="link_name">Contact Us</span> <!---->
+                  </a>
+
+
+               </div>
+               <!---->
+            </li>
+            <li data-v-5758fa05="" class="footer_list_items">
+               <!----> 
+               Subscribe
+               <div data-v-5758fa05="" class="pc mt-3">
+                  <div data-v-5758fa05="" class="cf_footer_subscribe">
+                     <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
+                     <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
+                        <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_wrap">
+                           <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
+                              Subscribe to our news
+                           </div>
+                           <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="{{ asset('assets/images/nav_close.png') }}" alt=""></div>
+                           <div data-v-5758fa05="" class="form clearfix">
+                              <form data-v-5758fa05="" class="el-form el-form--label-top">
+                                 <div data-v-5758fa05="" class="item-right el-col el-col-12">
+                                    <div data-v-5758fa05="" class="el-form-item is-required">
+                                       <label for="firstName" class="el-form-item__label">First name*</label>
+                                       <div class="el-form-item__content">
+                                          <div data-v-5758fa05="" class="el-input">
+                                             <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                          </div>
+                                          <!---->
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-v-5758fa05="" class="item-left el-col el-col-12">
+                                    <div data-v-5758fa05="" class="el-form-item is-required">
+                                       <label for="lastName" class="el-form-item__label">Last name*</label>
+                                       <div class="el-form-item__content">
+                                          <div data-v-5758fa05="" class="el-input">
+                                             <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                          </div>
+                                          <!---->
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-v-5758fa05="" class="el-col el-col-12">
+                                    <div data-v-5758fa05="" class="el-form-item">
+                                       <label for="email" class="el-form-item__label">Email*</label>
+                                       <div class="el-form-item__content">
+                                          <div data-v-5758fa05="" class="el-input">
+                                             <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                          </div>
+                                          <!---->
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-v-5758fa05="" class="item-left el-col el-col-12">
+                                    <div data-v-5758fa05="" class="user_type">
+                                       <div data-v-5758fa05="" class="el-form-item is-required">
+                                          <label for="userType" class="el-form-item__label">User Type*</label>
+                                          <div class="el-form-item__content">
+                                             <div data-v-5758fa05="" class="el-select">
+                                                <!---->
+                                                <div class="el-input el-input--suffix">
+                                                   <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
+                                                   <span class="el-input__suffix">
+                                                      <span class="el-input__suffix-inner">
+                                                         <i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
+                                                      </span>
+                                                      <!---->
+                                                   </span>
+                                                   <!----><!---->
+                                                </div>
+                                                <div class="el-select-dropdown el-popper" style="display: none;">
+                                                   <div class="el-scrollbar" style="">
+                                                      <div class="el-select-dropdown__wrap el-scrollbar__wrap">
+                                                         <ul class="el-scrollbar__view el-select-dropdown__list">
+                                                            <!---->
+                                                            <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
+                                                            <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
+                                                            <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-Distributor</span></li>
+                                                            <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-dealer</span></li>
+                                                            <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Others</span></li>
+                                                         </ul>
+                                                      </div>
+                                                      <div class="el-scrollbar__bar is-horizontal">
+                                                         <div class="el-scrollbar__thumb" ></div>
+                                                      </div>
+                                                      <div class="el-scrollbar__bar is-vertical">
+                                                         <div class="el-scrollbar__thumb" ></div>
+                                                      </div>
+                                                   </div>
+                                                   <!---->
+                                                </div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                       </div>
+                                       <!---->
+                                    </div>
+                                 </div>
+                                 <div data-v-5758fa05="" class="el-col el-col-24">
+                                    <div data-v-5758fa05="" class="email-statement">
+                                       <div data-v-5758fa05="" class="el-form-item">
+                                          <!---->
+                                          <div class="el-form-item__content">
+                                             <label data-v-5758fa05="" class="el-checkbox">
+                                                <span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value=""></span>
+                                                <span class="el-checkbox__label">
+                                                   <div data-v-5758fa05="">
+                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
+                                                      <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html">
+                                                         marketing communications.<!-- a-->
+                                                      </a>
+                                                   </div>
+                                                   <!---->
+                                                </span>
+                                             </label>
+                                             <!---->
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-v-5758fa05="" class="el-col el-col-24">
+                                    <div data-v-5758fa05="" class="new-dialog-footer">
+                                       <div data-v-5758fa05="" class="el-form-item">
+                                          <!---->
+                                          <div class="el-form-item__content">
+                                             <button data-v-5758fa05="" type="button" class="el-button subscribe el-button--default">
+                                                <!----><!---->
+                                                <span>
+                                                   Subscribe
+                                                   <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
+                                                </span>
+                                             </button>
+                                             <!---->
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>               </div>
+            </li>
+         </ul>
+         <div data-v-5758fa05="" class="mobile subscribe_input_wrap">
+            <a data-v-5758fa05="" href="/global/media-center/news.html" class="news">News</a> 
+            <div data-v-5758fa05="" class="cf_footer_subscribe">
+               <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
+               <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
+                  <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_wrap">
+                     <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
+                        Subscribe to our news
+                     </div>
+                     <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="/etc/designs/cfmoto/assets/home/nav_close.png') }}" alt=""></div>
+                     <div data-v-5758fa05="" class="form clearfix">
+                        <form data-v-5758fa05="" class="el-form el-form--label-top">
+                           <div data-v-5758fa05="" class="item-right el-col el-col-12">
+                              <div data-v-5758fa05="" class="el-form-item is-required">
+                                 <label for="firstName" class="el-form-item__label">First name*</label>
+                                 <div class="el-form-item__content">
+                                    <div data-v-5758fa05="" class="el-input">
+                                       <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                    </div>
+                                    <!---->
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-v-5758fa05="" class="item-left el-col el-col-12">
+                              <div data-v-5758fa05="" class="el-form-item is-required">
+                                 <label for="lastName" class="el-form-item__label">Last name*</label>
+                                 <div class="el-form-item__content">
+                                    <div data-v-5758fa05="" class="el-input">
+                                       <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                    </div>
+                                    <!---->
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-v-5758fa05="" class="el-col el-col-12">
+                              <div data-v-5758fa05="" class="el-form-item">
+                                 <label for="email" class="el-form-item__label">Email*</label>
+                                 <div class="el-form-item__content">
+                                    <div data-v-5758fa05="" class="el-input">
+                                       <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                    </div>
+                                    <!---->
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-v-5758fa05="" class="item-left el-col el-col-12">
+                              <div data-v-5758fa05="" class="user_type">
+                                 <div data-v-5758fa05="" class="el-form-item is-required">
+                                    <label for="userType" class="el-form-item__label">User Type*</label>
+                                    <div class="el-form-item__content">
+                                       <div data-v-5758fa05="" class="el-select">
+                                          <!---->
+                                          <div class="el-input el-input--suffix">
+                                             <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
+                                             <span class="el-input__suffix">
+                                                <span class="el-input__suffix-inner">
+                                                   <i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
+                                                </span>
+                                                <!---->
+                                             </span>
+                                             <!----><!---->
+                                          </div>
+                                          <div class="el-select-dropdown el-popper" style="display: none;">
+                                             <div class="el-scrollbar" style="">
+                                                <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                                   <ul class="el-scrollbar__view el-select-dropdown__list">
+                                                      <!---->
+                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
+                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
+                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-Distributor</span></li>
+                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-dealer</span></li>
+                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Others</span></li>
+                                                   </ul>
+                                                </div>
+                                                <div class="el-scrollbar__bar is-horizontal">
+                                                   <div class="el-scrollbar__thumb" ></div>
+                                                </div>
+                                                <div class="el-scrollbar__bar is-vertical">
+                                                   <div class="el-scrollbar__thumb" ></div>
+                                                </div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                       </div>
+                                       <!---->
+                                    </div>
+                                 </div>
+                                 <!---->
+                              </div>
+                           </div>
+                           <div data-v-5758fa05="" class="el-col el-col-24">
+                              <div data-v-5758fa05="" class="new-dialog-footer">
+                                 <div data-v-5758fa05="" class="el-form-item">
+                                    <!---->
+                                    <div class="el-form-item__content">
+                                       <button data-v-5758fa05="" type="button" class="el-button subscribe el-button--default">
+                                          <!----><!---->
+                                          <span>
+                                             Subscribe
+                                             <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
+                                          </span>
+                                       </button>
+                                       <!---->
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-v-5758fa05="" class="el-col el-col-24">
+                              <div data-v-5758fa05="" class="email-statement">
+                                 <div data-v-5758fa05="" class="el-form-item">
+                                    <!---->
+                                    <div class="el-form-item__content">
+                                       <label data-v-5758fa05="" class="el-checkbox">
+                                          <span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value=""></span>
+                                          <span class="el-checkbox__label">
+                                             <div data-v-5758fa05="">
+                                                By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
+                                                <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html">
+                                                   marketing communications.<!-- a-->
+                                                </a>
+                                             </div>
+                                             <!---->
+                                          </span>
+                                       </label>
+                                       <!---->
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div data-v-5758fa05="" class="cf_footer_language_social">
+               <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://www.facebook.com/CFMOTOOFFICIAL" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UC2qMgbLZ-ODtz0HzKaPnCAQ" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmotoofficial/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.linkedin.com/company/cfmoto-powersports-inc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.tiktok.com/@cfmoto_official" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-black.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-white.png') }}" alt="" class="hover"></a></div>
+               <div data-v-5758fa05="" class="cf_footer_language">
+                  <div data-v-5758fa05="" class="cf_footer_language_default"><img data-v-5758fa05="" class="cf_footer_language_icon"> <span data-v-5758fa05="" class="cf_footer_language_text"></span></div>
+                  <div data-v-5758fa05="" class="ul-wrap">
+                     <div data-v-5758fa05="" class="drop-down-content">
+                        <div data-v-5758fa05="" class="ul-title"><span data-v-5758fa05="" class="close"></span></div>
+                        <ul data-v-5758fa05=""></ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div data-v-5758fa05="" class="cf_footer_bottom justify-content-center">
+         <div data-v-5758fa05="" class="footer_left">
+            <div data-v-5758fa05="" class="footer_info no_postcss_to_px "><a data-v-5758fa05="" href="#" class="footer_link">
+               © Copyright 2024 all Rights Reserved. Designed by Tomsher
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+ <script src="{{ asset('assets/js/bootstrap.bundle.js"></script>
+ <script src="{{ asset('assets/js/AppMeasurement.min.js"></script>
+ <script src="{{ asset('assets/js/AppMeasurement_Module_ActivityMap.min.js"></script>
+ <script src="{{ asset('assets/js/clientlib-all.lc-202401081956-lc.min.92f1e1eb72923682eeedfbc16eb72d32.js"></script>
+ <script src="{{ asset('assets/js/jquery.hiSlider.js"></script>
+ <script src="{{ asset('assets/js/jquery.scrollbar.js"></script>
+ <script src="{{ asset('assets/js/launch-b43d331c5522-development.min.js"></script>
+ <script src="{{ asset('assets/js/laydate.js"></script>
+ <script src="{{ asset('assets/js/main.js"></script>
+ <script src="{{ asset('assets/js/owl.carousel.js"></script>
+ <script src="{{ asset('assets/js/scrolltopcontrol.js"></script>
+ <script src="{{ asset('assets/js/tc.js"></script>
+ <script src="{{ asset('assets/js/video.min.js"></script>
+ <script src="{{ asset('assets/js/jquery-3.2.1.min.js"></script>
+ <script src="{{ asset('assets/js/webslidemenu.js"></script>
+
+ <script type='text/javascript'>
+   $(document).ready(function () {
+     $("a[data-theme]").click(function () {
+       $("head link#theme").attr("href", $(this).data("theme"));
+       $(this).toggleClass('active').siblings().removeClass('active');
+     });
+     $("a[data-effect]").click(function () {
+       $("head link#effect").attr("href", $(this).data("effect"));
+       $(this).toggleClass('active').siblings().removeClass('active');
+     });
+
+   });
+ </script>
+
+    
+</body>
+</html>
