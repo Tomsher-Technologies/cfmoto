@@ -247,7 +247,8 @@
                      </li>
                   </div>
                   <!----><!----> 
-                  <div data-v-3fb92384="" class="specification_operation" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-3fb92384="" href="#" target="_blank" class="moreLink no_postcss_to_px"><span data-v-3fb92384="">Compare</span> <img data-v-3fb92384="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a> <a data-v-3fb92384="" href="assets/images/11760" target="_blank" download="Specifications" class="bottom_box_downLink no_postcss_to_px"><img data-v-3fb92384="" src="{{ asset('assets/images/green_down-arrow.png') }}" alt=""> <span data-v-3fb92384="">Download brochure</span></a></div>
+                  <div data-v-3fb92384="" class="specification_operation" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-3fb92384="" href="#" target="_blank" class="moreLink no_postcss_to_px"><span data-v-3fb92384="">Compare</span> <img data-v-3fb92384="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a> <a data-v-3fb92384="" href="assets/images/11760" target="_blank" download="Specifications" class="bottom_box_downLink no_postcss_to_px">
+                     <img data-v-3fb92384="" src="{{ asset('assets/images/green_down-arrow.png') }}" alt=""> <span data-v-3fb92384="">Download brochure</span></a></div>
                   <p data-v-3fb92384="" class="specification_tips no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span data-v-3fb92384="">*</span>
                      All figures are preliminary and subject to change.
                   </p>
