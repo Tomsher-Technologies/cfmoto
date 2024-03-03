@@ -12,7 +12,7 @@
       <div class="headerfull">
          <div class="container-fluid">
             <div class="wsmain clearfix">
-               <div class="smllogo"><a href="{{ route('uae') }}"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" alt="" /></a></div>
+               <div class="smllogo"><a href="{{ route('index') }}"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" alt="" /></a></div>
                <nav class="wsmenu clearfix">
                   <ul class="wsmenu-list">
                      <li aria-haspopup="true">
