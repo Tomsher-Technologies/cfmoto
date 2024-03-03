@@ -247,7 +247,7 @@
                      </li>
                   </div>
                   <!----><!----> 
-                  <div data-v-3fb92384="" class="specification_operation" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-3fb92384="" href="#" target="_blank" class="moreLink no_postcss_to_px"><span data-v-3fb92384="">Compare</span> <img data-v-3fb92384="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a> <a data-v-3fb92384="" href="assets/images/11760" target="_blank" download="Specifications" class="bottom_box_downLink no_postcss_to_px">
+                  <div data-v-3fb92384="" class="specification_operation" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><a data-v-3fb92384="" href="#" target="_blank" class="moreLink no_postcss_to_px"><span data-v-3fb92384="">Compare</span> <img data-v-3fb92384="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></a> <a data-v-3fb92384="" href="{{ asset('assets/CFORCE_450_Specifications_20240303124056.pdf') }}" target="_blank" download="Specifications" class="bottom_box_downLink no_postcss_to_px">
                      <img data-v-3fb92384="" src="{{ asset('assets/images/green_down-arrow.png') }}" alt=""> <span data-v-3fb92384="">Download brochure</span></a></div>
                   <p data-v-3fb92384="" class="specification_tips no_postcss_to_px" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span data-v-3fb92384="">*</span>
                      All figures are preliminary and subject to change.
@@ -267,12 +267,12 @@
    <div class="product-gallery-component">
       <div data-component="product-gallery-component" data-initialized="true" class="product_gallery_component">
          <div data-v-2b0522ca="" id="gallery" class="cf_product_gallery page-guide page-guide-num12">
-            <div data-v-2b0522ca="" class="gallery_top_box">
+            <!-- <div data-v-2b0522ca="" class="gallery_top_box">
                <h1 data-v-2b0522ca="" class="gallery_tit">Gallery</h1>
                <p data-v-2b0522ca="" class="gallery_des no_postcss_to_px">Need to Download the latest series of picture,please click
                   <a data-v-2b0522ca="" href="#" class="bottom_box_downLink"><img data-v-2b0522ca="" src="{{ asset('assets/images/green_down-arrow.png') }}" alt=""> <span data-v-2b0522ca="">Download Center</span></a>
                </p>
-            </div>
+            </div> -->
             <div class="swiper-container gallery-top">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
