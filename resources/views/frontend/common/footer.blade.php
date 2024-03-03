@@ -196,7 +196,7 @@
                               </div>
                            </div>
                         </div>
-                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/1250TR-G.png') }}assets/images/youtube-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="assets/images/instagram备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/1250TR-G.png') }}assets/images/instagram-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>
+                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="assets/images/instagram备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/1250TR-G.png') }}assets/images/instagram-反白.png" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>
                      </div>
                   </li>
                </ul>
@@ -350,7 +350,7 @@
             <div data-v-5758fa05="" class="cf_footer_bottom justify-content-center">
                <div data-v-5758fa05="" class="footer_left">
                   <div data-v-5758fa05="" class="footer_info no_postcss_to_px "><a data-v-5758fa05="" href="#" class="footer_link">
-                     © Copyright 2024 all Rights Reserved. Designed by Tomsher
+                     © Copyright <?= date('Y'); ?> all Rights Reserved. Designed by <a href="https://tomsher.com" target="_blank">Tomsher</a>
                      </a>
                   </div>
                </div>
