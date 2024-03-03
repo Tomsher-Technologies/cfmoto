@@ -1176,21 +1176,21 @@
    </div>
 </div>
 
- <script src="{{ asset('assets/js/bootstrap.bundle.js"></script>
- <script src="{{ asset('assets/js/AppMeasurement.min.js"></script>
- <script src="{{ asset('assets/js/AppMeasurement_Module_ActivityMap.min.js"></script>
- <script src="{{ asset('assets/js/clientlib-all.lc-202401081956-lc.min.92f1e1eb72923682eeedfbc16eb72d32.js"></script>
- <script src="{{ asset('assets/js/jquery.hiSlider.js"></script>
- <script src="{{ asset('assets/js/jquery.scrollbar.js"></script>
- <script src="{{ asset('assets/js/launch-b43d331c5522-development.min.js"></script>
- <script src="{{ asset('assets/js/laydate.js"></script>
- <script src="{{ asset('assets/js/main.js"></script>
- <script src="{{ asset('assets/js/owl.carousel.js"></script>
- <script src="{{ asset('assets/js/scrolltopcontrol.js"></script>
- <script src="{{ asset('assets/js/tc.js"></script>
- <script src="{{ asset('assets/js/video.min.js"></script>
- <script src="{{ asset('assets/js/jquery-3.2.1.min.js"></script>
- <script src="{{ asset('assets/js/webslidemenu.js"></script>
+ <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
+ <script src="{{ asset('assets/js/AppMeasurement.min.js') }}"></script>
+ <script src="{{ asset('assets/js/AppMeasurement_Module_ActivityMap.min.js') }}"></script>
+ <script src="{{ asset('assets/js/clientlib-all.lc-202401081956-lc.min.92f1e1eb72923682eeedfbc16eb72d32.js') }}"></script>
+ <script src="{{ asset('assets/js/jquery.hiSlider.js') }}"></script>
+ <script src="{{ asset('assets/js/jquery.scrollbar.js') }}"></script>
+ <script src="{{ asset('assets/js/launch-b43d331c5522-development.min.js') }}"></script>
+ <script src="{{ asset('assets/js/laydate.js') }}"></script>
+ <script src="{{ asset('assets/js/main.js') }}"></script>
+ <script src="{{ asset('assets/js/owl.carousel.js') }}"></script>
+ <script src="{{ asset('assets/js/scrolltopcontrol.js') }}"></script>
+ <script src="{{ asset('assets/js/tc.js') }}"></script>
+ <script src="{{ asset('assets/js/video.min.js') }}"></script>
+ <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
+ <script src="{{ asset('assets/js/webslidemenu.js') }}"></script>
 
  <script type='text/javascript'>
    $(document).ready(function () {
