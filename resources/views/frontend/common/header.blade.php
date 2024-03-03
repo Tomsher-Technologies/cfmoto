@@ -458,7 +458,7 @@
                <div class="language-selector d-none d-md-block">
                   <select name="menu" id="meun-items">
                      <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
-                     <option value="html">AR</option>
+                     <option value="html" id="google_translate_element">AR</option>
                   </select>
                </div>
             </div>
