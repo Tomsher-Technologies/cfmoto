@@ -2099,10 +2099,10 @@
                      <h3 data-v-f6cc46c0="">For more <br data-v-f6cc46c0="">experience,<br data-v-f6cc46c0="">please click the<br data-v-f6cc46c0="">button on the</h3>
                      <div data-v-f6cc46c0="" class="info-text">
                         <p data-v-f6cc46c0="">right to download</p>
-                        <img data-v-f6cc46c0="" src="{{ asset('assets/images//箭头.png') }}" alt="">
+                        <img data-v-f6cc46c0="" src="{{ asset('assets/images/箭头.png') }}" alt="">
                      </div>
                   </div>
-                  <img data-v-f6cc46c0="" src="{{ asset('assets/images//CFMOTO.png') }}" alt="" class="img-player-PClogo">
+                  <img data-v-f6cc46c0="" src="{{ asset('assets/images/CFMOTO.png') }}" alt="" class="img-player-PClogo">
                </div>
             </div>
             <div data-v-f6cc46c0="" class="main-moto" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><img data-v-f6cc46c0="" src="{{ asset('assets/images/app-ldownload-moto.png') }}" alt=""></div>
