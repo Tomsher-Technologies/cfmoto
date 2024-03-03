@@ -4,7 +4,7 @@
          <div class="language-selector d-block d-md-none">
             <select name="menu" id="meun-items">
                <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
-               <option value="html">AR</option>
+               <option value="html" id="google_translate_element">AR</option>
             </select>
          </div>
       </div>
@@ -464,3 +464,10 @@
             </div>
          </div>
       </div>
+      <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
