@@ -18,10 +18,10 @@
       <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}">
 
-      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css') }}">
-      <link rel="stylesheet" href="https://alshaalimoto.com/style.css') }}">
-      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css') }}">
-      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css') }}">
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
+      <link rel="stylesheet" href="https://alshaalimoto.com/style.css">
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
 
    </head>
 
