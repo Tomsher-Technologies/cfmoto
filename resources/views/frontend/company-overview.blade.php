@@ -17,7 +17,8 @@
       <link rel="stylesheet" href="{{ asset('assets/css/white-gry.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}">
-
+      <link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
+      <link href="https://db.onlinewebfonts.com/c/7280a131e9f73efe49c55d60cf58ebd6?family=elementskit" rel="stylesheet">
       <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
       <link rel="stylesheet" href="https://alshaalimoto.com/style.css">
       <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
