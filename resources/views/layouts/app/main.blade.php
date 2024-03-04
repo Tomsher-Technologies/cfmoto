@@ -96,12 +96,13 @@
           window.setInterval(function(){
               var lang = $('html')[0].lang;
               $(".lang-select").val(lang);
-          },5000);
+          },3000);
 
           function setCookie(key, value, expiry) {
               var expires = new Date();
               expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
-              document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              // document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              document.cookie = key + '=' + value + '; path=/; expires=' + expires.toUTCString() +'; secure';
           }
           
 
