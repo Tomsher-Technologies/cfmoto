@@ -1233,7 +1233,13 @@
      function setCookie(key, value, expiry) {
          var expires = new Date();
          expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
-         document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+         // var low_expires =  new Date();
+         // low_expires.setTime(low_expires.getTime() + (10 * 60 * 1000)); 
+
+         document.cookie = key + '=' + value + '; domain=tomsher.co; path=/;expires=' + expires.toUTCString()+'; secure';
+         // document.cookie = key + '=' + value + '; domain=cfmoto.tomsher.co; path=/; expires=' + expires.toUTCString();
+         document.cookie = key + '=' + value + '; path=/; expires=' + expires.toUTCString() +'; secure';
+         // document.cookie = key + '=' + value + ';';
      }
 
      $('.lang-select').on('change',function() {
