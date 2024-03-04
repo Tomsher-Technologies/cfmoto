@@ -1237,6 +1237,7 @@
      }
 
      $('.lang-select').on('change',function() {
+         setCookie('googtrans','',0);
          var theLang = $(this).val();
          $('.goog-te-combo').val(theLang);
          if(theLang == 'ar'){
