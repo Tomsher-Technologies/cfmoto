@@ -54,7 +54,7 @@
                                              <div class="wstheading clearfix">CFORCE</div>
                                              <div class="row g-5">
                                                 <div class="col-md-3 text-center">
-                                              <a href="{{ route('productdetails') }}">
+                                              <a href="{{ route('cforce110') }}">
                                               <img data-v-87eb4736="" src="{{ asset('assets/images/CFORCE110_11.png') }}" alt="">
                                               <h3>CFORCE 110</h3>
                                              </a>
