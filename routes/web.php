@@ -68,7 +68,7 @@ Route::get('/xopapioracer', [FrontendController::class, 'xopapioracer'])->name('
 Route::get('/xopapiotrail', [FrontendController::class, 'xopapiotrail'])->name('xopapiotrail');
 Route::get('/zforce800trail', [FrontendController::class, 'zforce800trail'])->name('zforce800trail');
 Route::get('/zforce950sport', [FrontendController::class, 'zforce950sport'])->name('zforce950sport');
-Route::get('/zforce950sport4', [FrontendController::class, 'zforce950sport4'])->name('zforce950sport4');
+Route::get('/products/zforce950sport4', [FrontendController::class, 'zforce950sport4'])->name('zforce950sport4');
 Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 
 
