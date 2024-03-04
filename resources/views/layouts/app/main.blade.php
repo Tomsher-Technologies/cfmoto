@@ -102,6 +102,7 @@
               var expires = new Date();
               expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
               // document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              document.cookie = key + '=' + value + '; domain=tomsher.co; path=/;expires=' + expires.toUTCString()+'; secure';
               document.cookie = key + '=' + value + '; path=/; expires=' + expires.toUTCString() +'; secure';
           }
           
