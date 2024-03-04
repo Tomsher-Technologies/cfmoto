@@ -103,8 +103,10 @@
               expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
               document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
           }
+          
 
           $('.lang-select').on('change',function() {
+              setCookie('googtrans','',0);
               var theLang = $(this).val();
               $('.goog-te-combo').val(theLang);
               if(theLang == 'ar'){
