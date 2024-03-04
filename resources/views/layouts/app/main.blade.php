@@ -96,7 +96,7 @@
           window.setInterval(function(){
               var lang = $('html')[0].lang;
               $(".lang-select").val(lang);
-          },5000);
+          },3000);
 
           function setCookie(key, value, expiry) {
               var expires = new Date();
