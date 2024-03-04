@@ -1232,9 +1232,9 @@
 
      function setCookie(key, value, expiry) {
          var high_expires = new Date();
-         high_expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
+         high_expires.setTime(high_expires.getTime() + (15 * 60 * 1000)); 
          var low_expires =  new Date();
-         low_expires.setTime(expires.getTime() + (10 * 60 * 1000)); 
+         low_expires.setTime(low_expires.getTime() + (10 * 60 * 1000)); 
 
          document.cookie = key + '=' + value + '; domain=tomsher.co; path=/;expires=' + low_expires.toUTCString();
          // document.cookie = key + '=' + value + '; domain=cfmoto.tomsher.co; path=/; expires=' + expires.toUTCString();
