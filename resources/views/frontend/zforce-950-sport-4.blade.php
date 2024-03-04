@@ -118,7 +118,7 @@
     
     <div class="product-gallery-component">
     <div class="product_gallery_component" data-component="product-gallery-component">
-        <productgallerycomponent gallery="{&#34;description&#34;:&#34;Need to Download the latest series of picture,please click&#34;,&#34;downloadCenter&#34;:&#34;Download Center&#34;,&#34;downloadCenterLink&#34;:&#34;/content/cfmoto/global/media-center/download-center&#34;}" spicturelist="{&#34;imageList&#34;:[&#34;{{ asset('assets/images/vgd9-p3.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p1.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p2.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p5.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p4.jpg') }}&#34;]}" lpicturelist="{&#34;imageList&#34;:[&#34;{{ asset('assets/images/vgu-9-2.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-3.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-1.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-5.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-4.jpg') }}&#34;]}"/>
+        <productgallerycomponent gallery="{&#34;description&#34;:&#34;}" spicturelist="{&#34;imageList&#34;:[&#34;{{ asset('assets/images/vgd9-p3.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p1.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p2.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p5.jpg') }}&#34;,&#34;{{ asset('assets/images/vgd9-p4.jpg') }}&#34;]}" lpicturelist="{&#34;imageList&#34;:[&#34;{{ asset('assets/images/vgu-9-2.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-3.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-1.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-5.jpg') }}&#34;,&#34;{{ asset('assets/images/vgu-9-4.jpg') }}&#34;]}"/>
     </div>
 
     
