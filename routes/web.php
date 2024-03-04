@@ -6,7 +6,7 @@ use App\Http\Controllers\ForgotPasswordController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [FrontendController::class, 'home'])->name('home');
-Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
+Route::get('/products/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 Route::get('/productdetails', [FrontendController::class, 'productdetails'])->name('productdetails');
 Route::get('/t250clx', [FrontendController::class, 't250clx'])->name('t250clx');
 Route::get('/t250nk', [FrontendController::class, 't250nk'])->name('t250nk');
