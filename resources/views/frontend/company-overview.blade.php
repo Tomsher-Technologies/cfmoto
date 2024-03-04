@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="{{ asset('assets/css/jquery.hiSlider.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v1') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 
       <link rel="stylesheet" href="{{ asset('assets/css/webslidemenu.css') }}">
@@ -24,6 +24,17 @@
       <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
       <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
 
+      <style>
+         .skiptranslate {
+             display: none !important;
+         } 
+         body {
+             top: 0px !important; 
+         }
+         .lang-select {
+            padding: 0 0px 0 0px !important;
+         }
+       </style>
    </head>
 
 
@@ -481,11 +492,18 @@
                      </li>
                   </ul>
                </nav>
-               <div class="language-selector d-none d-md-block">
+               {{-- <div class="language-selector d-none d-md-block">
                   <select name="menu" id="meun-items">
                      <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
                      <option value="html">AR</option>
                   </select>
+               </div> --}}
+               <div class="language-selector d-none d-md-block">
+                  <select name="menu" id="meun-items " class="lang-select">
+                     <option value="en" data-lang="en"> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
+                     <option value="ar" data-lang="ar">AR</option>
+                  </select>
+                 
                </div>
             </div>
          </div>
@@ -1192,6 +1210,46 @@
  <script src="{{ asset('assets/js/video.min.js') }}"></script>
  <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
  <script src="{{ asset('assets/js/webslidemenu.js') }}"></script>
+
+ <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ <script>
+     function googleTranslateElementInit() {
+         new google.translate.TranslateElement(
+             {
+             pageLanguage: 'en',
+             includedLanguages: 'ar',
+             layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+             autoDisplay: false
+           },
+             'google_translate_button'
+         );
+     }
+
+     window.setInterval(function(){
+         var lang = $('html')[0].lang;
+         $(".lang-select").val(lang);
+     },5000);
+
+     function setCookie(key, value, expiry) {
+         var expires = new Date();
+         expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
+         document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+     }
+
+     $('.lang-select').on('change',function() {
+         var theLang = $(this).val();
+         $('.goog-te-combo').val(theLang);
+         if(theLang == 'ar'){
+           // window.location = '#googtrans(en|ar)';
+           setCookie('googtrans', '/en/ar', 1);
+         }else{
+           // window.location = '#googtrans(en|en)';
+           setCookie('googtrans', '/en/en', 1);
+         }
+         window.location.reload();
+     });
+   
+ </script>
 
  <script type='text/javascript'>
    $(document).ready(function () {

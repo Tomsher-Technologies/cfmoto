@@ -24,6 +24,14 @@
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
    
     <title>{{ env('APP_NAME') }}</title>
+    <style>
+      .skiptranslate {
+          display: none !important;
+      } 
+      body {
+          top: 0px !important; 
+      }
+    </style>
     @stack('header')
    
 </head>
@@ -37,6 +45,7 @@
                 @include('frontend.common.footer')
         
     <!-- JavaScript -->
+    <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
       <script src="{{ asset('assets/js/AppMeasurement.min.js') }}"></script>
       <script src="{{ asset('assets/js/AppMeasurement_Module_ActivityMap.min.js') }}"></script>
@@ -50,8 +59,66 @@
       <script src="{{ asset('assets/js/scrolltopcontrol.js') }}"></script>
       <script src="{{ asset('assets/js/tc.js') }}"></script>
       <script src="{{ asset('assets/js/video.min.js') }}"></script>
-      <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
+      {{-- <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script> --}}
       <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+
+      {{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateInit" ></script>
+      <script type="text/javascript">
+      googleTranslateInit();
+        function googleTranslateInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: 'ar' },
+            'google_translate_button'
+          );
+        }
+      </script> --}}
+      {{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
+        }
+        </script> --}}
+        
+      <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script>
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                  {
+                  pageLanguage: 'en',
+                  includedLanguages: 'ar',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                  autoDisplay: false
+                },
+                  'google_translate_button'
+              );
+          }
+
+          window.setInterval(function(){
+              var lang = $('html')[0].lang;
+              $(".lang-select").val(lang);
+          },5000);
+
+          function setCookie(key, value, expiry) {
+              var expires = new Date();
+              expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
+              document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+          }
+
+          $('.lang-select').on('change',function() {
+              var theLang = $(this).val();
+              $('.goog-te-combo').val(theLang);
+              if(theLang == 'ar'){
+                // window.location = '#googtrans(en|ar)';
+                setCookie('googtrans', '/en/ar', 1);
+              }else{
+                // window.location = '#googtrans(en|en)';
+                setCookie('googtrans', '/en/en', 1);
+              }
+              window.location.reload();
+          });
+        
+      </script>
+      
       
       <script src="{{ asset('assets/js/webslidemenu.js') }}"></script>
       <script type='text/javascript'>
