@@ -101,7 +101,9 @@
           function setCookie(key, value, expiry) {
               var expires = new Date();
               expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
-              document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              document.cookie = key + '=' + value + '; domain=tomsher.co; path=/; expires=' + expires.toUTCString();
+              document.cookie = key + '=' + value + '; domain=cfmoto.tomsher.co; path=/; expires=' + expires.toUTCString();
+              // document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
           }
           
 
