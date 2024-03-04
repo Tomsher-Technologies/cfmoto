@@ -208,7 +208,6 @@ body {
   font-style: normal;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
-  word-wrap: break-word;
   scroll-behavior: smooth;
   transition: all 0.5s;
 }
