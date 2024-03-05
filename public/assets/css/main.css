@@ -897,6 +897,46 @@ a {
 
   }
 
+  .description img{
+    width: 50%;
+    margin: auto;
+  }
+
+  .description h2{
+font-size: 30px;
+margin: 10px 0 !important;
+  }
+
+  .description p{
+    font-size: 15px!important;
+    line-height: 28px!important;
+    margin-bottom: 0;
+      }
+
+      .headquarters_R_D[data-v-2c06fea9] {
+        height: auto;
+        padding: 0 20px;
+
+      }
+
+      div.cf_footer .cf_footer_subscribe input[data-v-5758fa05] {
+        font-size: 14px;
+
+      }
+
+      .cf_video {
+        height: auto !important;
+      }
+
+
+  .wsmenu > .wsmenu-list > li > .navtext > span + span::after {
+    content: none!important;
+  }
+
+  .btn.btn__enquiry {
+    font-size: 15px;
+  }
+
   .enterInformation .contactUs_content[data-v-7b5f97a0] {
     padding: 0;
   }
@@ -1035,6 +1075,10 @@ div.cf_footer div.cf_footer_nav ul.footer_list li.footer_list_items[data-v-5758f
   margin-right: 15px;
 }
 
+
+.dropdown-menu.dropdown-menu-dark.show a {
+  font-size: 14px;
+}
 
 .home-category-component {
     background-color: #fff;
@@ -1397,3 +1441,11 @@ width: 20%;
   url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.svg#elementskit")format("svg");
 }
 
+
+
+
+
+.rider .rider_t .title[data-v-52be8298], .rider .rider_t .description[data-v-52be8298], .rider .rider_b .btn[data-v-52be8298], .rider .rider_b .title[data-v-52be8298], .rider .prustel[data-v-52be8298]{
+  transform: none!important;
+  opacity: 1!important;
+}
