@@ -1,22 +1,28 @@
-<!doctype >
 <html lang="en">
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title></title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="{{ asset('assets/css/clientlib-all.lc-202401081956-lc.min.f12464e7415ea6247b9e9c9d91a43427.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/css.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/jquery.hiSlider.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v1') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v5') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-
+      <link rel="stylesheet" href="{{ asset('assets/css/s') }}">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
       <link rel="stylesheet" href="{{ asset('assets/css/webslidemenu.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/demo.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/white-gry.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+
       <link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
       <link href="https://db.onlinewebfonts.com/c/7280a131e9f73efe49c55d60cf58ebd6?family=elementskit" rel="stylesheet">
       <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
@@ -836,71 +842,208 @@
 </div>
 
 <div data-component="footer-component" data-initialized="true" class="footer_component">
-   <div data-v-5758fa05="" class="cf_footer">
-
-      <div data-v-5758fa05="" class="cf_footer_nav">
-         <div class="d-block pb-5 mb-5 text-center" style="border-bottom: 1px solid #ccc;">
-            
-         <span>                     <img src="{{ asset('assets/images/alshali-moto.png') }}" class="alshli-logo me-5"  alt=""></span>
- 
-         <span>                     <img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" class="alshli-logo" alt=""></span>
-         </div>
-
-         <ul data-v-5758fa05="" class="footer_list p-0">
-            <li data-v-5758fa05="" class="footer_list_items">
-               <!----> 
-               <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
-                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">CFORCE</span> <!---->
-                  </a>
-                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">ZFORCE</span> <!---->
-                  </a>
-
-                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">UFORCE</span> <!---->
-                  </a>
-
-                  <a data-v-5758fa05="" href="product-details.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">MOTORCYCLES</span> <!---->
-                  </a>
+         <div data-v-5758fa05="" class="cf_footer">
+      
+            <div data-v-5758fa05="" class="cf_footer_nav">
+               <div class="d-block pb-2 pb-md-5 mb2 mb-md-5 text-center" style="border-bottom: 1px solid #ccc;">
+                  
+               <span>                     <img src="{{ asset('assets/images/alshali-moto.png') }}" class="alshli-logo me-0 me-md-5"  alt=""></span>
+       
+               <span>                     <img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" class="alshli-logo" alt=""></span>
                </div>
-               <!---->
-            </li>
-            <li data-v-5758fa05="" class="footer_list_items">
-               <!----> 
-               <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
-                  <a data-v-5758fa05="" href="company-overview.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">About CFMOTO</span> <!---->
-                  </a>
-                  <a data-v-5758fa05="" href="racing.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">CFMOTO Racing</span> <!---->
-                  </a>
-                  <a data-v-5758fa05="" href="ride.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">CFMOTO Ride
-                     </span> <!---->
-                  </a>
-               </div>
-               <!---->
-            </li>
-            <li data-v-5758fa05="" class="footer_list_items">
-               <!----> 
-               <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
-                  <a data-v-5758fa05="" href="news.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">News</span> <!---->
-                  </a>
-                  <a data-v-5758fa05="" href="contact-us.html" class="footer_nav_item">
-                     <span data-v-5758fa05="" class="link_name">Contact Us</span> <!---->
-                  </a>
-
-
-               </div>
-               <!---->
-            </li>
-            <li data-v-5758fa05="" class="footer_list_items">
-               <!----> 
-               Subscribe
-               <div data-v-5758fa05="" class="pc mt-3">
+      
+               <ul data-v-5758fa05="" class="footer_list p-0">
+                  <li data-v-5758fa05="" class="footer_list_items">
+                     <!----> 
+                     <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">CFORCE</span> <!---->
+                        </a>
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">ZFORCE</span> <!---->
+                        </a>
+      
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">UFORCE</span> <!---->
+                        </a>
+      
+                        <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">MOTORCYCLES</span> <!---->
+                        </a>
+                     </div>
+                     <!---->
+                  </li>
+                  <li data-v-5758fa05="" class="footer_list_items">
+                     <!----> 
+                     <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
+                        <a data-v-5758fa05="" href="{{ route('companyoverview') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">About CFMOTO</span> <!---->
+                        </a>
+                        <a data-v-5758fa05="" href="{{ route('racing') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">CFMOTO Racing</span> <!---->
+                        </a>
+                        <a data-v-5758fa05="" href="{{ route('ride') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">CFMOTO Ride
+                           </span> <!---->
+                        </a>
+                     </div>
+                     <!---->
+                  </li>
+                  <li data-v-5758fa05="" class="footer_list_items">
+                     <!----> 
+                     <div data-v-5758fa05="" class="footer_list_items_link no_postcss_to_px">
+                        <a data-v-5758fa05="" href="{{ route('news') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">News</span> <!---->
+                        </a>
+                        <a data-v-5758fa05="" href="{{ route('contactus') }}" class="footer_nav_item">
+                           <span data-v-5758fa05="" class="link_name">Contact Us</span> <!---->
+                        </a>
+      
+      
+                     </div>
+                     <!---->
+                  </li>
+                  <li data-v-5758fa05="" class="footer_list_items">
+                     <!----> 
+                     Subscribe
+                     <div data-v-5758fa05="" class="pc mt-3">
+                        <div data-v-5758fa05="" class="cf_footer_subscribe">
+                           <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
+                           <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
+                              <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_wrap">
+                                 <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
+                                    Subscribe to our news
+                                 </div>
+                                 <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="{{ asset('assets/images/nav_close.png') }}" alt=""></div>
+                                 <div data-v-5758fa05="" class="form clearfix">
+                                    <form data-v-5758fa05="" class="el-form el-form--label-top">
+                                       <div data-v-5758fa05="" class="item-right el-col el-col-12">
+                                          <div data-v-5758fa05="" class="el-form-item is-required">
+                                             <label for="firstName" class="el-form-item__label">First name*</label>
+                                             <div class="el-form-item__content">
+                                                <div data-v-5758fa05="" class="el-input">
+                                                   <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                                </div>
+                                                <!---->
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-v-5758fa05="" class="item-left el-col el-col-12">
+                                          <div data-v-5758fa05="" class="el-form-item is-required">
+                                             <label for="lastName" class="el-form-item__label">Last name*</label>
+                                             <div class="el-form-item__content">
+                                                <div data-v-5758fa05="" class="el-input">
+                                                   <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                                </div>
+                                                <!---->
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-v-5758fa05="" class="el-col el-col-12">
+                                          <div data-v-5758fa05="" class="el-form-item">
+                                             <label for="email" class="el-form-item__label">Email*</label>
+                                             <div class="el-form-item__content">
+                                                <div data-v-5758fa05="" class="el-input">
+                                                   <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
+                                                </div>
+                                                <!---->
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-v-5758fa05="" class="item-left el-col el-col-12">
+                                          <div data-v-5758fa05="" class="user_type">
+                                             <div data-v-5758fa05="" class="el-form-item is-required">
+                                                <label for="userType" class="el-form-item__label">User Type*</label>
+                                                <div class="el-form-item__content">
+                                                   <div data-v-5758fa05="" class="el-select">
+                                                      <!---->
+                                                      <div class="el-input el-input--suffix">
+                                                         <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
+                                                         <span class="el-input__suffix">
+                                                            <span class="el-input__suffix-inner">
+                                                               <i class="el-select_caret el-input_icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
+                                                            </span>
+                                                            <!---->
+                                                         </span>
+                                                         <!----><!---->
+                                                      </div>
+                                                      <div class="el-select-dropdown el-popper" style="display: none;">
+                                                         <div class="el-scrollbar" style="">
+                                                            <div class="el-select-dropdown_wrap el-scrollbar_wrap">
+                                                               <ul class="el-scrollbar_view el-select-dropdown_list">
+                                                                  <!---->
+                                                                  <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
+                                                                  <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
+                                                                  <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-Distributor</span></li>
+                                                                  <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-dealer</span></li>
+                                                                  <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Others</span></li>
+                                                               </ul>
+                                                            </div>
+                                                            <div class="el-scrollbar__bar is-horizontal">
+                                                               <div class="el-scrollbar__thumb" ></div>
+                                                            </div>
+                                                            <div class="el-scrollbar__bar is-vertical">
+                                                               <div class="el-scrollbar__thumb" ></div>
+                                                            </div>
+                                                         </div>
+                                                         <!---->
+                                                      </div>
+                                                   </div>
+                                                   <!---->
+                                                </div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                       </div>
+                                       <div data-v-5758fa05="" class="el-col el-col-24">
+                                          <div data-v-5758fa05="" class="email-statement">
+                                             <div data-v-5758fa05="" class="el-form-item">
+                                                <!---->
+                                                <div class="el-form-item__content">
+                                                   <label data-v-5758fa05="" class="el-checkbox">
+                                                      <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
+                                                      <span class="el-checkbox__label">
+                                                         <div data-v-5758fa05="">
+                                                            By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="{{ route('privacy') }}">privacy policy</a> , 
+                                                            <a data-v-52b96a7e="" href="{{ route('marketing') }}">
+                                                               marketing communications.<!-- a-->
+                                                            </a>
+                                                         </div>
+                                                         <!---->
+                                                      </span>
+                                                   </label>
+                                                   <!---->
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-v-5758fa05="" class="el-col el-col-24">
+                                          <div data-v-5758fa05="" class="new-dialog-footer">
+                                             <div data-v-5758fa05="" class="el-form-item">
+                                                <!---->
+                                                <div class="el-form-item__content">
+                                                   <button data-v-5758fa05="" type="button" class="el-button subscribe el-button--default">
+                                                      <!----><!---->
+                                                      <span>
+                                                         Subscribe
+                                                         <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
+                                                      </span>
+                                                   </button>
+                                                   <!---->
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                              <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>               </div>
+                  </li>
+               </ul>
+               <div data-v-5758fa05="" class="mobile subscribe_input_wrap">
+                  <a data-v-5758fa05="" href="{{ route('news') }}" class="news">News</a> 
                   <div data-v-5758fa05="" class="cf_footer_subscribe">
                      <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
                      <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
@@ -955,7 +1098,7 @@
                                                    <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
                                                    <span class="el-input__suffix">
                                                       <span class="el-input__suffix-inner">
-                                                         <i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
+                                                         <i class="el-select_caret el-input_icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
                                                       </span>
                                                       <!---->
                                                    </span>
@@ -963,8 +1106,8 @@
                                                 </div>
                                                 <div class="el-select-dropdown el-popper" style="display: none;">
                                                    <div class="el-scrollbar" style="">
-                                                      <div class="el-select-dropdown__wrap el-scrollbar__wrap">
-                                                         <ul class="el-scrollbar__view el-select-dropdown__list">
+                                                      <div class="el-select-dropdown_wrap el-scrollbar_wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                                         <ul class="el-scrollbar_view el-select-dropdown_list">
                                                             <!---->
                                                             <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
                                                             <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
@@ -990,16 +1133,33 @@
                                     </div>
                                  </div>
                                  <div data-v-5758fa05="" class="el-col el-col-24">
+                                    <div data-v-5758fa05="" class="new-dialog-footer">
+                                       <div data-v-5758fa05="" class="el-form-item">
+                                          <!---->
+                                          <div class="el-form-item__content">
+                                             <button data-v-5758fa05="" type="button" class="el-button subscribe el-button--default">
+                                                <!----><!---->
+                                                <span>
+                                                   Subscribe
+                                                   <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows') }}'" alt="" class="btn_hover">
+                                                </span>
+                                             </button>
+                                             <!---->
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div data-v-5758fa05="" class="el-col el-col-24">
                                     <div data-v-5758fa05="" class="email-statement">
                                        <div data-v-5758fa05="" class="el-form-item">
                                           <!---->
                                           <div class="el-form-item__content">
                                              <label data-v-5758fa05="" class="el-checkbox">
-                                                <span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value=""></span>
+                                                <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                 <span class="el-checkbox__label">
                                                    <div data-v-5758fa05="">
-                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
-                                                      <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html">
+                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="{{ route('privacy') }}">privacy policy</a> , 
+                                                      <a data-v-52b96a7e="" href="{{ route('marketing') }}">
                                                          marketing communications.<!-- a-->
                                                       </a>
                                                    </div>
@@ -1011,263 +1171,210 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div data-v-5758fa05="" class="el-col el-col-24">
-                                    <div data-v-5758fa05="" class="new-dialog-footer">
-                                       <div data-v-5758fa05="" class="el-form-item">
-                                          <!---->
-                                          <div class="el-form-item__content">
-                                             <button data-v-5758fa05="" type="button" class="el-button subscribe el-button--default">
-                                                <!----><!---->
-                                                <span>
-                                                   Subscribe
-                                                   <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
-                                                </span>
-                                             </button>
-                                             <!---->
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
                               </form>
                            </div>
                         </div>
                      </div>
                   </div>
-                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>               </div>
-            </li>
-         </ul>
-         <div data-v-5758fa05="" class="mobile subscribe_input_wrap">
-            <a data-v-5758fa05="" href="/global/media-center/news.html" class="news">News</a> 
-            <div data-v-5758fa05="" class="cf_footer_subscribe">
-               <input data-v-5758fa05="" placeholder="subscribe to the news via email" class=""> <button data-v-5758fa05="" class="subscribe_btn"><img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt=""></button> <!----> 
-               <div data-v-5758fa05="" class="cf_footer_subscribe_dialog">
-                  <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_wrap">
-                     <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
-                        Subscribe to our news
-                     </div>
-                     <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="/etc/designs/cfmoto/assets/home/nav_close.png') }}" alt=""></div>
-                     <div data-v-5758fa05="" class="form clearfix">
-                        <form data-v-5758fa05="" class="el-form el-form--label-top">
-                           <div data-v-5758fa05="" class="item-right el-col el-col-12">
-                              <div data-v-5758fa05="" class="el-form-item is-required">
-                                 <label for="firstName" class="el-form-item__label">First name*</label>
-                                 <div class="el-form-item__content">
-                                    <div data-v-5758fa05="" class="el-input">
-                                       <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
-                                    </div>
-                                    <!---->
-                                 </div>
-                              </div>
+                  <div data-v-5758fa05="" class="cf_footer_language_social">
+                     <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://www.facebook.com/CFMOTOOFFICIAL" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook3.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-.png') }}'" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UC2qMgbLZ-ODtz0HzKaPnCAQ" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmotoofficial/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.linkedin.com/company/cfmoto-powersports-inc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.tiktok.com/@cfmoto_official" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-black.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-white') }}'" alt="" class="hover"></a></div>
+                     <div data-v-5758fa05="" class="cf_footer_language">
+                        <div data-v-5758fa05="" class="cf_footer_language_default"><img data-v-5758fa05="" class="cf_footer_language_icon"> <span data-v-5758fa05="" class="cf_footer_language_text"></span></div>
+                        <div data-v-5758fa05="" class="ul-wrap">
+                           <div data-v-5758fa05="" class="drop-down-content">
+                              <div data-v-5758fa05="" class="ul-title"><span data-v-5758fa05="" class="close"></span></div>
+                              <ul data-v-5758fa05=""></ul>
                            </div>
-                           <div data-v-5758fa05="" class="item-left el-col el-col-12">
-                              <div data-v-5758fa05="" class="el-form-item is-required">
-                                 <label for="lastName" class="el-form-item__label">Last name*</label>
-                                 <div class="el-form-item__content">
-                                    <div data-v-5758fa05="" class="el-input">
-                                       <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
-                                    </div>
-                                    <!---->
-                                 </div>
-                              </div>
-                           </div>
-                           <div data-v-5758fa05="" class="el-col el-col-12">
-                              <div data-v-5758fa05="" class="el-form-item">
-                                 <label for="email" class="el-form-item__label">Email*</label>
-                                 <div class="el-form-item__content">
-                                    <div data-v-5758fa05="" class="el-input">
-                                       <!----><input type="text" autocomplete="off" placeholder="Please enter" class="el-input__inner"><!----><!----><!----><!---->
-                                    </div>
-                                    <!---->
-                                 </div>
-                              </div>
-                           </div>
-                           <div data-v-5758fa05="" class="item-left el-col el-col-12">
-                              <div data-v-5758fa05="" class="user_type">
-                                 <div data-v-5758fa05="" class="el-form-item is-required">
-                                    <label for="userType" class="el-form-item__label">User Type*</label>
-                                    <div class="el-form-item__content">
-                                       <div data-v-5758fa05="" class="el-select">
-                                          <!---->
-                                          <div class="el-input el-input--suffix">
-                                             <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Please select" class="el-input__inner"><!---->
-                                             <span class="el-input__suffix">
-                                                <span class="el-input__suffix-inner">
-                                                   <i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!---->
-                                                </span>
-                                                <!---->
-                                             </span>
-                                             <!----><!---->
-                                          </div>
-                                          <div class="el-select-dropdown el-popper" style="display: none;">
-                                             <div class="el-scrollbar" style="">
-                                                <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
-                                                   <ul class="el-scrollbar__view el-select-dropdown__list">
-                                                      <!---->
-                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>CFMOTO consumer</span></li>
-                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Media</span></li>
-                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-Distributor</span></li>
-                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Business partner-dealer</span></li>
-                                                      <li data-v-5758fa05="" class="el-select-dropdown__item"><span>Others</span></li>
-                                                   </ul>
-                                                </div>
-                                                <div class="el-scrollbar__bar is-horizontal">
-                                                   <div class="el-scrollbar__thumb" ></div>
-                                                </div>
-                                                <div class="el-scrollbar__bar is-vertical">
-                                                   <div class="el-scrollbar__thumb" ></div>
-                                                </div>
-                                             </div>
-                                             <!---->
-                                          </div>
-                                       </div>
-                                       <!---->
-                                    </div>
-                                 </div>
-                                 <!---->
-                              </div>
-                           </div>
-                           <div data-v-5758fa05="" class="el-col el-col-24">
-                              <div data-v-5758fa05="" class="new-dialog-footer">
-                                 <div data-v-5758fa05="" class="el-form-item">
-                                    <!---->
-                                    <div class="el-form-item__content">
-                                       <button data-v-5758fa05="" type="button" class="el-button subscribe el-button--default">
-                                          <!----><!---->
-                                          <span>
-                                             Subscribe
-                                             <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
-                                          </span>
-                                       </button>
-                                       <!---->
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div data-v-5758fa05="" class="el-col el-col-24">
-                              <div data-v-5758fa05="" class="email-statement">
-                                 <div data-v-5758fa05="" class="el-form-item">
-                                    <!---->
-                                    <div class="el-form-item__content">
-                                       <label data-v-5758fa05="" class="el-checkbox">
-                                          <span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value=""></span>
-                                          <span class="el-checkbox__label">
-                                             <div data-v-5758fa05="">
-                                                By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html">privacy policy</a> , 
-                                                <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html">
-                                                   marketing communications.<!-- a-->
-                                                </a>
-                                             </div>
-                                             <!---->
-                                          </span>
-                                       </label>
-                                       <!---->
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </form>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-            <div data-v-5758fa05="" class="cf_footer_language_social">
-               <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://www.facebook.com/CFMOTOOFFICIAL" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UC2qMgbLZ-ODtz0HzKaPnCAQ" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmotoofficial/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.linkedin.com/company/cfmoto-powersports-inc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.tiktok.com/@cfmoto_official" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-black.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-white.png') }}" alt="" class="hover"></a></div>
-               <div data-v-5758fa05="" class="cf_footer_language">
-                  <div data-v-5758fa05="" class="cf_footer_language_default"><img data-v-5758fa05="" class="cf_footer_language_icon"> <span data-v-5758fa05="" class="cf_footer_language_text"></span></div>
-                  <div data-v-5758fa05="" class="ul-wrap">
-                     <div data-v-5758fa05="" class="drop-down-content">
-                        <div data-v-5758fa05="" class="ul-title"><span data-v-5758fa05="" class="close"></span></div>
-                        <ul data-v-5758fa05=""></ul>
-                     </div>
+            <div data-v-5758fa05="" class="cf_footer_bottom justify-content-center">
+               <div data-v-5758fa05="" class="footer_left">
+                  <div data-v-5758fa05="" class="footer_info no_postcss_to_px "><a data-v-5758fa05="" href="#" class="footer_link">
+                     © Copyright 2024 all Rights Reserved. Designed by Tomsher
+                     </a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <div data-v-5758fa05="" class="cf_footer_bottom justify-content-center">
-         <div data-v-5758fa05="" class="footer_left">
-            <div data-v-5758fa05="" class="footer_info no_postcss_to_px "><a data-v-5758fa05="" href="#" class="footer_link">
-               © Copyright 2024 all Rights Reserved. Designed by Tomsher
-               </a>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-
- <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
- <script src="{{ asset('assets/js/AppMeasurement.min.js') }}"></script>
- <script src="{{ asset('assets/js/AppMeasurement_Module_ActivityMap.min.js') }}"></script>
- <script src="{{ asset('assets/js/clientlib-all.lc-202401081956-lc.min.92f1e1eb72923682eeedfbc16eb72d32.js') }}"></script>
- <script src="{{ asset('assets/js/jquery.hiSlider.js') }}"></script>
- <script src="{{ asset('assets/js/jquery.scrollbar.js') }}"></script>
- <script src="{{ asset('assets/js/launch-b43d331c5522-development.min.js') }}"></script>
- <script src="{{ asset('assets/js/laydate.js') }}"></script>
- <script src="{{ asset('assets/js/main.js') }}"></script>
- <script src="{{ asset('assets/js/owl.carousel.js') }}"></script>
- <script src="{{ asset('assets/js/scrolltopcontrol.js') }}"></script>
- <script src="{{ asset('assets/js/tc.js') }}"></script>
- <script src="{{ asset('assets/js/video.min.js') }}"></script>
  <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
- <script src="{{ asset('assets/js/webslidemenu.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
+      <script src="{{ asset('assets/js/AppMeasurement.min.js') }}"></script>
+      <script src="{{ asset('assets/js/AppMeasurement_Module_ActivityMap.min.js') }}"></script>
+      <script src="{{ asset('assets/js/clientlib-all.lc-202401081956-lc.min.92f1e1eb72923682eeedfbc16eb72d32.js') }}"></script>
+      <script src="{{ asset('assets/js/jquery.hiSlider.js') }}"></script>
+      <script src="{{ asset('assets/js/jquery.scrollbar.js') }}"></script>
+      <script src="{{ asset('assets/js/launch-b43d331c5522-development.min.js') }}"></script>
+      <script src="{{ asset('assets/js/laydate.js') }}"></script>
+      <script src="{{ asset('assets/js/main.js') }}"></script>
+      <script src="{{ asset('assets/js/owl.carousel.js') }}"></script>
+      <script src="{{ asset('assets/js/scrolltopcontrol.js') }}"></script>
+      <script src="{{ asset('assets/js/tc.js') }}"></script>
+      <script src="{{ asset('assets/js/video.min.js') }}"></script>
+      {{-- <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script> --}}
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
 
- <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
- <script>
-     function googleTranslateElementInit() {
-         new google.translate.TranslateElement(
-             {
-             pageLanguage: 'en',
-             includedLanguages: 'ar',
-             layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-             autoDisplay: false
-           },
-             'google_translate_button'
-         );
-     }
+      {{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateInit" ></script>
+      <script type="text/javascript">
+      googleTranslateInit();
+        function googleTranslateInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: 'ar' },
+            'google_translate_button'
+          );
+        }
+      </script> --}}
+      {{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'ar'}, 'google_translate_element');
+        }
+        </script> --}}
+        
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script>
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                  {
+                  pageLanguage: 'en',
+                  includedLanguages: 'ar',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                  autoDisplay: false
+                },
+                  'google_translate_button'
+              );
+          }
 
-     window.setInterval(function(){
-         var lang = $('html')[0].lang;
-         $(".lang-select").val(lang);
-     },3000);
+          window.setInterval(function(){
+              var lang = $('html')[0].lang;
+              $(".lang-select").val(lang);
+          },3000);
 
-     function setCookie(key, value, expiry) {
-         var expires = new Date();
-         expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
-   
-         document.cookie = key + '=' + value + '; domain=tomsher.co; path=/;expires=' + expires.toUTCString()+'; secure';
-         document.cookie = key + '=' + value + '; path=/; expires=' + expires.toUTCString() +'; secure';
-     }
+          function setCookie(key, value, expiry) {
+              var expires = new Date();
+              expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
+              // document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              document.cookie = key + '=' + value + '; domain=tomsher.co; path=/;expires=' + expires.toUTCString()+'; secure';
+              document.cookie = key + '=' + value + '; path=/; expires=' + expires.toUTCString() +'; secure';
+          }
+          
 
-     $('.lang-select').on('change',function() {
-         setCookie('googtrans','',0);
-         var theLang = $(this).val();
-         $('.goog-te-combo').val(theLang);
-         if(theLang == 'ar'){
-           // window.location = '#googtrans(en|ar)';
-           setCookie('googtrans', '/en/ar', 1);
-         }else{
-           // window.location = '#googtrans(en|en)';
-           setCookie('googtrans', '/en/en', 1);
-         }
-         window.location.reload();
-     });
-   
- </script>
+          $('.lang-select').on('change',function() {
+              setCookie('googtrans','',0);
+              var theLang = $(this).val();
+              $('.goog-te-combo').val(theLang);
+              if(theLang == 'ar'){
+                // window.location = '#googtrans(en|ar)';
+                setCookie('googtrans', '/en/ar', 1);
+              }else{
+                // window.location = '#googtrans(en|en)';
+                setCookie('googtrans', '/en/en', 1);
+              }
+              window.location.reload();
+          });
+        
+      </script>
+      
+      
+      <script src="{{ asset('assets/js/webslidemenu.js') }}"></script>
+      <script type='text/javascript'>
+         $(document).ready(function () {
+           $("a[data-theme]").click(function () {
+             $("head link#theme").attr("href", $(this).data("theme"));
+             $(this).toggleClass('active').siblings().removeClass('active');
+           });
+           $("a[data-effect]").click(function () {
+             $("head link#effect").attr("href", $(this).data("effect"));
+             $(this).toggleClass('active').siblings().removeClass('active');
+           });
+         
+         });
+         
+         var swiper = new Swiper('.product-slider', {
+            spaceBetween: 30,
+            effect: 'fade',
+            // initialSlide: 2,
+            loop: false,
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.prev'
+            },
+            // mousewheel: {
+            //     // invert: false
+            // },
+            on: {
+                init: function(){
+                    var index = this.activeIndex;
+         
+                    var target = $('.product-slider__item').eq(index).data('target');
+         
+                    console.log(target);
+         
+                    $('.product-img__item').removeClass('active');
+                    $('.product-img__item#'+ target).addClass('active');
+                }
+            }
+         
+         });
+         
+         swiper.on('slideChange', function () {
+            var index = this.activeIndex;
+         
+            var target = $('.product-slider__item').eq(index).data('target');
+         
+            console.log(target);
+         
+            $('.product-img__item').removeClass('active');
+            $('.product-img__item#'+ target).addClass('active');
+         
+            if(swiper.isEnd) {
+                $('.prev').removeClass('disabled');
+                $('.next').addClass('disabled');
+            } else {
+                $('.next').removeClass('disabled');
+            }
+         
+            if(swiper.isBeginning) {
+                $('.prev').addClass('disabled');
+            } else {
+                $('.prev').removeClass('disabled');
+            }
+         });
+         
+         $(".js-fav").on("click", function() {
+            $(this).find('.heart').toggleClass("is-active");
+         });
+         
+         
+         (function ($) {
+            $(function () {
+              $(document).off('click.bs.tab.data-api', '[data-hover="tab"]');
+              $(document).on('mouseenter.bs.tab.data-api', '[data-toggle="tab"], [data-hover="tab"]', function () {
+                $(this).tab('show');
+              });
+            });
+          })(jQuery);
+      </script>
+      <script>
+         $(document).ready(function(){
+            $('.nav-tabs > li > a').hover(function() {
+                 $(this).tab('show');
+            });
+         })
 
- <script type='text/javascript'>
-   $(document).ready(function () {
-     $("a[data-theme]").click(function () {
-       $("head link#theme").attr("href", $(this).data("theme"));
-       $(this).toggleClass('active').siblings().removeClass('active');
-     });
-     $("a[data-effect]").click(function () {
-       $("head link#effect").attr("href", $(this).data("effect"));
-       $(this).toggleClass('active').siblings().removeClass('active');
-     });
-
-   });
- </script>
-
+         $(document).ready(function(){
+            tippy('.tippy', {
+              theme: 'light',
+              size: 'big',
+              arrow: true
+            })
+        });
+      </script>
     
-</body>
+    @stack('footer')
+
+    </body>
 </html>
