@@ -19,7 +19,7 @@
                         </div>
                      
                         <form>
-                           <div class="mb-3">
+                           <div class="mb-1 mb-md-3">
                              <label for="exampleInputEmail1" class="form-label">Name</label>
                              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your name">
                            </div>
@@ -126,7 +126,7 @@
             <div class="col-md-3">
                <div class="location-info">
                 <h3>Riyadh 13542, Saudi Arabia</h3>
-                <br>
+                
                 <ul>
                   <li>
                      <a href="#">
@@ -184,7 +184,7 @@
             <div class="col-md-3">
                <div class="location-info">
                 <h3>Msheireb Museums - Relive The History Of Doha</h3>
-                <br>
+                
                 <ul>
                   <li>
                      <a href="#">
