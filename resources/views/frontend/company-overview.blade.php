@@ -498,12 +498,6 @@
                      </li>
                   </ul>
                </nav>
-               {{-- <div class="language-selector d-none d-md-block">
-                  <select name="menu" id="meun-items">
-                     <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
-                     <option value="html">AR</option>
-                  </select>
-               </div> --}}
                <div class="language-selector d-none d-md-block">
                   <select name="menu" id="meun-items " class="lang-select">
                      <option value="en" data-lang="en"> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
@@ -511,6 +505,23 @@
                   </select>
                  
                </div>
+
+               {{-- <ul class="list-unstyled language-selector d-none d-md-block">
+                  <li>
+                     <a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en">
+                        English
+                     </a>
+                  </li>
+                     <li>
+                     <a href="#googtrans(en|ar)" class="lang-es lang-select" data-lang="ar">
+                           Arabic
+                     </a>
+                  </li>
+               </ul> --}}
+
+               {{-- <div id="google_translate_button" ></div> --}}
+
+              
             </div>
          </div>
       </div>
