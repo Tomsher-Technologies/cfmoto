@@ -925,7 +925,13 @@ margin: 10px 0 !important;
       }
 
       .cf_video {
-        height: auto !important;
+        height: 100% !important;
+      }
+
+      div.cf_video div.cf_container div.cf_video_bottom nav.cf_video_nav div.video_nav_left h3[data-v-f327cff8] {
+        font-size: 14px;
+        padding: 15px;
+        margin: 0;
       }
 
 
