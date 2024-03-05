@@ -134,12 +134,11 @@ a.related_info_more.flex.btn_hover.no_postcss_to_px {
 }
 
 .multi-location .nav-link{
-font-size: 25px;
+font-size: 20px;
 color: #000000;
 }
 
 .multi-location .nav-link.active{
-    font-size: 20px;
     color: #ffffff!important;
     background-color: #000000!important;
     }
@@ -928,12 +927,17 @@ margin: 10px 0 !important;
       }
 
       .cf_video {
+         position: static!important;
+        transform: none !important;
+        height: auto !important;
       }
 
       .pin-spacer {
-
-        padding: 0px 0px 180px!important;
+        height: auto !important;
+        padding: 0px 0px 0px!important;
+           transform: none !important;
       }
+
 
       .news_list_component {
         margin-top: 70px;
@@ -977,6 +981,7 @@ margin: 10px 0 !important;
   .multi-location .nav-tabs .nav-link {
     padding: 15px;
     font-size: 12px;
+    font-size: 20px;
   }
 
   .wsmenu > .wsmenu-list > li > .navtext {
