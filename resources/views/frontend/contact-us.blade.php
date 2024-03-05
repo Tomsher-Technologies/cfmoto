@@ -23,15 +23,15 @@
                              <label for="exampleInputEmail1" class="form-label">Name</label>
                              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your name">
                            </div>
-                           <div class="mb-3">
+                           <div class="mb-1 mb-md-3">
                               <label for="exampleInputEmail1" class="form-label">Email</label>
                               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
                             </div>
-                           <div class="mb-3">
+                           <div class="mb-1 mb-md-3">
                              <label for="exampleInputPassword1" class="form-label">Phone</label>
                              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your phone">
                            </div>
-                           <div class="mb-3">
+                           <div class="mb-1 mb-md-3">
                              <textarea name="" class="form-control" id="" cols="30" rows="4" placeholder="Enter your message"></textarea>
                            </div>
                            <button type="submit" class="btn btn-sumbit">Submit</button>
