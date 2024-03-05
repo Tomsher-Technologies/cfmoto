@@ -45,13 +45,21 @@
 
 
    <div class="wsmobileheader clearfix">
-      <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-      <span class="smllogo"><img src="{{ asset('images/menu-logo.png') }}" width="80" alt="" /></span>
-      <div class="wssearch clearfix">
-         dddd
+         <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+         <span class="smllogo"><a href="{{ route('uae') }}"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" width="80" alt="" /></a></span>
+         <div class="language-selector d-block d-md-none">
+            {{-- <select name="menu" id="meun-items">
+               <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
+               <option value="html" id="google_translate_element">AR</option>
+            </select> --}}
+            <select name="menu" id="meun-items " class="lang-select">
+               <option value="en" data-lang="en"> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>
+               <option value="ar" data-lang="ar">AR</option>
+            </select>
+         </div>
+         <div id="google_translate_buttons"></div>
       </div>
-   </div>
-   </div>
+      </div>
    <div class="headerfull">
          <div class="container-fluid">
             <div class="wsmain clearfix">
