@@ -928,11 +928,11 @@ margin: 10px 0 !important;
       }
 
       .cf_video {
-        height: auto !important;
       }
 
       .pin-spacer {
-        height: auto !important;
+
+        padding: 0px 0px 180px!important;
       }
 
       .news_list_component {
