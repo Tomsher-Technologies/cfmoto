@@ -5,7 +5,7 @@
    <div data-component="contact-us-enterInformation-component"  class="contact_us_enterInformation_component">
       <div data-v-7b5f97a0="" id="contactUs">
 
-         <div class="row w-100">
+         <div class="row">
             <div class="col-md-7">
                <div data-v-43473ba4="" data-v-7b5f97a0="" class="contactUs_banner m-0"><img data-v-43473ba4="" src="{{ asset('assets/images/5th.jpg') }}" alt="" class="contactUs_banner_img isPc"> <img data-v-43473ba4="" src="{{ asset('assets/images/contact_us_mobile.png') }}" alt="" class="contactUs_banner_mobile_img isMobile"></div>
 
@@ -63,13 +63,12 @@
       </li>
 
     </ul>
-    <div class="tab-content mt-3" id="myTabContent">
+    <div class="tab-content mt-2 mt-md-3" id="myTabContent">
       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
          <div class="row">
             <div class="col-md-3">
                <div class="location-info">
                 <h3>Ras Al Khor Industrial Area 2, Dubai , U.A.E.</h3>
-                <br>
                  <ul>
                   <li>
                      <a href="#">

@@ -858,6 +858,75 @@ a {
 }
 @media screen and (max-width: 576px) {
 
+  .video_img img{
+    height: 100%;
+  }
+
+  .about_bottom_moreLink.no_postcss_to_px.flex.btn_hover {
+    z-index: 9999;
+    position: relative;
+  }
+
+  .about_top_text p{
+    margin-bottom: 0;
+  }
+
+  div.cf_regional div.cf_regional_top div.regional_data_items .regional_data_list h3[data-v-79df4e83] {
+    font-size: 25px;
+  }
+
+  div.cf_regional div.cf_regional_top div.regional_data_items .regional_data_list p[data-v-79df4e83] {
+    font-size: 14px;
+  }
+
+  div.cf_footer div.cf_footer_bottom[data-v-5758fa05] {
+    width: -moz-calc(100%);
+    width: 100%;
+
+  }
+
+  .cf_footer div.cf_footer_bottom div.footer_info a[data-v-5758fa05] {
+    font-size: 11px;
+  }
+
+  .action {
+    bottom: 70px!important;
+    right: 15px!important;
+    width: 40px!important;
+    height: 40px!important;
+
+  }
+
+  .enterInformation .contactUs_content[data-v-7b5f97a0] {
+    padding: 0;
+  }
+
+  .contactUs_banner[data-v-43473ba4] {
+    height: auto;
+  }
+
+  .multi-location {
+    padding: 20px;
+  }
+
+  .location-info p {
+    font-size: 14px;
+  }
+
+  .multi-location .nav-tabs .nav-link {
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  .wsmenu > .wsmenu-list > li > .navtext {
+    text-align: start!important;
+
+  }
+
+  .regional_data_items {
+    padding: 0 20px;
+  }
+
   .product-slider__content {
     padding-top: 220px;
 
@@ -1175,8 +1244,8 @@ section.become-distributor-section .form-control{
 }
 
 .location-info ul{
- margin: 0;
  padding: 0;
+ margin-top: 30px;
 }
 
 .location-info ul li a{
@@ -1316,3 +1385,15 @@ width: 20%;
  .action ul li a.in-icon {
    color: #0e76a8;
  }
+
+
+ @font-face {
+  font-family: "elementskit";
+  src: url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.eot");
+  src: url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.svg#elementskit")format("svg");
+}
+
