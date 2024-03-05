@@ -71,7 +71,7 @@ Route::get('/xopapiotrail', [FrontendController::class, 'xopapiotrail'])->name('
 Route::get('/zforce800trail', [FrontendController::class, 'zforce800trail'])->name('zforce800trail');
 Route::get('/zforce950sport', [FrontendController::class, 'zforce950sport'])->name('zforce950sport');
 Route::get('/products/zforce950sport4', [FrontendController::class, 'zforce950sport4'])->name('zforce950sport4');
-Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
+Route::get('/products/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 
 
 Route::group(['middleware' => ['auth','web']], function () {
