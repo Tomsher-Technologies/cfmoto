@@ -136,7 +136,7 @@
     
 </div>
 <style>
-.specification_operation, .specification_bottom_slogan, .specification_tips no_postcss_to_px{
+.specification_operation, .specification_bottom_slogan, .specification_tips .no_postcss_to_px, .banner_scroll{
     display:none !important;
 }
     </style>
