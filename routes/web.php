@@ -50,6 +50,8 @@ Route::get('/contactus', [FrontendController::class, 'contactus'])->name('contac
 Route::get('/cx2e', [FrontendController::class, 'cx2e'])->name('cx2e');
 Route::get('/cx5e', [FrontendController::class, 'cx5e'])->name('cx5e');
 Route::get('/global', [FrontendController::class, 'global'])->name('global');
+Route::get('/privacy', [FrontendController::class, 'privacy'])->name('privacy');
+Route::get('/marketing', [FrontendController::class, 'marketing'])->name('marketing');
 
 Route::get('/index2', [FrontendController::class, 'index2'])->name('index2');
 Route::get('/menu', [FrontendController::class, 'menu'])->name('menu');
