@@ -135,4 +135,9 @@
     </div>
     
 </div>
+<style>
+.specification_operation{
+    display:none;
+}
+    </style>
 @endsection
