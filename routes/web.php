@@ -6,7 +6,7 @@ use App\Http\Controllers\ForgotPasswordController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [FrontendController::class, 'home'])->name('home');
-Route::get('/products/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
+Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 Route::get('/productdetails', [FrontendController::class, 'productdetails'])->name('productdetails');
 Route::get('/t250clx', [FrontendController::class, 't250clx'])->name('t250clx');
 Route::get('/t250nk', [FrontendController::class, 't250nk'])->name('t250nk');
@@ -70,8 +70,8 @@ Route::get('/xopapioracer', [FrontendController::class, 'xopapioracer'])->name('
 Route::get('/xopapiotrail', [FrontendController::class, 'xopapiotrail'])->name('xopapiotrail');
 Route::get('/zforce800trail', [FrontendController::class, 'zforce800trail'])->name('zforce800trail');
 Route::get('/zforce950sport', [FrontendController::class, 'zforce950sport'])->name('zforce950sport');
-Route::get('/products/zforce950sport4', [FrontendController::class, 'zforce950sport4'])->name('zforce950sport4');
-Route::get('/products/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
+Route::get('/zforce950sport4', [FrontendController::class, 'zforce950sport4'])->name('zforce950sport4');
+Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 
 
 Route::group(['middleware' => ['auth','web']], function () {
