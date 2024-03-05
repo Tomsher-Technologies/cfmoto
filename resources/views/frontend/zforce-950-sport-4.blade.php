@@ -136,8 +136,8 @@
     
 </div>
 <style>
-.specification_operation{
-    display:none;
+.specification_operation, .specification_bottom_slogan, .specification_tips no_postcss_to_px{
+    display:none !important;
 }
     </style>
 @endsection
