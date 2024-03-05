@@ -12,7 +12,7 @@
       <link rel="stylesheet" href="{{ asset('assets/css/jquery.hiSlider.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v2') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v3') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/s') }}">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
