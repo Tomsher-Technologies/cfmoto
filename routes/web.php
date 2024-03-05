@@ -36,7 +36,7 @@ Route::get('/asparracing', [FrontendController::class, 'asparracing'])->name('as
 Route::get('/becomeadistributor', [FrontendController::class, 'becomeadistributor'])->name('becomeadistributor');
 Route::get('/brands', [FrontendController::class, 'brands'])->name('brands');
 Route::get('/products/cforce110', [FrontendController::class, 'cforce110'])->name('cforce110');
-Route::get('/cforce450l', [FrontendController::class, 'cforce450l'])->name('cforce450l');
+Route::get('/products/cforce450l', [FrontendController::class, 'cforce450l'])->name('cforce450l');
 Route::get('/cforce625touring', [FrontendController::class, 'cforce625touring'])->name('cforce625touring');
 Route::get('/cforce625touringoverland', [FrontendController::class, 'cforce625touringoverland'])->name('cforce625touringoverland');
 Route::get('/cforce850touring', [FrontendController::class, 'cforce850touring'])->name('cforce850touring');
