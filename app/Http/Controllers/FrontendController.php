@@ -294,4 +294,12 @@ class FrontendController extends Controller
     {
         return view('frontend.zforce-1000-sport-r'); 
     }
+    public function privacy()
+    {
+        return view('frontend.privacy'); 
+    }
+    public function marketing()
+    {
+        return view('frontend.marketing'); 
+    }
 }
