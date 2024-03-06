@@ -33,7 +33,7 @@
                      <div data-v-1b348b13="" class="banner_scroll">
                         <p data-v-1b348b13="" class="banner_scroll_text">Scroll</p>
                         <picture data-v-1b348b13="">
-                           <source data-v-1b348b13="" media="(max-width:1080px)" srcset="{{ asset('assets/images/banner/scroll_mobile.png') }}">
+                           <source data-v-1b348b13="" media="(max-width:1080px)" srcset="{{ asset('assets/images/scroll_mobile.png') }}">
                            <img data-v-1b348b13="" src="{{ asset('assets/images/scroll_new.png') }}" alt="" class="brand_banner_scroll">
                         </picture>
                      </div>
