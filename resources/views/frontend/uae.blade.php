@@ -27,7 +27,7 @@
                      <div data-v-592e88dc="" class="banner_scroll">
                         <p data-v-592e88dc="" class="banner_scroll_text">Scroll</p>
                         <picture data-v-592e88dc="">
-                           <source data-v-592e88dc="" media="(max-width:1080px)" srcset="{{ asset('assets/images/banner/scroll_mobile.png') }}">
+                           <source data-v-592e88dc="" media="(max-width:1080px)" srcset="{{ asset('assets/images/scroll_mobile.png') }}">
                            <img data-v-592e88dc="" src="{{ asset('assets/images/scroll_new.png') }}" alt="img" class="cf_banner_scroll">
                         </picture>
                      </div>
