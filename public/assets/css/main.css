@@ -932,6 +932,10 @@ margin: 10px 0 !important;
         height: auto !important;
       }
 
+      .contactUs_banner .isPc[data-v-43473ba4] {
+        display: block!important;
+      }
+
       .pin-spacer {
         height: auto !important;
         padding: 0px 0px 0px!important;

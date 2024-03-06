@@ -1212,7 +1212,7 @@
             <div data-v-5758fa05="" class="cf_footer_bottom justify-content-center">
                <div data-v-5758fa05="" class="footer_left">
                   <div data-v-5758fa05="" class="footer_info no_postcss_to_px "><a data-v-5758fa05="" href="#" class="footer_link">
-                     © Copyright 2024 all Rights Reserved. Designed by Tomsher
+                     © Copyright 2024 all Rights Reserved. Designed by <a href="https://www.tomsher.com" target="_blank">Tomsher</a>
                      </a>
                   </div>
                </div>

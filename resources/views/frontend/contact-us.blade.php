@@ -176,7 +176,8 @@
                  </ul>
                </div>
             </div>
-            <div class="col-md-9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.6827956668!2d54.897843286837066!3d25.076280454847193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1706852906998!5m2!1sen!2sae" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="col-md-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10848.534100988678!2d46.57434020389813!3d24.854832459871574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee621a962f86d%3A0x57602a91579f1236!2sAl%20Qirawan%2C%20Riyadh%2013542%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sae!4v1709729245552!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          </div>
       </div>
       <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
@@ -234,7 +235,8 @@
                  </ul>
                </div>
             </div>
-            <div class="col-md-9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.6827956668!2d54.897843286837066!3d25.076280454847193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1706852906998!5m2!1sen!2sae" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="col-md-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5071568361914!2d51.52456658671272!3d25.28715937044554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c539693ebb71%3A0x19cc35cc4f52db2b!2sMsheireb%20Museums!5e0!3m2!1sen!2sae!4v1709729297470!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          </div>
       </div>
     </div>
