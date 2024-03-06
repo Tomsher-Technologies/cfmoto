@@ -118,7 +118,8 @@
                  </ul>
                </div>
             </div>
-            <div class="col-md-9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.6827956668!2d54.897843286837066!3d25.076280454847193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1706852906998!5m2!1sen!2sae" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="col-md-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14443.122660862053!2d55.33870623581776!3d25.176882844074935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f665550ed8eb9%3A0xc1329059db67ab92!2sRas%20Al%20Khor%20Industrial%20Area%20-%20Ras%20Al%20Khor%20Industrial%20Area%202%20-%20Dubai!5e0!3m2!1sen!2sae!4v1709730190855!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          </div>
       </div>
       <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
