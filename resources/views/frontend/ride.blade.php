@@ -1,3 +1,5 @@
+@extends('layouts.app.main')
+@section('content')
 <div class="home-banner-component">
          <div class="home_banner_component" data-component="home-banner-component">
              <homebannercomponent obj="{&#34;bannerScrollTitle&#34;:&#34;Scroll&#34;,&#34;pcScrollImg&#34;:&#34;assets/images/scroll_new.png&#34;,&#34;mobScrollImg&#34;:&#34;assets/images/scroll_new （mobile）.png&#34;}" banner="[{&#34;video&#34;:&#34;assets/video/ride-banner.mp4&#34;,&#34;dashoffset&#34;:0,&#34;isPlay&#34;:true}]"/>
@@ -114,3 +116,4 @@
      
      
      </div>
+@endsection
