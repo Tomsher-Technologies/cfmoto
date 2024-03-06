@@ -103,6 +103,7 @@ class BlogsController extends Controller
         $request->validate([
             'image' => 'nullable|max:2048',
             'title' => 'required',
+            'description' => 'required',
             'sort_order' => 'nullable|integer',
             'status' => 'required',
         ],[
