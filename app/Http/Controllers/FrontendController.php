@@ -306,4 +306,31 @@ class FrontendController extends Controller
     {
         return view('frontend.marketing'); 
     }
+
+    public function storeContact(Request $request){
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|numeric',
+            'message' => 'required'
+        ],[
+            '*.required' => 'This field is required.'
+        ]);
+        if ($validator->fails()) {
+            return redirect(url()->previous())->withErrors($validator)->withInput();
+        }
+
+        $con                = new Contact;
+        $con->name          = $request->name;
+        $con->email         = $request->email;
+        $con->phone_number  = $request->phone;
+        $con->message       = $request->message;
+        $con->save();
+
+        Mail::to(env('MAIL_ADMIN'))->queue(new ContactEnquiry($con));
+
+        return redirect(url()->previous())->with([
+            'status' => "Thank you for getting in touch. Our team will contact you shortly."
+        ]);
+    }
 }

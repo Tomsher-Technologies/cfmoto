@@ -75,6 +75,8 @@ Route::get('/zforce950sport4', [FrontendController::class, 'zforce950sport4'])->
 Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 
 
+Route::post('/store-contact', [FrontendController::class, 'storeContact'])->name('store-contact');
+
 Route::group(['middleware' => ['auth','web']], function () {
 
     Route::get('/account', [FrontendController::class, 'account'])->name('account');

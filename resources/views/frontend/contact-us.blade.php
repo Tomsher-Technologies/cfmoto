@@ -17,22 +17,28 @@
                         <div data-v-7b5f97a0="" class="contactUs_content_title">
                         Contact Form
                         </div>
-                     
-                        <form>
+                        <x-status />
+                        <form method="POST" action="{{ route('store-contact') }}">
+                           @csrf
                            <div class="mb-1 mb-md-3">
                              <label for="exampleInputEmail1" class="form-label">Name</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your name">
+                             <input type="text" class="form-control" name="name" id="name" value="{{ old('name') }}" placeholder="Enter your name">
+                             <x-input-error name='name' />
                            </div>
                            <div class="mb-1 mb-md-3">
                               <label for="exampleInputEmail1" class="form-label">Email</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
+                              <input type="text" class="form-control" name="email" placeholder="Enter your email" id='email' value="{{ old('email') }}">
+                              <x-input-error name='email' />
                             </div>
                            <div class="mb-1 mb-md-3">
                              <label for="exampleInputPassword1" class="form-label">Phone</label>
-                             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your phone">
+                             <input type="text" class="form-control" name='phone' id='phone' value="{{ old('phone') }}" placeholder="Enter your phone">
+                             <x-input-error name='phone' />
                            </div>
                            <div class="mb-1 mb-md-3">
-                             <textarea name="" class="form-control" id="" cols="30" rows="4" placeholder="Enter your message"></textarea>
+                              <label for="exampleInputPassword1" class="form-label">Message</label>
+                             <textarea class="form-control" cols="30" rows="4" placeholder="Enter your message" name='message' id='message'>{{old('message')}}</textarea>
+                             <x-input-error name='message' />
                            </div>
                            <button type="submit" class="btn btn-sumbit">Submit</button>
                          </form>
