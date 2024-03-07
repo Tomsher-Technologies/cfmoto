@@ -15,7 +15,7 @@
                         <div data-v-6cee4eaa="" class="news-date no_postcss_to_px">
                            <div data-v-6cee4eaa="">{{ date('d M Y', strtotime($blogs->blog_date)) }}</div>
                         </div>
-                        <img data-v-6cee4eaa="" src="{{ asset('assets/storage/blog/$blogs->image') }}" alt=""> 
+                        <img data-v-6cee4eaa="" src="{{ asset($blogs->image()) }}" alt=""> 
                         <div data-v-6cee4eaa="" class="list-content">
                            <div data-v-6cee4eaa="" class="detail-title">{{ $blogs->title }}</div>
                            <div data-v-6cee4eaa="" class="introce no_postcss_to_px">
