@@ -180,7 +180,7 @@ class FrontendController extends Controller
     }
     public function cforce850xc()
     {
-        return view('frontend.cforce850xc'); 
+        return view('frontend.cforce-850-xc'); 
     }
     public function cforce1000()
     {
