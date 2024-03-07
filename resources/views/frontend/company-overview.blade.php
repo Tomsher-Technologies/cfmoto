@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/s') }}">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-      <link rel="stylesheet" href="{{ asset('assets/css/webslidemenu.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/webslidemenu.css?v1') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/demo.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/white-gry.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
