@@ -86,7 +86,7 @@
                               <h1 class="product-slider__title">
                                  For work, recreation and adventure
                               </h1>
-                              <p>Powerful lineups to meet diversified demands</p>
+                              {{-- <p>Powerful lineups to meet diversified demands</p> --}}
                            </div>
                         </div>
                      </div>
