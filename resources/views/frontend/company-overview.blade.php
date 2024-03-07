@@ -22,6 +22,7 @@
       <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}">
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/fontawesome/css/all.min.css">
 
       <link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
       <link href="https://db.onlinewebfonts.com/c/7280a131e9f73efe49c55d60cf58ebd6?family=elementskit" rel="stylesheet">
