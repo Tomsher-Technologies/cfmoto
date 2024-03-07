@@ -1419,6 +1419,12 @@
               arrow: true
             })
         });
+
+        function actionToggle() {
+            var action = document.querySelector(".action");
+            action.classList.toggle("active");
+          }
+
       </script>
     
     @stack('footer')
