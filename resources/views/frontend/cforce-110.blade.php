@@ -37,7 +37,7 @@
       </div>
       <div class="product-graphic-component">
          <div class="product_graphic_component" data-component="product-graphic-component">
-            <productgraphiccomponent config="{&#34;title&#34;:&#34;ERGONOMICS&#34;,&#34;description&#34;:&#34;Ergonomics are designed around 10-year-old riders. The 685mm/27-inch seat height means the ATV is very approachable. A wide handlebar, plush seat and narrow contour of the fuel tank provide a comfortable and proportionate riding experience.&#34;,&#34;pcTitleFontSize&#34;:&#34;&#34;,&#34;mobTitleFontSize&#34;:&#34;&#34;,&#34;pcDescFontSize&#34;:&#34;&#34;,&#34;mobDescFontSize&#34;:&#34;&#34;,&#34;fullScreenImage&#34;:&#34;{{ asset('assets/images/CFORCE 110_10.png') }}'&#34;,&#34;style&#34;:&#34;fullScreen&#34;,&#34;bottomDescClass&#34;:&#34;&#34;}"/>
+            <productgraphiccomponent config="{&#34;title&#34;:&#34;ERGONOMICS&#34;,&#34;description&#34;:&#34;Ergonomics are designed around 10-year-old riders. The 685mm/27-inch seat height means the ATV is very approachable. A wide handlebar, plush seat and narrow contour of the fuel tank provide a comfortable and proportionate riding experience.&#34;,&#34;pcTitleFontSize&#34;:&#34;&#34;,&#34;mobTitleFontSize&#34;:&#34;&#34;,&#34;pcDescFontSize&#34;:&#34;&#34;,&#34;mobDescFontSize&#34;:&#34;&#34;,&#34;fullScreenImage&#34;:&#34;{{ asset('assets/images/CFORCE 110_10.png') }}&#34;,&#34;style&#34;:&#34;fullScreen&#34;,&#34;bottomDescClass&#34;:&#34;&#34;}"/>
          </div>
       </div>
       <div class="product-graphic-component">
