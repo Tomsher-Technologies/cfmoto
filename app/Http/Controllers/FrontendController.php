@@ -228,7 +228,8 @@ class FrontendController extends Controller
     }
     public function news()
     {
-        return view('frontend.news'); 
+        $blog = Blogs::where('status', '=', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('frontend.news',compact('blog')); 
     }
     public function newsbk()
     {
