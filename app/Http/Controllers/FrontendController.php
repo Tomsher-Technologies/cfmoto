@@ -239,7 +239,7 @@ class FrontendController extends Controller
     {
         $slug = $request->slug;
         $blog = Blogs::where('status',1)->where('slug',$slug)->first();
-        return view('frontend.newsdetails', compact('blog'));
+        return view('frontend.news-details', compact('blog'));
     }
     public function productdetails()
     {
