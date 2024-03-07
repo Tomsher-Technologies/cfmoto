@@ -49,73 +49,28 @@
                </div>
                <div data-v-5cb42fb0="" class="content-detail clearfix">
                   <ul data-v-5cb42fb0="" class="clearfix">
+                  @if($blog)
+                     @foreach ($blog as $blogsz)
                      <li data-v-5cb42fb0="">
                         <div data-v-5cb42fb0="" class="footer">
                            <div data-v-5cb42fb0="" class="footer-introce">21 Jan 2024</div>
                         </div>
                         <img data-v-5cb42fb0="" src="{{ asset('assets/images/5th.jpg') }}" alt=""> 
                         <div data-v-5cb42fb0="" class="detail-title">
-                           Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class
-                        </div>
+                        {{ $blogs->title }}
+                     </div>
                         <div data-v-5cb42fb0="" class="introce">
-                           CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class
-                        </div>
-                        <div data-v-5cb42fb0="" class="new_learn_more btn_hover">
-                           learn more
-                           <img data-v-5cb42fb0="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img">
-                        </div>
+                        {!! substr($blogs->description, 0, 105) !!}...</div>
+                        <div data-v-6cee4eaa="" class="new_learn_more btn_hover no_postcss_to_px">
+                              <a href="{{ route('news-details', ['slug' => $blogs->slug]) }}">learn more</a>
+                              <img data-v-6cee4eaa="" src="{{ asset('assets/images/right_arrows.png') }}" alt="">
+                           </div>
                      </li>
-                     <li data-v-5cb42fb0="">
-                        <div data-v-5cb42fb0="" class="footer">
-                           <div data-v-5cb42fb0="" class="footer-introce">20 Jan 2024</div>
-                        </div>
-                        <img data-v-5cb42fb0="" src="{{ asset('assets/images/PressDay14.jpg') }}" alt=""> 
-                        <div data-v-5cb42fb0="" class="detail-title">
-                           A. Kanopkinas after crossing the Dakar finish arch: "One mistake here can cost a lot"
-                        </div>
-                        <div data-v-5cb42fb0="" class="introce">
-                           A. Kanopkinas after crossing the Dakar finish arch: "One mistake here can cost a lot"
-                        </div>
-                        <div data-v-5cb42fb0="" class="new_learn_more btn_hover">
-                           learn more
-                           <img data-v-5cb42fb0="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img">
-                        </div>
-                     </li>
-                     <li data-v-5cb42fb0="">
-                        <div data-v-5cb42fb0="" class="footer">
-                           <div data-v-5cb42fb0="" class="footer-introce">18 Jan 2024</div>
-                        </div>
-                        <img data-v-5cb42fb0="" src="{{ asset('assets/images/PressDay13.jpg') }}" alt=""> 
-                        <div data-v-5cb42fb0="" class="detail-title">
-                           A. Kanopkinas reached the end of the day by helicopter: "The landscapes are very beautiful"
-                        </div>
-                        <div data-v-5cb42fb0="" class="introce">
-                           A. Kanopkinas reached the end of the day by helicopter: "The landscapes are very beautiful"
-                        </div>
-                        <div data-v-5cb42fb0="" class="new_learn_more btn_hover">
-                           learn more
-                           <img data-v-5cb42fb0="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img">
-                        </div>
-                     </li>
-                     <li data-v-5cb42fb0="">
-                        <div data-v-5cb42fb0="" class="footer">
-                           <div data-v-5cb42fb0="" class="footer-introce">17 Jan 2024</div>
-                        </div>
-                        <img data-v-5cb42fb0="" src="{{ asset('assets/images/PressDay12.jpg') }}" alt=""> 
-                        <div data-v-5cb42fb0="" class="detail-title">
-                           A. Kanopkinas: "Today I wandered off the track. Not once"
-                        </div>
-                        <div data-v-5cb42fb0="" class="introce">
-                           A. Kanopkinas: "Today I wandered off the track. Not once"
-                        </div>
-                        <div data-v-5cb42fb0="" class="new_learn_more btn_hover">
-                           learn more
-                           <img data-v-5cb42fb0="" src="{{ asset('assets/images/right_arrows.png') }}" alt="img">
-                        </div>
-                     </li>
+                     @endforeach
+                        @endif
                   </ul>
                   <div data-v-5cb42fb0="" class="mobile-view-all">
-                     View all
+                  <a href="{{ route('news') }}"> View all</a>
                   </div>
                </div>
             </div>
