@@ -1,6 +1,6 @@
 <div class="wsmobileheader clearfix">
          <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-         <span class="smllogo"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" width="80" alt="" /></span>
+         <span class="smllogo"><a href="{{ route('uae') }}"><img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" width="80" alt="" /></a></span>
          <div class="language-selector d-block d-md-none">
             {{-- <select name="menu" id="meun-items">
                <option selected> <img src="{{ asset('assets/images/en.png') }}" alt=""> EN</option>

@@ -4,29 +4,25 @@
     
 <div class="tournament-banner-component">
 
-<div class="tournament_banner_component" data-component="tournament-banner-component">
-    <tournamentbannercomponent banner="[{&#34;link&#34;:&#34;/content/cfmoto/global/media-center/news/news/cfmoto-and-aspar-team-will-fight-together-for-the-moto2-and-moto&#34;,&#34;bannerImage&#34;:&#34;assets/images/CFMOTO RACING 2024 pc1.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/CFMOTO RACING 2024  wap1.jpg&#34;,&#34;title&#34;:&#34;CFMOTO and Aspar Team will fight together for the Moto2 and Moto3 titles&#34;,&#34;desc&#34;:&#34;CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3&#34;,&#34;createDate&#34;:&#34;2024-01-31T00:00:00.000+08:00&#34;,&#34;publishDate&#34;:&#34;2024-01-31T09:02:36.540Z&#34;,&#34;image&#34;:&#34;/content/dam/cfmoto/site/global/media-center/news/upload/image/20240131/0.jpg&#34;}]" learnmore="Learn More" color="white"/>
+    <div class="tournament_banner_component" data-component="tournament-banner-component">
+        <tournamentbannercomponent banner="[{&#34;link&#34;:&#34;/content/cfmoto/global/media-center/news/news/cfmoto-and-aspar-team-will-fight-together-for-the-moto2-and-moto&#34;,&#34;bannerImage&#34;:&#34;assets/images/CFMOTO RACING 2024 pc1.jpg&#34;,&#34;mbImage&#34;:&#34;assets/images/CFMOTO RACING 2024  wap1.jpg&#34;,&#34;title&#34;:&#34;CFMOTO and Aspar Team will fight together for the Moto2 and Moto3 titles&#34;,&#34;desc&#34;:&#34;CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3&#34;,&#34;createDate&#34;:&#34;2024-01-31T00:00:00.000+08:00&#34;,&#34;publishDate&#34;:&#34;2024-01-31T09:02:36.540Z&#34;,&#34;image&#34;:&#34;/content/dam/cfmoto/site/global/media-center/news/upload/image/20240131/0.jpg&#34;}]" learnmore="Learn More" color="white"/>
+    </div>
 </div>
-</div>
 
 
-
-
-<div class="twoRounds-rider-component">
-<div class="twoRounds_rider_component" data-component="twoRounds-rider-component">
-    <tworoundsridercomponent config="{&#34;title&#34;:&#34;CFMOTO Aspar Racing Team&#34;,&#34;desc&#34;:&#34;From 2024, CFMOTO Aspar Racing Team has joined forces to fight for the Moto2 and Moto3 titles, with Jake Dixon and Izan Guevara in Moto2, and David Alonso and Joel Esteban in Moto3.&#34;,&#34;experienceImg&#34;:&#34;assets/images/transparent.png&#34;,&#34;bottomRightImg&#34;:&#34;assets/images/aspar team.png&#34;,&#34;detail&#34;:&#34;Details&#34;,&#34;riderList&#34;:[{&#34;riderImage&#34;:&#34;assets/images/moto2_L.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto2_L_wap.png&#34;,&#34;name&#34;:&#34;Jake Dixon&#34;,&#34;number&#34;:&#34;#96&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/jake-dixon&#34;},{&#34;riderImage&#34;:&#34;assets/images/moto2_R.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto2_R_wap.png&#34;,&#34;name&#34;:&#34;Izan Guevara&#34;,&#34;number&#34;:&#34;#28&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/izan-guevara&#34;}]}"/>
-</div>
+    <div class="twoRounds-rider-component">
+    <div class="twoRounds_rider_component" data-component="twoRounds-rider-component">
+        <tworoundsridercomponent config="{&#34;title&#34;:&#34;CFMOTO Aspar Racing Team&#34;,&#34;desc&#34;:&#34;From 2024, CFMOTO Aspar Racing Team has joined forces to fight for the Moto2 and Moto3 titles, with Jake Dixon and Izan Guevara in Moto2, and David Alonso and Joel Esteban in Moto3.&#34;,&#34;experienceImg&#34;:&#34;assets/images/transparent.png&#34;,&#34;bottomRightImg&#34;:&#34;assets/images/aspar team.png&#34;,&#34;detail&#34;:&#34;Details&#34;,&#34;riderList&#34;:[{&#34;riderImage&#34;:&#34;assets/images/moto2_L.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto2_L_wap.png&#34;,&#34;name&#34;:&#34;Jake Dixon&#34;,&#34;number&#34;:&#34;#96&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/jake-dixon&#34;},{&#34;riderImage&#34;:&#34;assets/images/moto2_R.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto2_R_wap.png&#34;,&#34;name&#34;:&#34;Izan Guevara&#34;,&#34;number&#34;:&#34;#28&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/izan-guevara&#34;}]}"/>
+    </div>
 
 
 </div>
 
 
-
-
-<div class="twoRounds-rider-component">
-<div class="twoRounds_rider_component" data-component="twoRounds-rider-component">
-    <tworoundsridercomponent config="{&#34;experienceImg&#34;:&#34;assets/images/experience more toge.png&#34;,&#34;bottomRightImg&#34;:&#34;assets/images/transparent.png&#34;,&#34;detail&#34;:&#34; Details&#34;,&#34;riderList&#34;:[{&#34;riderImage&#34;:&#34;assets/images/moto3_L.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto3_L.png&#34;,&#34;name&#34;:&#34;David Alonso&#34;,&#34;number&#34;:&#34;#80&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/david-alonso&#34;},{&#34;riderImage&#34;:&#34;assets/images/moto3_R.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto3_R.png&#34;,&#34;name&#34;:&#34;Joel Esteban&#34;,&#34;number&#34;:&#34;#78&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/joel-esteban&#34;}]}"/>
-</div>
+    <div class="twoRounds-rider-component">
+    <div class="twoRounds_rider_component" data-component="twoRounds-rider-component">
+        <tworoundsridercomponent config="{&#34;experienceImg&#34;:&#34;assets/images/experience more toge.png&#34;,&#34;bottomRightImg&#34;:&#34;assets/images/transparent.png&#34;,&#34;detail&#34;:&#34; Details&#34;,&#34;riderList&#34;:[{&#34;riderImage&#34;:&#34;assets/images/moto3_L.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto3_L.png&#34;,&#34;name&#34;:&#34;David Alonso&#34;,&#34;number&#34;:&#34;#80&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/david-alonso&#34;},{&#34;riderImage&#34;:&#34;assets/images/moto3_R.png&#34;,&#34;riderMobImage&#34;:&#34;assets/images/moto3_R.png&#34;,&#34;name&#34;:&#34;Joel Esteban&#34;,&#34;number&#34;:&#34;#78&#34;,&#34;link&#34;:&#34;/content/cfmoto/global/racing/cfmoto-aspar-racing-team/joel-esteban&#34;}]}"/>
+    </div>
 
 
 </div>

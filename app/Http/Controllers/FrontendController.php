@@ -228,15 +228,19 @@ class FrontendController extends Controller
     }
     public function news()
     {
-        return view('frontend.news'); 
+        $blog = Blogs::where('status', '=', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('frontend.news',compact('blog')); 
     }
     public function newsbk()
     {
         return view('frontend.news-bk'); 
     }
-    public function newsdetails()
+    public function newsdetails(Request $request)
     {
-        return view('frontend.news-details'); 
+        $slug = $request->slug;
+        $blog = Blogs::where('status', '=', 1)->orderBy('sort_order', 'ASC')->get();
+        $blogs = Blogs::where('status',1)->where('slug',$slug)->first();
+        return view('frontend.news-details', compact('blogs','blog'));
     }
     public function productdetails()
     {
@@ -293,5 +297,13 @@ class FrontendController extends Controller
     public function zforce1000sportr()
     {
         return view('frontend.zforce-1000-sport-r'); 
+    }
+    public function privacy()
+    {
+        return view('frontend.privacy'); 
+    }
+    public function marketing()
+    {
+        return view('frontend.marketing'); 
     }
 }

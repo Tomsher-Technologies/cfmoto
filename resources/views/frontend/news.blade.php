@@ -9,22 +9,26 @@
                <div data-v-6cee4eaa="" class="mobile-subscribe"></div>
                <div data-v-6cee4eaa="" class="content clearfix">
                   <ul data-v-6cee4eaa="" class="clearfix">
+                  @if($blog)
+                     @foreach ($blog as $blogs)
                      <li data-v-6cee4eaa="">
                         <div data-v-6cee4eaa="" class="news-date no_postcss_to_px">
-                           <div data-v-6cee4eaa="">Jan 30 2024</div>
+                           <div data-v-6cee4eaa="">{{ date('d M Y', strtotime($blogs->blog_date)) }}</div>
                         </div>
-                        <img data-v-6cee4eaa="" src="{{ asset('assets/images/0.jpg') }}" alt=""> 
+                        <img data-v-6cee4eaa="" src="{{ asset($blogs->getImage()) }}" alt=""> 
                         <div data-v-6cee4eaa="" class="list-content">
-                           <div data-v-6cee4eaa="" class="detail-title">CFMOTO and Aspar Team will fight together for the Moto2 and Moto3 titles</div>
+                           <div data-v-6cee4eaa="" class="detail-title">{{ $blogs->title }}</div>
                            <div data-v-6cee4eaa="" class="introce no_postcss_to_px">
-                              CFMOTO Aspar Racing Team will fight for the podiums and victorys in Moto2 and Moto3
+                           {!! substr($blogs->description, 0, 105) !!}...
                            </div>
                            <div data-v-6cee4eaa="" class="new_learn_more btn_hover no_postcss_to_px">
-                              learn more
+                              <a href="{{ route('news-details', ['slug' => $blogs->slug]) }}">learn more</a>
                               <img data-v-6cee4eaa="" src="{{ asset('assets/images/right_arrows.png') }}" alt="">
                            </div>
                         </div>
                      </li>
+                     @endforeach
+                        @endif
                      <li data-v-6cee4eaa="">
                         <div data-v-6cee4eaa="" class="news-date no_postcss_to_px">
                            <div data-v-6cee4eaa="">Jan 21 2024</div>

@@ -6,7 +6,7 @@ use App\Http\Controllers\ForgotPasswordController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [FrontendController::class, 'home'])->name('home');
-Route::get('/products/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
+Route::get('/zforce1000sportr', [FrontendController::class, 'zforce1000sportr'])->name('zforce1000sportr');
 Route::get('/productdetails', [FrontendController::class, 'productdetails'])->name('productdetails');
 Route::get('/t250clx', [FrontendController::class, 't250clx'])->name('t250clx');
 Route::get('/t250nk', [FrontendController::class, 't250nk'])->name('t250nk');
@@ -35,7 +35,7 @@ Route::get('/aboutbrand', [FrontendController::class, 'aboutbrand'])->name('abou
 Route::get('/asparracing', [FrontendController::class, 'asparracing'])->name('asparracing');
 Route::get('/becomeadistributor', [FrontendController::class, 'becomeadistributor'])->name('becomeadistributor');
 Route::get('/brands', [FrontendController::class, 'brands'])->name('brands');
-Route::get('/products/cforce110', [FrontendController::class, 'cforce110'])->name('cforce110');
+Route::get('/cforce110', [FrontendController::class, 'cforce110'])->name('cforce110');
 Route::get('/cforce450l', [FrontendController::class, 'cforce450l'])->name('cforce450l');
 Route::get('/cforce625touring', [FrontendController::class, 'cforce625touring'])->name('cforce625touring');
 Route::get('/cforce625touringoverland', [FrontendController::class, 'cforce625touringoverland'])->name('cforce625touringoverland');
@@ -50,12 +50,15 @@ Route::get('/contactus', [FrontendController::class, 'contactus'])->name('contac
 Route::get('/cx2e', [FrontendController::class, 'cx2e'])->name('cx2e');
 Route::get('/cx5e', [FrontendController::class, 'cx5e'])->name('cx5e');
 Route::get('/global', [FrontendController::class, 'global'])->name('global');
+Route::get('/privacy', [FrontendController::class, 'privacy'])->name('privacy');
+Route::get('/marketing', [FrontendController::class, 'marketing'])->name('marketing');
 
 Route::get('/index2', [FrontendController::class, 'index2'])->name('index2');
 Route::get('/menu', [FrontendController::class, 'menu'])->name('menu');
 Route::get('/news', [FrontendController::class, 'news'])->name('news');
 Route::get('/newsbk', [FrontendController::class, 'newsbk'])->name('newsbk');
-Route::get('/newsdetails', [FrontendController::class, 'newsdetails'])->name('newsdetails');
+Route::get('/news-details/{slug}', [FrontendController::class, 'newsdetails'])->name('news-details');
+// Route::get('/newsdetails', [FrontendController::class, 'newsdetails'])->name('newsdetails');
 Route::get('/productdetails', [FrontendController::class, 'productdetails'])->name('productdetails');
 Route::get('/racing', [FrontendController::class, 'racing'])->name('racing');
 Route::get('/ride', [FrontendController::class, 'ride'])->name('ride');

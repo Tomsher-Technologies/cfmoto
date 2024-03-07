@@ -1,14 +1,14 @@
 <div data-component="footer-component" data-initialized="true" class="footer_component">
          <div data-v-5758fa05="" class="cf_footer">
-
+      
             <div data-v-5758fa05="" class="cf_footer_nav">
-               <div class="d-block pb-5 mb-5 text-center" style="border-bottom: 1px solid #ccc;">
+               <div class="d-block pb-2 pb-md-5 mb2 mb-md-5 text-center" style="border-bottom: 1px solid #ccc;">
                   
-               <span>                     <img src="{{ asset('assets/images/alshali-moto.png') }}" class="alshli-logo me-5"  alt=""></span>
+               <span>                     <img src="{{ asset('assets/images/alshali-moto.png') }}" class="alshli-logo me-0 me-md-5"  alt=""></span>
        
                <span>                     <img src="{{ asset('assets/images/cfmoto-logo-block.png') }}" class="alshli-logo" alt=""></span>
                </div>
-
+      
                <ul data-v-5758fa05="" class="footer_list p-0">
                   <li data-v-5758fa05="" class="footer_list_items">
                      <!----> 
@@ -19,11 +19,11 @@
                         <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">ZFORCE</span> <!---->
                         </a>
-
+      
                         <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">UFORCE</span> <!---->
                         </a>
-
+      
                         <a data-v-5758fa05="" href="{{ route('productdetails') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">MOTORCYCLES</span> <!---->
                         </a>
@@ -55,8 +55,8 @@
                         <a data-v-5758fa05="" href="{{ route('contactus') }}" class="footer_nav_item">
                            <span data-v-5758fa05="" class="link_name">Contact Us</span> <!---->
                         </a>
-
-   
+      
+      
                      </div>
                      <!---->
                   </li>
@@ -71,7 +71,7 @@
                                  <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
                                     Subscribe to our news
                                  </div>
-                                 <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="/etc/designs/cfmoto/assets/home/nav_close.png" alt=""></div>
+                                 <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="{{ asset('assets/images/nav_close.png') }}" alt=""></div>
                                  <div data-v-5758fa05="" class="form clearfix">
                                     <form data-v-5758fa05="" class="el-form el-form--label-top">
                                        <div data-v-5758fa05="" class="item-right el-col el-col-12">
@@ -161,8 +161,8 @@
                                                       <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                       <span class="el-checkbox__label">
                                                          <div data-v-5758fa05="">
-                                                            By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html" target="_blank">privacy policy</a> , 
-                                                            <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html" target="_blank">
+                                                            By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="{{ route('privacy') }}">privacy policy</a> , 
+                                                            <a data-v-52b96a7e="" href="{{ route('marketing') }}">
                                                                marketing communications.<!-- a-->
                                                             </a>
                                                          </div>
@@ -196,8 +196,7 @@
                               </div>
                            </div>
                         </div>
-                        <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="assets/images/instagram备份%20(1).png" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>
-                     </div>
+                              <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>               </div>
                   </li>
                </ul>
                <div data-v-5758fa05="" class="mobile subscribe_input_wrap">
@@ -209,11 +208,11 @@
                            <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_title">
                               Subscribe to our news
                            </div>
-                           <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="/etc/designs/cfmoto/assets/home/nav_close.png" alt="">
+                           <div data-v-5758fa05="" class="cf_footer_subscribe_dialog_close"><img data-v-5758fa05="" src="{{ asset('assets/images/nav_close.png') }}" alt=""></div>
                            <div data-v-5758fa05="" class="form clearfix">
                               <form data-v-5758fa05="" class="el-form el-form--label-top">
                                  <div data-v-5758fa05="" class="item-right el-col el-col-12">
-                                    <div data-v-5758fa05="" class="el-form-item is-required"></div>
+                                    <div data-v-5758fa05="" class="el-form-item is-required">
                                        <label for="firstName" class="el-form-item__label">First name*</label>
                                        <div class="el-form-item__content">
                                           <div data-v-5758fa05="" class="el-input">
@@ -299,7 +298,7 @@
                                                 <!----><!---->
                                                 <span>
                                                    Subscribe
-                                                   <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows.png') }}" alt="" class="btn_hover">
+                                                   <!----> <img data-v-5758fa05="" src="{{ asset('assets/images/right_arrows') }}'" alt="" class="btn_hover">
                                                 </span>
                                              </button>
                                              <!---->
@@ -316,8 +315,8 @@
                                                 <span class="el-checkbox_input"><span class="el-checkboxinner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox_original" value=""></span>
                                                 <span class="el-checkbox__label">
                                                    <div data-v-5758fa05="">
-                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="/content/cfmoto/global/privacy-policy.html" target="_blank">privacy policy</a> , 
-                                                      <a data-v-52b96a7e="" href="/content/cfmoto/global/marketing-communications.html" target="_blank">
+                                                      By submitting, I agree to subscribe to news and marketing email. <br>For more details, please view our  <a data-v-52b96a7e="" href="{{ route('privacy') }}">privacy policy</a> , 
+                                                      <a data-v-52b96a7e="" href="{{ route('marketing') }}">
                                                          marketing communications.<!-- a-->
                                                       </a>
                                                    </div>
@@ -333,9 +332,10 @@
                            </div>
                         </div>
                      </div>
-                  </div> 
+                  </div>
                   <div data-v-5758fa05="" class="cf_footer_language_social">
-                           <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://business.facebook.com/cfmotouaeandgcc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UCEF6cHkS5uOGhuIKGLCUp8w" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmoto_gcc/?utm_medium=copy_link" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram备份%20(1).png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-反白.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://ae.linkedin.com/in/cfmoto-uae-038b98202" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a>                     <div data-v-5758fa05="" class="cf_footer_language">
+                     <div data-v-5758fa05="" class="cf_footer_outconnection"><a data-v-5758fa05="" target="_blank" href="https://www.facebook.com/CFMOTOOFFICIAL" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/facebook3.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/facebook-.png') }}'" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.youtube.com/channel/UC2qMgbLZ-ODtz0HzKaPnCAQ" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/youtube.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/youtube-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.instagram.com/cfmotoofficial/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/instagram.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/instagram-.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.linkedin.com/company/cfmoto-powersports-inc/" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/linkedin-white.png') }}" alt="" class="hover"></a><a data-v-5758fa05="" target="_blank" href="https://www.tiktok.com/@cfmoto_official" class="flex"><img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-black.png') }}" alt="" class="normal"> <img data-v-5758fa05="" src="{{ asset('assets/images/tiktok-white') }}'" alt="" class="hover"></a></div>
+                     <div data-v-5758fa05="" class="cf_footer_language">
                         <div data-v-5758fa05="" class="cf_footer_language_default"><img data-v-5758fa05="" class="cf_footer_language_icon"> <span data-v-5758fa05="" class="cf_footer_language_text"></span></div>
                         <div data-v-5758fa05="" class="ul-wrap">
                            <div data-v-5758fa05="" class="drop-down-content">
@@ -350,10 +350,41 @@
             <div data-v-5758fa05="" class="cf_footer_bottom justify-content-center">
                <div data-v-5758fa05="" class="footer_left">
                   <div data-v-5758fa05="" class="footer_info no_postcss_to_px "><a data-v-5758fa05="" href="#" class="footer_link">
-                     © Copyright <?= date('Y'); ?> all Rights Reserved. Designed by <a href="https://tomsher.com" target="_blank">Tomsher</a>
+                     © Copyright 2024 all Rights Reserved. Designed by <a href="https://www.tomsher.com" target="_blank">Tomsher</a>
                      </a>
                   </div>
                </div>
             </div>
          </div>
       </div>
+
+      <div class="whatsapp-action">
+   <div class="action" onclick="actionToggle();">
+
+      <span><img src="assets/images/whatsapp.png" alt=""></span>
+  
+      <ul class="all-whatsapp">
+  
+        <li> <a href="#"> 
+              <img src="assets/images/uae-flag.png" alt="">
+              <img src="assets/images/whatsapp.png" alt="">
+              +971 4 320 0009
+
+        </a></li>
+        <li> <a href="#"> 
+         <img src="assets/images/ksa-flag.png" alt="">
+         <img src="assets/images/whatsapp.png" alt="">
+         +971 4 320 0009
+
+   </a></li>
+   <li> <a href="#"> 
+      <img src="assets/images/kuwait-flag.png" alt="">
+      <img src="assets/images/whatsapp.png" alt="">
+      +971 4 320 0009
+
+</a></li>
+  
+      </ul>
+  
+    </div>
+ </div>
