@@ -63,7 +63,6 @@
                         {!! substr($blogsz->description, 0, 105) !!}...</div>
                         <div data-v-6cee4eaa="" class="new_learn_more btn_hover no_postcss_to_px">
                               <a href="{{ route('news-details', ['slug' => $blogsz->slug]) }}">learn more</a>
-                              <img data-v-6cee4eaa="" src="{{ asset('assets/images/right_arrows.png') }}" alt="">
                            </div>
                      </li>
                      @endforeach
