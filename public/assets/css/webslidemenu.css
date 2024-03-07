@@ -172,14 +172,35 @@ video {
   content: "\f078";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 20px;
+  font-size: 13px;
   line-height: 10px;
   margin-left: 0px;
   position: relative;
   right: -7px;
   text-align: right;
-  top: 1px;
+  top: 0px;
 
+}
+
+.dropdown-toggle::after{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 10px;
+  margin-left: 0px;
+  position: relative;
+  right: -7px;
+  text-align: right;
+  top: 2px;
+  border: 0;
+  color: #cbc8c8;
 }
 
 .wsmenu>.wsmenu-list>li>.navtext>span {

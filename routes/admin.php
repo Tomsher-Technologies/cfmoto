@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => env('ADMIN_PREFIX', 'admin'), 'as' => 'admin.'], function () {
 
     Route::get('/', function () {
-        // dd( auth()->user()->can('manage-distributor') );
+      
         return redirect()->route('admin.dashboard');
     });
 

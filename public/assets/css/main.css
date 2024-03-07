@@ -1364,7 +1364,6 @@ width: 20%;
   }
   
 
-
 .action {
    position: fixed;
    bottom: 50px;
@@ -1462,7 +1461,6 @@ width: 20%;
    color: #0e76a8;
  }
 
-
  @font-face {
   font-family: "elementskit";
   src: url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.eot");
@@ -1472,10 +1470,6 @@ width: 20%;
   url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/7280a131e9f73efe49c55d60cf58ebd6.svg#elementskit")format("svg");
 }
-
-
-
-
 
 .rider .rider_t .title[data-v-52be8298], .rider .rider_t .description[data-v-52be8298], .rider .rider_b .btn[data-v-52be8298], .rider .rider_b .title[data-v-52be8298], .rider .prustel[data-v-52be8298]{
   transform: none!important;
@@ -1488,7 +1482,7 @@ width: 20%;
 }
 
 .gallery_des.no_postcss_to_px {
-  display: none;
+  display: none!important;
 }
 
 .specification_operation {

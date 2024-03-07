@@ -4519,7 +4519,7 @@ $.dore = function (element, options) {
         ignore: [],
         errorElement: "div",
         submitHandler: function () {
-          alert("submitted!");
+          // alert("submitted!");
         },
         errorPlacement: function (error, element) {
           if (element.attr("class").indexOf("custom-control") != -1) {
@@ -4605,9 +4605,9 @@ $.dore = function (element, options) {
         }
       });
 
-      $('select, .tags-input, .datepicker').on('change', function () {
-        $(this).valid();
-      });
+      // $('select, .tags-input, .datepicker').on('change', function () {
+      //   $(this).valid();
+      // });
     }
 
     /* 03.44. Dropdown Select */
