@@ -361,25 +361,25 @@
       <div class="whatsapp-action">
    <div class="action" onclick="actionToggle();">
 
-      <span><img src="assets/images/whatsapp.png" alt=""></span>
+      <span><img src="{{ asset('assets/images/whatsapp.png') }}" alt=""></span>
   
       <ul class="all-whatsapp">
   
         <li> <a href="#"> 
-              <img src="assets/images/uae-flag.png" alt="">
-              <img src="assets/images/whatsapp.png" alt="">
+              <img src="{{ asset('assets/images/uae-flag.png') }}" alt="">
+              <img src="{{ asset('assets/images/whatsapp.png') }}" alt="">
               +971 4 320 0009
 
         </a></li>
         <li> <a href="#"> 
-         <img src="assets/images/ksa-flag.png" alt="">
-         <img src="assets/images/whatsapp.png" alt="">
+         <img src="{{ asset('assets/images/ksa-flag.png') }}" alt="">
+         <img src="{{ asset('assets/images/whatsapp.png') }}" alt="">
          +971 4 320 0009
 
    </a></li>
    <li> <a href="#"> 
-      <img src="assets/images/kuwait-flag.png" alt="">
-      <img src="assets/images/whatsapp.png" alt="">
+      <img src="{{ asset('assets/images/kuwait-flag.png') }}" alt="">
+      <img src="{{ asset('assets/images/whatsapp.png') }}" alt="">
       +971 4 320 0009
 
 </a></li>
