@@ -1,9 +1,11 @@
 body{
   font-family: "Poppins", sans-serif!important;
+  font-weight: 400!important;
 }
 h1, h2, h3, h4, h5, h6, p, span, a, li {
   font-family: "Poppins", sans-serif!important;
   text-decoration: none!important;
+  font-weight: 400!important;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -1478,4 +1480,17 @@ width: 20%;
 .rider .rider_t .title[data-v-52be8298], .rider .rider_t .description[data-v-52be8298], .rider .rider_b .btn[data-v-52be8298], .rider .rider_b .title[data-v-52be8298], .rider .prustel[data-v-52be8298]{
   transform: none!important;
   opacity: 1!important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.gallery_des.no_postcss_to_px {
+  display: none;
+}
+
+.specification_operation {
+  display: none !important;
 }
