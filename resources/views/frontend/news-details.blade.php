@@ -53,16 +53,16 @@
                      @foreach ($blog as $blogsz)
                      <li data-v-5cb42fb0="">
                         <div data-v-5cb42fb0="" class="footer">
-                           <div data-v-5cb42fb0="" class="footer-introce">21 Jan 2024</div>
+                           <div data-v-5cb42fb0="" class="footer-introce">{{ date('d M Y', strtotime($blogs->blog_date)) }}</div>
                         </div>
                         <img data-v-5cb42fb0="" src="{{ asset('assets/images/5th.jpg') }}" alt=""> 
                         <div data-v-5cb42fb0="" class="detail-title">
-                        {{ $blogs->title }}
+                        {{ $blogsz->title }}
                      </div>
                         <div data-v-5cb42fb0="" class="introce">
-                        {!! substr($blogs->description, 0, 105) !!}...</div>
+                        {!! substr($blogsz->description, 0, 105) !!}...</div>
                         <div data-v-6cee4eaa="" class="new_learn_more btn_hover no_postcss_to_px">
-                              <a href="{{ route('news-details', ['slug' => $blogs->slug]) }}">learn more</a>
+                              <a href="{{ route('news-details', ['slug' => $blogsz->slug]) }}">learn more</a>
                               <img data-v-6cee4eaa="" src="{{ asset('assets/images/right_arrows.png') }}" alt="">
                            </div>
                      </li>
