@@ -53,9 +53,9 @@
                      @foreach ($blog as $blogsz)
                      <li data-v-5cb42fb0="">
                         <div data-v-5cb42fb0="" class="footer">
-                           <div data-v-5cb42fb0="" class="footer-introce">{{ date('d M Y', strtotime($blogs->blog_date)) }}</div>
+                           <div data-v-5cb42fb0="" class="footer-introce">{{ date('d M Y', strtotime($blogsz->blog_date)) }}</div>
                         </div>
-                        <img data-v-5cb42fb0="" src="{{ asset('assets/images/5th.jpg') }}" alt=""> 
+                        <img data-v-5cb42fb0="" src="{{ asset($blogsz->getImage()) }}" alt=""> 
                         <div data-v-5cb42fb0="" class="detail-title">
                         {{ $blogsz->title }}
                      </div>
