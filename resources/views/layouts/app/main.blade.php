@@ -22,7 +22,6 @@
       <link rel="stylesheet" href="{{ asset('assets/css/fade-down.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/all.css') }}">
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
-      <link rel="stylesheet" href="https://alshaalimoto.com/assets/vendors/fontawesome/css/all.min.css">
    
     <title>{{ env('APP_NAME') }}</title>
     <style>
