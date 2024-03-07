@@ -445,7 +445,7 @@
                         <a class="dropdown-toggle navtext" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                            CFMOTO Racing
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                           <li><a class="dropdown-item" href="{{ route('asparracing') }}">CFMOTO Aspar Racing Team </a></li>
                           <li><a class="dropdown-item" href="{{ route('racing') }}">CFMOTO Thundering Racing Team</a></li>
                         </ul>
