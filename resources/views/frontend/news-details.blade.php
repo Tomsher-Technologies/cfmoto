@@ -26,10 +26,9 @@
          </div>
       </div>
       <div class="title">
-         Perfect Conclusion With a ranking of 5th, CFMOTO Achieves the Best Performance for Chinese Brands in the Dakar Rally QUAD Class
-      </div>
-      <div class="introce">CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class</div>
-      <div>
+      {!! $blogs->title !!}
+   </div>
+       <div>
          <img src="{{ $blogs->image }}" alt="img">
       </div>
                   
