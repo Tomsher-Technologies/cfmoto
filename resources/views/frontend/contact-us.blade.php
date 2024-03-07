@@ -66,7 +66,7 @@
     <div class="tab-content mt-2 mt-md-3" id="myTabContent">
       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
          <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                <div class="location-info">
                 <h3>Ras Al Khor Industrial Area 2, Dubai , U.A.E.</h3>
                  <ul>
@@ -118,13 +118,13 @@
                  </ul>
                </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14443.122660862053!2d55.33870623581776!3d25.176882844074935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f665550ed8eb9%3A0xc1329059db67ab92!2sRas%20Al%20Khor%20Industrial%20Area%20-%20Ras%20Al%20Khor%20Industrial%20Area%202%20-%20Dubai!5e0!3m2!1sen!2sae!4v1709730190855!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          </div>
       </div>
       <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
          <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                <div class="location-info">
                 <h3>Riyadh 13542, Saudi Arabia</h3>
                 
@@ -177,13 +177,13 @@
                  </ul>
                </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10848.534100988678!2d46.57434020389813!3d24.854832459871574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee621a962f86d%3A0x57602a91579f1236!2sAl%20Qirawan%2C%20Riyadh%2013542%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sae!4v1709729245552!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          </div>
       </div>
       <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
          <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                <div class="location-info">
                 <h3>Msheireb Museums - Relive The History Of Doha</h3>
                 
@@ -236,7 +236,7 @@
                  </ul>
                </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5071568361914!2d51.52456658671272!3d25.28715937044554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c539693ebb71%3A0x19cc35cc4f52db2b!2sMsheireb%20Museums!5e0!3m2!1sen!2sae!4v1709729297470!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          </div>
       </div>
