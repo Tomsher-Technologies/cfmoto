@@ -11,7 +11,8 @@ class Blogs extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name',
+        'title',
+        'description',
         'image',
         'sort_order',
         'status',

@@ -12,10 +12,10 @@
       <link rel="stylesheet" href="{{ asset('assets/css/jquery.hiSlider.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v1') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/main.css?v3') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/s') }}">
-      <linkrel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
       <link rel="stylesheet" href="{{ asset('assets/css/webslidemenu.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/demo.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/white-gry.css') }}">
@@ -79,7 +79,7 @@
         }
         </script> --}}
         
-      <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       <script>
           function googleTranslateElementInit() {
               new google.translate.TranslateElement(
@@ -96,15 +96,19 @@
           window.setInterval(function(){
               var lang = $('html')[0].lang;
               $(".lang-select").val(lang);
-          },5000);
+          },3000);
 
           function setCookie(key, value, expiry) {
               var expires = new Date();
               expires.setTime(expires.getTime() + (15 * 60 * 1000)); 
-              document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              // document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+              document.cookie = key + '=' + value + '; domain=tomsher.co; path=/;expires=' + expires.toUTCString()+'; secure';
+              document.cookie = key + '=' + value + '; path=/; expires=' + expires.toUTCString() +'; secure';
           }
+          
 
           $('.lang-select').on('change',function() {
+              setCookie('googtrans','',0);
               var theLang = $(this).val();
               $('.goog-te-combo').val(theLang);
               if(theLang == 'ar'){
