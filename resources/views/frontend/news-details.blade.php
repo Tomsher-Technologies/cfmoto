@@ -30,16 +30,9 @@
       </div>
       <div class="introce">CFMOTO THUNDER RACING TEAM's Antanas Kanopkinas and his CFORCE 1000 concluded the challenging Dakar Rally with an impressive 5th position in the QUAD class</div>
       <div>
-         <div data-component="social-share-component" data-initialized="true" class="social_share_component">
-            <div data-v-4e56251c="" class="social-wrap">
-               <div data-v-4e56251c="" class="content social-content">
-                  <div data-v-4e56251c="" class="sign clearfix">
-                     <div data-v-4e56251c="" class="sign-li"><img data-v-4e56251c="" src="{{ $blogs->image }}" alt="img"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
+         <img src="{{ $blogs->image }}" alt="img">
       </div>
+                  
       <div class="copy-container-content">
          <div class="text parbase">
          {!! $blogs->description !!}
