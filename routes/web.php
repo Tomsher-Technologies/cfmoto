@@ -57,7 +57,7 @@ Route::get('/index2', [FrontendController::class, 'index2'])->name('index2');
 Route::get('/menu', [FrontendController::class, 'menu'])->name('menu');
 Route::get('/news', [FrontendController::class, 'news'])->name('news');
 Route::get('/newsbk', [FrontendController::class, 'newsbk'])->name('newsbk');
-Route::get('/blog/{slug}', [FrontendController::class, 'newsdetails'])->name('newsdetails');
+Route::get('/blog/{slug}', [FrontendController::class, 'newsdetails'])->name('news-details');
 // Route::get('/newsdetails', [FrontendController::class, 'newsdetails'])->name('newsdetails');
 Route::get('/productdetails', [FrontendController::class, 'productdetails'])->name('productdetails');
 Route::get('/racing', [FrontendController::class, 'racing'])->name('racing');
