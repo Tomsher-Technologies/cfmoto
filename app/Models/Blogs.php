@@ -11,11 +11,7 @@ class Blogs extends Model
     use HasFactory;
 
     protected $fillable = [
-        'title',
-        'description',
-        'image',
-        'sort_order',
-        'status',
+        'title', 'slug', 'description', 'image', 'link', 'sort_order', 'blog_date', 'status'
     ];
 
     public function getImage()

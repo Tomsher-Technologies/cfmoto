@@ -28,7 +28,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Blog Date</label>
-                                <input type="text" name="blog_date" class="form-control" value="{{ old('blog_date') }}">
+                                <input type="text" name="blog_date" id="blog_date" class="form-control" value="{{ old('blog_date') }}" autocomplete="off">
                                 <x-input-error name='blog_date' />
                             </div>
                             <div class="form-group">
@@ -80,10 +80,11 @@
 @push('header')
     <link rel="stylesheet" href="{{ adminAsset('css/vendor/select2.min.css') }}" />
     <link rel="stylesheet" href="{{ adminAsset('css/vendor/select2-bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ adminAsset('css/vendor/bootstrap-datepicker3.min.css') }}" />
 @endpush
 @push('footer')
     <script src="{{ adminAsset('js/vendor/select2.full.js') }}"></script>
-
+    <script src="{{ adminAsset('js/vendor/bootstrap-datepicker.js') }}"></script>
     <script src="{{ adminAsset('js/tinymce/tinymce.min.js') }}"></script>
     <script>
         tinymce.init({
@@ -103,6 +104,12 @@
             } else {
                 $('#imgname').text('Choose file')
             }
+        });
+
+        $("#blog_date").datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true,
+            todayHighlight: true
         });
     </script>
 @endpush

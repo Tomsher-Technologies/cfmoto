@@ -56,9 +56,9 @@ class BlogsController extends Controller
             'image.uploaded' => 'File size should be less than 1 MB'
         ]);
         $canon_name = strtolower($request->title);
-            $canonical_name = str_replace(' ', '-', $canon_name); // Replaces all spaces with hyphens.
-            $canonical_name = preg_replace('/[^A-Za-z0-9\-]/', '', $canonical_name); // Removes special chars.
-            $cann = preg_replace('/-+/', '-', $canonical_name);
+        $canonical_name = str_replace(' ', '-', $canon_name); // Replaces all spaces with hyphens.
+        $canonical_name = preg_replace('/[^A-Za-z0-9\-]/', '', $canonical_name); // Removes special chars.
+        $cann = preg_replace('/-+/', '-', $canonical_name);
         $data = [
             'title'=> $request->title,
             'slug'=> $cann,
@@ -67,7 +67,7 @@ class BlogsController extends Controller
             'status' => $request->status,
             'blog_date' => date('Y-m-d',strtotime($request->blog_date)),
         ];
-
+        
         $blog = Blogs::create($data);
 
         $image = uploadImage($request, 'image', 'blog');
